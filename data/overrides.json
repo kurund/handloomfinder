@@ -1,0 +1,15 @@
+{
+ "exclude": [
+  "cooptex-1693"
+ ],
+ "patch": {
+  "cooptex-2111": {"state": "Tamil Nadu", "district": "Tirupathur"}
+ },
+ "district_aliases": {
+  "Ntr": "NTR",
+  "Spsr Nellore": "Nellore",
+  "Visakhapatanam": "Visakhapatnam",
+  "Ahmadabad": "Ahmedabad",
+  "Central": "Central Delhi"
+ }
+}

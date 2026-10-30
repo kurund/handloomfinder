@@ -1,0 +1,31 @@
+name: Refresh store data
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -m importers.build | tee report.md
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: data/refresh-stores
+          title: Refresh store data
+          commit-message: Refresh store data
+          body-path: report.md
+          add-paths: |
+            data/stores
+            data/geocache.json
+            site/stores.json

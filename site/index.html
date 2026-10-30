@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Handloom Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,500..700,100,1&family=Hind+Madurai:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --kora: #ECE4D1;
+  --swatch: #F6F1E5;
+  --indigo: #2A176A;
+  --indigo-deep: #1B0E48;
+  --madder: #C3171D;
+  --turmeric: #E4AF4E;
+  --marigold: #E7C80D;
+  --coral: #D16542;
+  --ink: #2B2622;
+  --muted: #6B6257;
+  --thread: rgba(43, 38, 34, .07);
+  --hero-ink: #F4ECDB;
+  --fringe: #1B0E48;
+  --arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%232A176A' stroke-width='2'/%3E%3C/svg%3E");
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --kora: #1A1917;
+    --swatch: #24221F;
+    --ink: #EFE7D8;
+    --muted: #B0A797;
+    --thread: rgba(239, 231, 216, .05);
+    --indigo: #34207F;
+    --fringe: #6A55C8;
+    --arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23E4AF4E' stroke-width='2'/%3E%3C/svg%3E");
+  }
+}
+:root[data-theme="dark"] {
+  --kora: #1A1917;
+  --swatch: #24221F;
+  --ink: #EFE7D8;
+  --muted: #B0A797;
+  --thread: rgba(239, 231, 216, .05);
+  --indigo: #34207F;
+  --fringe: #6A55C8;
+  --arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23E4AF4E' stroke-width='2'/%3E%3C/svg%3E");
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  color: var(--ink);
+  font: 400 17px/1.5 "Hind Madurai", system-ui, sans-serif;
+  background-color: var(--kora);
+  background-image:
+    repeating-linear-gradient(0deg, var(--thread) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(90deg, var(--thread) 0 1px, transparent 1px 4px);
+}
+
+.hero {
+  position: relative;
+  color: var(--hero-ink);
+  background-color: var(--indigo);
+  background-image:
+    repeating-linear-gradient(0deg, rgba(255,255,255,.05) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(90deg, rgba(0,0,0,.14) 0 1px, transparent 1px 3px),
+    linear-gradient(to top, var(--indigo-deep) 0 6px, var(--madder) 6px 10px, var(--indigo) 10px 16px, var(--marigold) 16px 22px, var(--turmeric) 22px 24px, var(--indigo) 24px 30px, var(--madder) 30px 33px, transparent 33px);
+  padding-bottom: 33px;
+}
+.fringe {
+  position: absolute; left: 0; top: 100%;
+  display: block; width: 100%; height: 26px;
+  color: var(--fringe);
+  pointer-events: none;
+}
+.hero-in { max-width: 640px; margin: 0 auto; padding: 22px 16px 26px; }
+.brand { display: flex; align-items: center; gap: 8px; margin: 0 0 20px; font-weight: 600; font-size: 15px; color: var(--turmeric); }
+.brand svg { width: 20px; height: 20px; }
+h1 {
+  font-family: "Fraunces", Georgia, serif;
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+  font-weight: 650; font-size: 40px; line-height: 1.02; letter-spacing: -0.015em;
+  margin: 0 0 22px; text-wrap: balance;
+}
+.filters { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.field { display: flex; flex-direction: column; gap: 4px; font-size: 14px; color: rgba(244, 236, 219, .8); }
+select {
+  appearance: none; -webkit-appearance: none;
+  width: 100%; min-height: 52px; padding: 0 38px 0 14px;
+  border-radius: 10px; border: 0;
+  background: var(--swatch) var(--arrow) no-repeat right 14px center;
+  color: var(--ink); font: 600 16px/1.2 "Hind Madurai", sans-serif;
+  outline: 1.5px dashed rgba(42, 23, 106, .35); outline-offset: -5px;
+}
+select:disabled { opacity: .55; }
+.near {
+  display: inline-flex; align-items: center; gap: 8px;
+  margin-top: 14px; min-height: 44px; padding: 0 18px 0 14px;
+  border-radius: 999px; border: 1.5px solid var(--turmeric);
+  background: transparent; color: var(--hero-ink);
+  font-family: inherit; font-size: 16px; font-weight: 600; cursor: pointer;
+}
+.near[aria-pressed="true"] { background: var(--turmeric); color: var(--indigo-deep); }
+.near svg { width: 18px; height: 18px; }
+
+main { max-width: 640px; margin: 0 auto; padding: 44px 16px 48px; }
+.status { display: flex; align-items: baseline; gap: 10px; margin: 0 0 14px; min-height: 24px; color: var(--muted); font-size: 15px; }
+.status.error { color: var(--madder); font-weight: 600; }
+.status button { border: 0; background: none; padding: 0; color: var(--ink); font: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.group {
+  margin: 20px 0 -4px;
+  font-family: "Fraunces", Georgia, serif; font-variation-settings: "SOFT" 100, "WONK" 1;
+  font-weight: 600; font-size: 21px; line-height: 1.2;
+}
+.group small { font-family: "Hind Madurai", sans-serif; font-size: 14px; font-weight: 400; color: var(--muted); margin-left: 6px; }
+
+.card {
+  --c1: var(--indigo);
+  position: relative;
+  display: grid; grid-template-columns: 1fr auto; gap: 2px 12px;
+  padding: 26px 18px 18px;
+  border-radius: 6px;
+  background-color: var(--swatch);
+  background-image: linear-gradient(to bottom, var(--madder) 0 3px, transparent 3px 5px, var(--coral) 5px 8px, transparent 8px 10px, var(--indigo) 10px 11px, transparent 11px);
+  outline: 1.5px dashed color-mix(in srgb, var(--c1) 55%, transparent);
+  outline-offset: -7px;
+  box-shadow: 0 1px 0 rgba(43, 38, 34, .12);
+}
+.org { grid-column: 1 / -1; margin: 0 0 2px; font-size: 13px; font-weight: 600; color: var(--accent); }
+.name { margin: 0; font-weight: 600; font-size: 20px; line-height: 1.2; }
+.hours { grid-column: 1 / -1; margin: 4px 0 0; font-size: 14px; color: var(--muted); }
+.km { font-family: "Fraunces", Georgia, serif; font-weight: 650; font-size: 22px; line-height: 1.1; color: var(--accent); white-space: nowrap; }
+.km small { font-family: "Hind Madurai", sans-serif; font-weight: 400; font-size: 13px; color: var(--muted); }
+.addr { grid-column: 1 / -1; margin: 4px 0 0; color: var(--muted); font-size: 15px; line-height: 1.4; }
+.actions { grid-column: 1 / -1; display: flex; gap: 10px; margin-top: 14px; }
+.actions a {
+  flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 46px; border-radius: 8px; font-weight: 600; font-size: 16px; text-decoration: none;
+}
+.actions svg { width: 18px; height: 18px; }
+.call { background: var(--marigold); color: var(--indigo-deep); }
+.go { border: 1.5px solid var(--accent); color: var(--accent); }
+.card { --accent: var(--c1); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .card { --accent: color-mix(in srgb, var(--c1) 40%, #fff); } }
+:root[data-theme="dark"] .card { --accent: color-mix(in srgb, var(--c1) 40%, #fff); }
+
+.card.first {
+  padding: 34px 20px 22px;
+  color: var(--hero-ink);
+  background-color: var(--indigo);
+  background-image:
+    linear-gradient(to bottom, var(--madder) 0 3px, transparent 3px 5px, var(--coral) 5px 8px, transparent 8px 10px, var(--indigo-deep) 10px 11px, transparent 11px),
+    repeating-linear-gradient(0deg, rgba(255,255,255,.05) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(90deg, rgba(0,0,0,.14) 0 1px, transparent 1px 3px);
+  outline-color: rgba(212, 154, 30, .6);
+}
+.card.first .km { grid-row: 2; grid-column: 1 / -1; font-size: 60px; line-height: .9; color: var(--turmeric); margin-bottom: 8px; }
+.card.first .km small { color: rgba(244, 236, 219, .8); font-size: 16px; margin-left: 4px; }
+.card.first .name { font-size: 24px; }
+.card.first .addr, .card.first .hours { color: rgba(244, 236, 219, .82); }
+.card.first .org { color: var(--marigold); }
+.card.first .call { background: var(--marigold); color: var(--indigo-deep); }
+.card.first .go { border-color: rgba(244, 236, 219, .7); color: var(--hero-ink); }
+.nearest-label { grid-row: 1; grid-column: 1 / -1; margin: 0 0 6px; font-size: 14px; color: rgba(244, 236, 219, .8); }
+
+.more {
+  display: block; width: 100%; margin-top: 22px; min-height: 50px; border-radius: 8px;
+  border: 1.5px dashed var(--muted); background: transparent; color: var(--ink);
+  font-family: inherit; font-size: 16px; font-weight: 600; cursor: pointer;
+}
+footer { color: var(--muted); font-size: 14px; margin-top: 36px; line-height: 1.5; }
+footer p { margin: 0 0 8px; max-width: 60ch; }
+:focus-visible { outline: 3px solid var(--turmeric) !important; outline-offset: 2px !important; }
+@media (min-width: 600px) { h1 { font-size: 52px; } }
+</style>
+</head>
+<body>
+<header class="hero" id="hero">
+  <div class="hero-in">
+    <p class="brand">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 5h18M3 9h18M3 13h18M3 17h18M7 3v18M12 3v18M17 3v18"/></svg>
+      Handloom Finder
+    </p>
+    <h1>Find a handloom store</h1>
+    <div class="filters">
+      <label class="field">State
+        <select id="state"></select>
+      </label>
+      <label class="field">District
+        <select id="district"></select>
+      </label>
+    </div>
+    <button class="near" id="near" type="button" aria-pressed="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="7"/></svg>
+      Near me
+    </button>
+  </div>
+  <canvas class="fringe" id="fringe" aria-hidden="true"></canvas>
+</header>
+<main>
+  <p class="status" id="status" aria-live="polite"></p>
+  <ol id="list"></ol>
+  <button class="more" id="more" type="button" hidden>Show more stores</button>
+  <footer>
+    <p>Made by handloom enthusiasts who want more people to buy directly from India's weavers. We're independent, and not run by Co-optex or any other organisation listed here.</p>
+    <p>Store details come from each organisation's own website. <span id="updated"></span> Call ahead to confirm opening hours.</p>
+  </footer>
+</main>
+<script>
+let STORES = [];
+const ALL = "";
+const PAGE = 12;
+const DEFAULT_STATE = "Tamil Nadu";
+const $ = id => document.getElementById(id);
+const stateSel = $("state"), districtSel = $("district"), nearBtn = $("near");
+const list = $("list"), status = $("status"), more = $("more");
+let here = null;
+let stateBeforeNear = DEFAULT_STATE;
+let rows = [];
+let shown = 0;
+
+const icon = {
+  call: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2"/></svg>',
+  go: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11l18-8-8 18-2-8z"/></svg>'
+};
+
+function esc(s) {
+  return s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+}
+
+function km(a, b) {
+  const r = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * r, dLng = (b.lng - a.lng) * r;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(dLng / 2) ** 2;
+  return 12742 * Math.asin(Math.sqrt(h));
+}
+
+function fmt(d) { return d < 10 ? d.toFixed(1) : Math.round(d).toLocaleString("en-IN"); }
+
+function options(sel, values, allLabel, selected) {
+  sel.innerHTML = `<option value="${ALL}">${allLabel}</option>` +
+    values.map(([v, n]) => `<option value="${esc(v)}"${v === selected ? " selected" : ""}>${esc(v)} (${n})</option>`).join("");
+}
+
+function counts(key, items) {
+  const m = new Map();
+  items.forEach(s => m.set(s[key], (m.get(s[key]) || 0) + 1));
+  return [...m].sort((a, b) => a[0].localeCompare(b[0]));
+}
+
+function fillDistricts() {
+  const st = stateSel.value;
+  districtSel.disabled = !st;
+  options(districtSel, st ? counts("d", STORES.filter(s => s.s === st)) : [], st ? "All districts" : "Pick a state first", ALL);
+}
+
+function directions(s) {
+  return s.lat && !s.x
+    ? `https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}`
+    : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(s.o + " " + s.n + ", " + s.a + ", " + s.s)}`;
+}
+
+function item(s, i, prev) {
+  const tel = s.p[0];
+  const first = here && i === 0 && s.km != null;
+  let head = "";
+  if (!here && (!prev || prev.d !== s.d || prev.s !== s.s)) {
+    head = `<li class="group">${esc(s.d)}${stateSel.value ? "" : `<small>${esc(s.s)}</small>`}</li>`;
+  }
+  const dist = s.km == null ? "" : `<div class="km"${s.x ? ' title="Approximate: located by town"' : ""}>${s.x ? "~" : ""}${fmt(s.km)}<small> km</small></div>`;
+  return `${head}<li class="card${first ? " first" : ""}">
+    ${first ? `<p class="nearest-label">Nearest to you</p>${dist}` : ""}
+    <p class="org">${esc(s.o)}</p>
+    <p class="name">${esc(s.n)}</p>
+    ${first ? "" : dist}
+    <p class="addr">${esc(s.a)}${here && !stateSel.value && s.d && !s.a.includes(s.d) ? `, ${esc(s.d)}` : ""}</p>
+    ${s.h ? `<p class="hours">${esc(s.h)}</p>` : ""}
+    ${s.u ? `<p class="hours">Not listed on the organisation's website recently. Call to check it's open.</p>` : ""}
+    <div class="actions">
+      ${tel ? `<a class="call" href="tel:${tel}">${icon.call}Call</a>` : ""}
+      <a class="go" href="${directions(s)}" target="_blank" rel="noopener">${icon.go}Directions</a>
+    </div></li>`;
+}
+
+function render(reset) {
+  if (reset) { list.innerHTML = ""; shown = 0; }
+  list.insertAdjacentHTML("beforeend", rows.slice(shown, shown + PAGE).map((s, i) => item(s, shown + i, rows[shown + i - 1])).join(""));
+  shown = Math.min(shown + PAGE, rows.length);
+  more.hidden = shown >= rows.length;
+}
+
+function setStatus(text, withClear) {
+  status.className = "status";
+  status.innerHTML = `<span>${esc(text)}</span>` + (withClear ? `<button type="button" id="clear">Sort by district</button>` : "");
+  if (withClear) $("clear").addEventListener("click", clearNear);
+}
+
+function update() {
+  const st = stateSel.value, di = districtSel.value;
+  rows = STORES
+    .filter(s => (!st || s.s === st) && (!di || s.d === di))
+    .map(s => ({ ...s, km: here && s.lat ? km(here, s) : null }));
+  if (here) rows.sort((a, b) => (a.km ?? Infinity) - (b.km ?? Infinity));
+  const place = di || st || "all states";
+  const n = `${rows.length} ${rows.length === 1 ? "store" : "stores"}`;
+  setStatus(here ? `${n} in ${place}, nearest first` : `${n} in ${place}`, !!here);
+  render(true);
+}
+
+function clearNear() {
+  here = null;
+  nearBtn.setAttribute("aria-pressed", "false");
+  stateSel.value = stateBeforeNear;
+  fillDistricts();
+  update();
+}
+
+nearBtn.addEventListener("click", () => {
+  if (here) return clearNear();
+  if (!navigator.geolocation) return showError("This browser can't share location. Pick a state and district instead.");
+  setStatus("Finding your location...");
+  navigator.geolocation.getCurrentPosition(
+    p => {
+      here = { lat: p.coords.latitude, lng: p.coords.longitude };
+      nearBtn.setAttribute("aria-pressed", "true");
+      stateBeforeNear = stateSel.value;
+      stateSel.value = ALL;
+      fillDistricts();
+      update();
+    },
+    () => showError("Location is turned off. Allow it in your browser, or pick a state and district."),
+    { enableHighAccuracy: false, timeout: 10000, maximumAge: 600000 }
+  );
+});
+
+function showError(msg) { status.className = "status error"; status.textContent = msg; }
+
+const fringe = (() => {
+  const canvas = $("fringe");
+  const ctx = canvas.getContext("2d");
+  const LENGTHS = [17, 20, 15, 19, 16, 21, 14, 18, 16, 20, 15, 18];
+  const GAP = 3.08;
+  const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let threads = [], ripples = [], raf = 0, last = null, color = "#1B0E48";
+
+  function layout() {
+    const dpr = devicePixelRatio || 1;
+    const w = canvas.clientWidth, h = canvas.clientHeight;
+    canvas.width = w * dpr; canvas.height = h * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    color = getComputedStyle(canvas).color;
+    threads = Array.from({ length: Math.ceil(w / GAP) }, (_, i) => ({
+      x: 2 + i * GAP, len: LENGTHS[i % LENGTHS.length] + ((i * 7) % 3) - 1, a: 0, v: 0
+    }));
+    draw();
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.strokeStyle = color; ctx.lineWidth = 1.6; ctx.lineCap = "round";
+    ctx.beginPath();
+    for (const t of threads) {
+      ctx.moveTo(t.x, 0);
+      ctx.quadraticCurveTo(t.x + Math.sin(t.a * 0.4) * t.len * 0.5, t.len * 0.5,
+        t.x + Math.sin(t.a) * t.len, Math.cos(t.a) * t.len);
+    }
+    ctx.stroke();
+  }
+
+  function step() {
+    let moving = ripples.length > 0;
+    for (const r of ripples) {
+      const front = r.age * 7;
+      for (const t of threads) {
+        const d = t.x - r.x;
+        if (Math.abs(d) >= front - 7 && Math.abs(d) < front) t.v += Math.sign(d || 1) * r.power * Math.max(0, 1 - Math.abs(d) / r.reach);
+      }
+      r.age++;
+    }
+    ripples = ripples.filter(r => r.age * 7 < r.reach);
+    for (const t of threads) {
+      t.v += -0.05 * t.a - 0.07 * t.v;
+      t.a = Math.max(-1, Math.min(1, t.a + t.v));
+      if (Math.abs(t.a) > 0.002 || Math.abs(t.v) > 0.0005) moving = true;
+    }
+    draw();
+    raf = moving ? requestAnimationFrame(step) : 0;
+  }
+
+  function wake() { if (!raf) raf = requestAnimationFrame(step); }
+
+  function brush(e) {
+    const box = canvas.getBoundingClientRect();
+    const x = e.clientX - box.left;
+    if (e.clientY < box.top - 50 || e.clientY > box.bottom + 8) { last = null; return; }
+    const vx = last == null ? 0 : x - last;
+    last = x;
+    for (const t of threads) {
+      const d = Math.abs(t.x - x);
+      if (d < 60) t.v += vx * 0.0038 * (1 - d / 60);
+    }
+    wake();
+  }
+
+  function ripple(x, power = 0.09, reach = 260) { ripples.push({ x, age: 0, power, reach }); wake(); }
+
+  layout();
+  addEventListener("resize", layout);
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", layout);
+  if (!still) {
+    addEventListener("pointermove", e => { if (e.pointerType === "mouse") brush(e); });
+    $("hero").addEventListener("pointerdown", e => {
+      if (e.pointerType !== "mouse") ripple(e.clientX - canvas.getBoundingClientRect().left);
+    });
+    setTimeout(() => ripple(0, 0.05, canvas.clientWidth + 40), 300);
+  }
+})();
+
+stateSel.addEventListener("change", () => { fillDistricts(); update(); });
+districtSel.addEventListener("change", update);
+more.addEventListener("click", () => render(false));
+
+setStatus("Loading stores...");
+fetch("stores.json")
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(data => {
+    STORES = data.stores;
+    $("updated").textContent = `Store list updated ${new Date(data.updated).toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" })}.`;
+    options(stateSel, counts("s", STORES), "All states", DEFAULT_STATE);
+    fillDistricts();
+    update();
+  })
+  .catch(() => showError("Couldn't load the store list. Check your connection and reload the page."));
+</script>
+</body>
+</html>
