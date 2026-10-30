@@ -40,4 +40,10 @@ def outlet(s, slug, label):
 def fetch(s):
     soup = BeautifulSoup(get(s, INDEX).text, "html.parser")
     options = [(o["value"], o.get_text(strip=True)) for o in soup.select("#emporia_select option") if o.get("value")]
-    return [r for slug, label in options if (r := outlet(s, slug, label))]
+    records = [r for slug, label in options if (r := outlet(s, slug, label))]
+    # The site-wide number in the page chrome appears on every outlet; keep it only where it's the sole contact.
+    shared = set.intersection(*(set(r["phones"]) for r in records)) if records else set()
+    for r in records:
+        own = [p for p in r["phones"] if p not in shared]
+        r["phones"] = own or r["phones"]
+    return records

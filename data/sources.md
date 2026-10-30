@@ -9,8 +9,8 @@ Easy = can be imported automatically; Imported = has an importer in `importers/`
 | Co-optex | Tamil Nadu (+14 states) | https://admin.cooptex.com/api/Store/DistrictWiseShops | JSON API | 141 | Name, address, district, coordinates, phones, email | Imported (`cooptex`) |
 | Hanveev | Kerala | https://hanveevs.com/about/shops | HTML cards | 39 | Name, address, phone, hours | Imported (`hanveev`) |
 | Hantex | Kerala | hantex.kerala.gov.in/index.php/store/{kollam,ernakulam,palakkad,kozhikode}-region | HTML per region | ~60-100 | Name, address, phone, hours (from search snippets) | Probably easy, couldn't check |
-| APCO | Andhra Pradesh | https://apcohandlooms.com/wp-json/wp/v2/store?per_page=100 | WP JSON, names only | 54 | Name + photo (address may be in photo) | Manual |
-| KHDC / Priyadarshini | Karnataka | https://priyadarshinihandlooms.in/pages/priyadarshini-showrooms | HTML table | 8 | Address only | Manual |
+| APCO | Andhra Pradesh | https://apcohandlooms.com/wp-json/wp/v2/store?per_page=100 | WP JSON, names only | 54 | Name + photo (address may be in photo) | Not imported: the API returns 403 to our identified importer. Needs permission from APCO or a manual list |
+| KHDC / Priyadarshini | Karnataka | https://priyadarshinihandlooms.in/pages/priyadarshini-showrooms | HTML table | 8 | Address only | Imported (`priyadarshini`) from the Shopify page; gov.in list couldn't be checked |
 | TSCO | Telangana | https://tgsco.co.in/pages/details-of-the-showrooms | HTML | 1 listed (~46 reported in 2018) | Name, phone | Not available |
 | PONTEX | Puducherry | none | - | unknown | - | Not available |
 | Boyanika | Odisha | https://boyanika.com/store-location/ | HTML lines | ~40 | Address with PIN | Imported (`boyanika`) |
@@ -22,14 +22,15 @@ Easy = can be imported automatically; Imported = has an importer in `importers/`
 | Bihar, Manipur | | none found | - | - | - | Not available |
 | Garvi Gurjari | Gujarat | https://garvigurjari.gujarat.gov.in/emporia-rajkot (dropdown lists all outlet pages) | HTML page per outlet | 16-22 | Name, address, manager, phones, email | Imported (`garvi_gurjari`), Kolkata-2 and Lucknow pages 404 |
 | Mrignayani | Madhya Pradesh | https://mrignayani.org/branches/ | HTML table | 8 | Name, address, phone, email | Imported (`mrignayani`) |
-| UPICA | Uttar Pradesh (+ other states) | https://upica.co.in/upica-center.html | HTML table, Hindi | ~24 | Locality only | Manual |
-| Maharashtra Handloom Corp | Maharashtra | https://www.mahahandloom.com/elm-about-us/ | Prose | 3-4 | HQ address | Manual |
+| UPICA | Uttar Pradesh (+ other states) | https://upica.co.in/upica-center.html | HTML table, Hindi | ~24 | Locality only | Imported (`upica`), Hindi names translated in the importer; warehouses skipped |
+| Maharashtra Handloom Corp | Maharashtra | https://www.mahahandloom.com/elm-about-us/ | Prose | 3-4 | HQ address | Imported (`mahahandloom`) from the About page outlet list |
 | Bhuttico (private coop) | Himachal Pradesh | https://bhuttico.com/pages/visit-a-bhuttico-store-near-you | HTML cards | 20 | Town only | Imported (`bhuttico`), town-level only |
 | Rajasthali, MP Handloom, UP Handloom Corp, Himbunkar, J&K, Khadi India | | none found or site unreachable | - | - | - | Not available |
 
 ## Notes
 
 - Don't use westbengalhandloom.com: it redirects to what looks like a phishing page. Tantuja's real site is tantuja.in.
+- APCO's store API answered our research requests but returns 403 Forbidden to the importer's user agent, so it's left out rather than worked around.
 - APCO's map locator at /storelocator/ only contains the plugin's demo stores (South Africa/US), not APCO outlets.
 - "Golconda" is Telangana's handicrafts brand, not the handloom cooperative.
 - Private shops also trade as "Rajasthali", so third-party addresses for it are unreliable.

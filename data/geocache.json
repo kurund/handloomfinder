@@ -2127,7 +2127,69 @@
   "place_rank": 12,
   "type": "administrative"
  },
+ "/reverse?lat=12.30518&lon=76.65536&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-KA",
+   "city": "Mysuru",
+   "country": "India",
+   "country_code": "in",
+   "county": "Mysuru taluk",
+   "postcode": "570001",
+   "state": "Karnataka",
+   "state_district": "Mysuru District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "12.1451828",
+   "12.4651828",
+   "76.4953609",
+   "76.8153609"
+  ],
+  "category": "place",
+  "display_name": "Mysuru, Mysuru taluk, Mysuru District, Karnataka, 570001, India",
+  "importance": 0.5627508010057295,
+  "lat": "12.3051828",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "76.6553609",
+  "name": "Mysuru",
+  "osm_id": 2068274800,
+  "osm_type": "node",
+  "place_id": 252972430,
+  "place_rank": 16,
+  "type": "city"
+ },
  "/reverse?lat=12.31069&lon=76.64792&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-KA",
+   "city": "Mysuru",
+   "country": "India",
+   "country_code": "in",
+   "county": "Mysuru taluk",
+   "postcode": "570001",
+   "state": "Karnataka",
+   "state_district": "Mysuru District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "12.1451828",
+   "12.4651828",
+   "76.4953609",
+   "76.8153609"
+  ],
+  "category": "place",
+  "display_name": "Mysuru, Mysuru taluk, Mysuru District, Karnataka, 570001, India",
+  "importance": 0.5627508010057295,
+  "lat": "12.3051828",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "76.6553609",
+  "name": "Mysuru",
+  "osm_id": 2068274800,
+  "osm_type": "node",
+  "place_id": 252259352,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=12.31246&lon=76.64846&zoom=10": {
   "address": {
    "ISO3166-2-lvl4": "IN-KA",
    "city": "Mysuru",
@@ -2547,6 +2609,37 @@
   "place_id": 252291581,
   "place_rank": 16,
   "type": "city"
+ },
+ "/reverse?lat=12.92982&lon=77.58428&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-KA",
+   "city": "Bengaluru",
+   "city_district": "Bengaluru South City Corporation",
+   "country": "India",
+   "country_code": "in",
+   "county": "Bangalore South",
+   "state": "Karnataka",
+   "state_district": "Bengaluru Urban"
+  },
+  "addresstype": "city_district",
+  "boundingbox": [
+   "12.8334905",
+   "12.9516637",
+   "77.4893021",
+   "77.7028873"
+  ],
+  "category": "boundary",
+  "display_name": "Bengaluru South City Corporation, Bengaluru, Bangalore South, Bengaluru Urban, Karnataka, India",
+  "importance": 0.18673761120012203,
+  "lat": "12.8925818",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "77.5947589",
+  "name": "Bengaluru South City Corporation",
+  "osm_id": 19369534,
+  "osm_type": "relation",
+  "place_id": 251931802,
+  "place_rank": 16,
+  "type": "administrative"
  },
  "/reverse?lat=12.93317&lon=77.58489&zoom=10": {
   "address": {
@@ -3352,6 +3445,66 @@
   "place_rank": 14,
   "type": "administrative"
  },
+ "/reverse?lat=13.34008&lon=77.10062&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-KA",
+   "city": "Tumakuru",
+   "country": "India",
+   "country_code": "in",
+   "county": "Tumkur taluk",
+   "postcode": "572101",
+   "state": "Karnataka",
+   "state_district": "Tumakuru"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "13.1800771",
+   "13.5000771",
+   "76.9406208",
+   "77.2606208"
+  ],
+  "category": "place",
+  "display_name": "Tumakuru, Tumkur taluk, Tumakuru, Karnataka, 572101, India",
+  "importance": 0.5056752449605008,
+  "lat": "13.3400771",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "77.1006208",
+  "name": "Tumakuru",
+  "osm_id": 571400151,
+  "osm_type": "node",
+  "place_id": 252248992,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=13.52698&lon=74.87319&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-KA",
+   "country": "India",
+   "country_code": "in",
+   "county": "Brahmavara taluku",
+   "state": "Karnataka",
+   "state_district": "Udupi"
+  },
+  "addresstype": "county",
+  "boundingbox": [
+   "13.3738338",
+   "13.5675209",
+   "74.6822561",
+   "74.9509236"
+  ],
+  "category": "boundary",
+  "display_name": "Brahmavara taluku, Udupi, Karnataka, India",
+  "importance": 0.24005283970397495,
+  "lat": "13.4709313",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "74.8088737",
+  "name": "Brahmavara taluku",
+  "osm_id": 14934530,
+  "osm_type": "relation",
+  "place_id": 252380896,
+  "place_rank": 12,
+  "type": "administrative"
+ },
  "/reverse?lat=13.63111&lon=79.41553&zoom=10": {
   "address": {
    "ISO3166-2-lvl4": "IN-AP",
@@ -3411,6 +3564,37 @@
   "osm_id": 1598973198,
   "osm_type": "node",
   "place_id": 252932500,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=15.35184&lon=75.13798&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-KA",
+   "city": "Hubballi",
+   "country": "India",
+   "country_code": "in",
+   "county": "Hubballi Urban Taluku",
+   "postcode": "580020",
+   "state": "Karnataka",
+   "state_district": "Dharwad"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "15.1918378",
+   "15.5118378",
+   "74.9779848",
+   "75.2979848"
+  ],
+  "category": "place",
+  "display_name": "Hubballi, Hubballi Urban Taluku, Dharwad, Karnataka, 580020, India",
+  "importance": 0.41728026324015166,
+  "lat": "15.3518378",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "75.1379848",
+  "name": "Hubballi",
+  "osm_id": 670289984,
+  "osm_type": "node",
+  "place_id": 252688964,
   "place_rank": 16,
   "type": "city"
  },
@@ -3987,6 +4171,34 @@
   "place_rank": 10,
   "type": "administrative"
  },
+ "/reverse?lat=18.96197&lon=72.81408&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-MH",
+   "country": "India",
+   "country_code": "in",
+   "state": "Maharashtra",
+   "state_district": "Mumbai City District"
+  },
+  "addresstype": "state_district",
+  "boundingbox": [
+   "18.8921596",
+   "19.0525850",
+   "72.7916763",
+   "72.9068144"
+  ],
+  "category": "boundary",
+  "display_name": "Mumbai City District, Maharashtra, India",
+  "importance": 0.47377012760175874,
+  "lat": "18.9723889",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "72.8258988",
+  "name": "Mumbai City District",
+  "osm_id": 7964376,
+  "osm_type": "relation",
+  "place_id": 249332943,
+  "place_rank": 10,
+  "type": "administrative"
+ },
  "/reverse?lat=19.02306&lon=72.84214&zoom=10": {
   "address": {
    "ISO3166-2-lvl4": "IN-MH",
@@ -4013,6 +4225,36 @@
   "osm_type": "relation",
   "place_id": 248150751,
   "place_rank": 10,
+  "type": "administrative"
+ },
+ "/reverse?lat=19.03083&lon=73.01985&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-MH",
+   "city": "Navi Mumbai",
+   "country": "India",
+   "country_code": "in",
+   "county": "Thane Subdistrict",
+   "state": "Maharashtra",
+   "state_district": "Thane"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "18.9984479",
+   "19.1894691",
+   "72.9778898",
+   "73.0497037"
+  ],
+  "category": "boundary",
+  "display_name": "Navi Mumbai, Thane Subdistrict, Thane, Maharashtra, India",
+  "importance": 0.5143367741739235,
+  "lat": "19.0308262",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "73.0198537",
+  "name": "Navi Mumbai",
+  "osm_id": 13180880,
+  "osm_type": "relation",
+  "place_id": 248592082,
+  "place_rank": 16,
   "type": "administrative"
  },
  "/reverse?lat=19.055&lon=72.8692&zoom=10": {
@@ -4726,6 +4968,66 @@
   "place_id": 251077870,
   "place_rank": 16,
   "type": "city"
+ },
+ "/reverse?lat=21.0856&lon=79.0241&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-MH",
+   "city": "Nagpur City",
+   "country": "India",
+   "country_code": "in",
+   "county": "Nagpur Urban Taluka",
+   "state": "Maharashtra",
+   "state_district": "Nagpur"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "21.0529736",
+   "21.2310022",
+   "78.9952182",
+   "79.1788461"
+  ],
+  "category": "boundary",
+  "display_name": "Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, India",
+  "importance": 0.5809168582380668,
+  "lat": "21.1498134",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "79.0820556",
+  "name": "Nagpur City",
+  "osm_id": 12969115,
+  "osm_type": "relation",
+  "place_id": 248348380,
+  "place_rank": 16,
+  "type": "administrative"
+ },
+ "/reverse?lat=21.0895&lon=79.04603&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-MH",
+   "city": "Nagpur City",
+   "country": "India",
+   "country_code": "in",
+   "county": "Nagpur Urban Taluka",
+   "state": "Maharashtra",
+   "state_district": "Nagpur"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "21.0529736",
+   "21.2310022",
+   "78.9952182",
+   "79.1788461"
+  ],
+  "category": "boundary",
+  "display_name": "Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, India",
+  "importance": 0.5809168582380668,
+  "lat": "21.1498134",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "79.0820556",
+  "name": "Nagpur City",
+  "osm_id": 12969115,
+  "osm_type": "relation",
+  "place_id": 248348380,
+  "place_rank": 16,
+  "type": "administrative"
  },
  "/reverse?lat=21.10254&lon=84.95368&zoom=10": {
   "address": {
@@ -6853,6 +7155,35 @@
   "place_rank": 16,
   "type": "city"
  },
+ "/reverse?lat=24.41482&lon=83.06375&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UP",
+   "country": "India",
+   "country_code": "in",
+   "county": "Robertsganj",
+   "state": "Uttar Pradesh",
+   "state_district": "Sonbhadra"
+  },
+  "addresstype": "county",
+  "boundingbox": [
+   "24.2938722",
+   "24.9602940",
+   "82.7132002",
+   "83.5481500"
+  ],
+  "category": "boundary",
+  "display_name": "Robertsganj, Sonbhadra, Uttar Pradesh, India",
+  "importance": 0.24000999999999997,
+  "lat": "24.6266156",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "83.2403026",
+  "name": "Robertsganj",
+  "osm_id": 10038070,
+  "osm_type": "relation",
+  "place_id": 243152479,
+  "place_rank": 12,
+  "type": "administrative"
+ },
  "/reverse?lat=24.44662&lon=86.69884&zoom=10": {
   "address": {
    "ISO3166-2-lvl4": "IN-JH",
@@ -6975,6 +7306,130 @@
   "place_rank": 16,
   "type": "city"
  },
+ "/reverse?lat=25.33565&lon=83.00763&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UP",
+   "city": "Varanasi",
+   "country": "India",
+   "country_code": "in",
+   "county": "Sadar",
+   "postcode": "221001",
+   "state": "Uttar Pradesh",
+   "state_district": "Varanasi"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "25.1756491",
+   "25.4956491",
+   "82.8476292",
+   "83.1676292"
+  ],
+  "category": "place",
+  "display_name": "Varanasi, Sadar, Varanasi, Uttar Pradesh, 221001, India",
+  "importance": 0.6205184179981118,
+  "lat": "25.3356491",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "83.0076292",
+  "name": "Varanasi",
+  "osm_id": 287687798,
+  "osm_type": "node",
+  "place_id": 243067602,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=25.33713&lon=82.98811&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UP",
+   "city": "Varanasi",
+   "country": "India",
+   "country_code": "in",
+   "county": "Sadar",
+   "postcode": "221001",
+   "state": "Uttar Pradesh",
+   "state_district": "Varanasi"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "25.1756491",
+   "25.4956491",
+   "82.8476292",
+   "83.1676292"
+  ],
+  "category": "place",
+  "display_name": "Varanasi, Sadar, Varanasi, Uttar Pradesh, 221001, India",
+  "importance": 0.6205184179981118,
+  "lat": "25.3356491",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "83.0076292",
+  "name": "Varanasi",
+  "osm_id": 287687798,
+  "osm_type": "node",
+  "place_id": 243067602,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=25.43889&lon=81.83405&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UP",
+   "city": "Prayagraj",
+   "country": "India",
+   "country_code": "in",
+   "county": "Allahabad",
+   "postcode": "211001",
+   "state": "Uttar Pradesh",
+   "state_district": "Prayagraj"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "25.2781302",
+   "25.5981302",
+   "81.6738005",
+   "81.9938005"
+  ],
+  "category": "place",
+  "display_name": "Prayagraj, Allahabad, Prayagraj, Uttar Pradesh, 211001, India",
+  "importance": 0.5865477637732518,
+  "lat": "25.4381302",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "81.8338005",
+  "name": "Prayagraj",
+  "osm_id": 245733956,
+  "osm_type": "node",
+  "place_id": 243169410,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=25.4523&lon=81.83299&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UP",
+   "city": "Prayagraj",
+   "country": "India",
+   "country_code": "in",
+   "county": "Allahabad",
+   "postcode": "211001",
+   "state": "Uttar Pradesh",
+   "state_district": "Prayagraj"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "25.2781302",
+   "25.5981302",
+   "81.6738005",
+   "81.9938005"
+  ],
+  "category": "place",
+  "display_name": "Prayagraj, Allahabad, Prayagraj, Uttar Pradesh, 211001, India",
+  "importance": 0.5865477637732518,
+  "lat": "25.4381302",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "81.8338005",
+  "name": "Prayagraj",
+  "osm_id": 245733956,
+  "osm_type": "node",
+  "place_id": 241768708,
+  "place_rank": 16,
+  "type": "city"
+ },
  "/reverse?lat=25.6095&lon=85.13525&zoom=10": {
   "address": {
    "ISO3166-2-lvl4": "IN-BR",
@@ -7004,6 +7459,35 @@
   "place_id": 242882786,
   "place_rank": 16,
   "type": "city"
+ },
+ "/reverse?lat=26.02364&lon=83.02931&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UP",
+   "country": "India",
+   "country_code": "in",
+   "county": "Nizamabad",
+   "state": "Uttar Pradesh",
+   "state_district": "Azamgarh"
+  },
+  "addresstype": "county",
+  "boundingbox": [
+   "25.9093394",
+   "26.2004988",
+   "82.8700446",
+   "83.1317424"
+  ],
+  "category": "boundary",
+  "display_name": "Nizamabad, Azamgarh, Uttar Pradesh, India",
+  "importance": 0.24000999999999997,
+  "lat": "26.0553180",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "82.9931387",
+  "name": "Nizamabad",
+  "osm_id": 10036368,
+  "osm_type": "relation",
+  "place_id": 243393657,
+  "place_rank": 12,
+  "type": "administrative"
  },
  "/reverse?lat=26.17367&lon=91.75656&zoom=10": {
   "address": {
@@ -7067,6 +7551,68 @@
   "place_rank": 16,
   "type": "city"
  },
+ "/reverse?lat=26.42399&lon=83.76386&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UP",
+   "city": "Deoria",
+   "country": "India",
+   "country_code": "in",
+   "county": "Deoria",
+   "postcode": "274001",
+   "state": "Uttar Pradesh",
+   "state_district": "Deoria"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "26.3398975",
+   "26.6598975",
+   "83.6229787",
+   "83.9429787"
+  ],
+  "category": "place",
+  "display_name": "Deoria, Uttar Pradesh, 274001, India",
+  "importance": 0.18670932249942776,
+  "lat": "26.4998975",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "83.7829787",
+  "name": "Deoria",
+  "osm_id": 245748968,
+  "osm_type": "node",
+  "place_id": 243856109,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=26.46091&lon=80.32176&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UP",
+   "city": "Kanpur",
+   "country": "India",
+   "country_code": "in",
+   "county": "Kanpur",
+   "postcode": "208012",
+   "state": "Uttar Pradesh",
+   "state_district": "Kanpur Nagar"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "26.3009135",
+   "26.6209135",
+   "80.1617588",
+   "80.4817588"
+  ],
+  "category": "place",
+  "display_name": "Kanpur, Kanpur Nagar, Uttar Pradesh, 208012, India",
+  "importance": 0.5996099133042215,
+  "lat": "26.4609135",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "80.3217588",
+  "name": "Kanpur",
+  "osm_id": 1180652177,
+  "osm_type": "node",
+  "place_id": 241056335,
+  "place_rank": 16,
+  "type": "city"
+ },
  "/reverse?lat=26.52546&lon=88.72322&zoom=10": {
   "address": {
    "ISO3166-2-lvl4": "IN-WB",
@@ -7095,6 +7641,68 @@
   "osm_id": 5914126159,
   "osm_type": "node",
   "place_id": 241850190,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=26.6678&lon=83.36423&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UP",
+   "city": "Gorakhpur",
+   "country": "India",
+   "country_code": "in",
+   "county": "Gorakhpur",
+   "postcode": "273001",
+   "state": "Uttar Pradesh",
+   "state_district": "Gorakhpur"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "26.6000217",
+   "26.9200217",
+   "83.2068129",
+   "83.5268129"
+  ],
+  "category": "place",
+  "display_name": "Gorakhpur, Uttar Pradesh, 273001, India",
+  "importance": 0.4937697349489626,
+  "lat": "26.7600217",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "83.3668129",
+  "name": "Gorakhpur",
+  "osm_id": 575741452,
+  "osm_type": "node",
+  "place_id": 243403625,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=26.8381&lon=80.9346&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UP",
+   "city": "Lucknow",
+   "country": "India",
+   "country_code": "in",
+   "county": "Lucknow",
+   "postcode": "226027",
+   "state": "Uttar Pradesh",
+   "state_district": "Lucknow"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "26.6781000",
+   "26.9981000",
+   "80.7746001",
+   "81.0946001"
+  ],
+  "category": "place",
+  "display_name": "Lucknow, Uttar Pradesh, 226027, India",
+  "importance": 0.628527987163832,
+  "lat": "26.8381000",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "80.9346001",
+  "name": "Lucknow",
+  "osm_id": 245753718,
+  "osm_type": "node",
+  "place_id": 244376715,
   "place_rank": 16,
   "type": "city"
  },
@@ -7129,6 +7737,98 @@
   "place_rank": 16,
   "type": "city"
  },
+ "/reverse?lat=26.84753&lon=80.9432&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UP",
+   "city": "Lucknow",
+   "country": "India",
+   "country_code": "in",
+   "county": "Lucknow",
+   "postcode": "226027",
+   "state": "Uttar Pradesh",
+   "state_district": "Lucknow"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "26.6781000",
+   "26.9981000",
+   "80.7746001",
+   "81.0946001"
+  ],
+  "category": "place",
+  "display_name": "Lucknow, Uttar Pradesh, 226027, India",
+  "importance": 0.628527987163832,
+  "lat": "26.8381000",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "80.9346001",
+  "name": "Lucknow",
+  "osm_id": 245753718,
+  "osm_type": "node",
+  "place_id": 243120132,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=26.87095&lon=80.97389&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UP",
+   "city": "Lucknow",
+   "country": "India",
+   "country_code": "in",
+   "county": "Lucknow",
+   "postcode": "226027",
+   "state": "Uttar Pradesh",
+   "state_district": "Lucknow"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "26.6781000",
+   "26.9981000",
+   "80.7746001",
+   "81.0946001"
+  ],
+  "category": "place",
+  "display_name": "Lucknow, Uttar Pradesh, 226027, India",
+  "importance": 0.628527987163832,
+  "lat": "26.8381000",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "80.9346001",
+  "name": "Lucknow",
+  "osm_id": 245753718,
+  "osm_type": "node",
+  "place_id": 243644712,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=26.91546&lon=75.81898&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-RJ",
+   "city": "Jaipur Municipal Corporation",
+   "country": "India",
+   "country_code": "in",
+   "county": "Jaipur Tehsil",
+   "state": "Rajasthan",
+   "state_district": "Jaipur"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "26.7723494",
+   "27.0218662",
+   "75.6887556",
+   "75.9118168"
+  ],
+  "category": "boundary",
+  "display_name": "Jaipur Municipal Corporation, Jaipur Tehsil, Jaipur, Rajasthan, India",
+  "importance": 0.26244239079806453,
+  "lat": "26.8969450",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "75.8021251",
+  "name": "Jaipur Municipal Corporation",
+  "osm_id": 7923743,
+  "osm_type": "relation",
+  "place_id": 246387927,
+  "place_rank": 16,
+  "type": "administrative"
+ },
  "/reverse?lat=27.04366&lon=88.26714&zoom=10": {
   "address": {
    "ISO3166-2-lvl4": "IN-WB",
@@ -7157,6 +7857,68 @@
   "osm_id": 3411073296,
   "osm_type": "node",
   "place_id": 239613162,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=27.17526&lon=78.00982&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UP",
+   "city": "Agra",
+   "country": "India",
+   "country_code": "in",
+   "county": "Agra",
+   "postcode": "280001",
+   "state": "Uttar Pradesh",
+   "state_district": "Agra"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "27.0152554",
+   "27.3352554",
+   "77.8498161",
+   "78.1698161"
+  ],
+  "category": "place",
+  "display_name": "Agra, Uttar Pradesh, 280001, India",
+  "importance": 0.6149610439729052,
+  "lat": "27.1752554",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "78.0098161",
+  "name": "Agra",
+  "osm_id": 567267943,
+  "osm_type": "node",
+  "place_id": 247856929,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=27.20103&lon=78.00533&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UP",
+   "city": "Agra",
+   "country": "India",
+   "country_code": "in",
+   "county": "Agra",
+   "postcode": "280001",
+   "state": "Uttar Pradesh",
+   "state_district": "Agra"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "27.0152554",
+   "27.3352554",
+   "77.8498161",
+   "78.1698161"
+  ],
+  "category": "place",
+  "display_name": "Agra, Uttar Pradesh, 280001, India",
+  "importance": 0.6149610439729052,
+  "lat": "27.1752554",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "78.0098161",
+  "name": "Agra",
+  "osm_id": 567267943,
+  "osm_type": "node",
+  "place_id": 247044298,
   "place_rank": 16,
   "type": "city"
  },
@@ -7420,6 +8182,67 @@
   "place_id": 424602715,
   "place_rank": 16,
   "type": "administrative"
+ },
+ "/reverse?lat=28.775&lon=77.4587&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UP",
+   "country": "India",
+   "country_code": "in",
+   "county": "Modinagar",
+   "postcode": "201204",
+   "state": "Uttar Pradesh",
+   "state_district": "Ghaziabad"
+  },
+  "addresstype": "county",
+  "boundingbox": [
+   "28.7226867",
+   "28.9277798",
+   "77.3900773",
+   "77.7095278"
+  ],
+  "category": "boundary",
+  "display_name": "Modinagar, Ghaziabad, Uttar Pradesh, 201204, India",
+  "importance": 0.24004139391165025,
+  "lat": "28.8249937",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "77.5429314",
+  "name": "Modinagar",
+  "osm_id": 9999583,
+  "osm_type": "relation",
+  "place_id": 244046184,
+  "place_rank": 12,
+  "type": "administrative"
+ },
+ "/reverse?lat=29.86935&lon=77.89021&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-UK",
+   "city": "Roorkee",
+   "country": "India",
+   "country_code": "in",
+   "county": "Roorkee",
+   "postcode": "247667",
+   "state": "Uttarakhand",
+   "state_district": "Haridwar"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "29.7093496",
+   "30.0293496",
+   "77.7302124",
+   "78.0502124"
+  ],
+  "category": "place",
+  "display_name": "Roorkee, Haridwar, Uttarakhand, 247667, India",
+  "importance": 0.6109270659213974,
+  "lat": "29.8693496",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "77.8902124",
+  "name": "Roorkee",
+  "osm_id": 4373395280,
+  "osm_type": "node",
+  "place_id": 244839774,
+  "place_rank": 16,
+  "type": "city"
  },
  "/reverse?lat=30.90776&lon=77.10236&zoom=10": {
   "address": {
@@ -9190,6 +10013,38 @@
    "type": "postcode"
   }
  ],
+ "/search?country=India&countrycodes=in&limit=1&postalcode=440024": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-MH",
+    "city": "Nagpur City",
+    "country": "India",
+    "country_code": "in",
+    "county": "Nagpur Urban Taluka",
+    "postcode": "440024",
+    "state": "Maharashtra",
+    "state_district": "Nagpur"
+   },
+   "addresstype": "postcode",
+   "boundingbox": [
+    "21.0404515",
+    "21.1307530",
+    "78.9759908",
+    "79.0722080"
+   ],
+   "category": "place",
+   "display_name": "440024, Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, India",
+   "importance": 0.12000999999999995,
+   "lat": "21.0856024",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "79.0240986",
+   "name": "440024",
+   "place_id": 380791413,
+   "place_rank": 21,
+   "postcode_id": "Pin:440024",
+   "type": "postcode"
+  }
+ ],
  "/search?country=India&countrycodes=in&limit=1&postalcode=670645": [
   {
    "address": {
@@ -10539,7 +11394,74 @@
  "/search?countrycodes=in&limit=1&q=23, Shopping Centre, T.T. Nagar New Market, Bhopal, Madhya Pradesh": [],
  "/search?countrycodes=in&limit=1&q=4, Garvi Gurjari Emporium, Jilla Panchayat Shopping Center, Amul Dairy Road, Anand, Gujarat": [],
  "/search?countrycodes=in&limit=1&q=7/8, CIT shopping Complex, Dakshinapan, Gariya Hat Road, Nr. Dhakuria Over Bridge, Kolkata, West Bengal": [],
+ "/search?countrycodes=in&limit=1&q=86, Hazratganj, Lucknow, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "city": "Lucknow",
+    "commercial": "Hazratganj",
+    "country": "India",
+    "country_code": "in",
+    "county": "Lucknow",
+    "state": "Uttar Pradesh",
+    "state_district": "Lucknow",
+    "suburb": "Hazratganj"
+   },
+   "addresstype": "commercial",
+   "boundingbox": [
+    "26.8454515",
+    "26.8496726",
+    "80.9402629",
+    "80.9460185"
+   ],
+   "category": "landuse",
+   "display_name": "Hazratganj, Lucknow, Uttar Pradesh, India",
+   "importance": 0.2961343492019334,
+   "lat": "26.8475285",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.9432003",
+   "name": "Hazratganj",
+   "osm_id": 213237648,
+   "osm_type": "way",
+   "place_id": 241849745,
+   "place_rank": 24,
+   "type": "commercial"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=A-6, State Emporia Complex, Baba Kharak Singh Marg., Delhi, Delhi": [],
+ "/search?countrycodes=in&limit=1&q=Agra, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "city": "Agra",
+    "country": "India",
+    "country_code": "in",
+    "county": "Agra",
+    "postcode": "280001",
+    "state": "Uttar Pradesh",
+    "state_district": "Agra"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "27.0152554",
+    "27.3352554",
+    "77.8498161",
+    "78.1698161"
+   ],
+   "category": "place",
+   "display_name": "Agra, Uttar Pradesh, 280001, India",
+   "importance": 0.6149610439729052,
+   "lat": "27.1752554",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "78.0098161",
+   "name": "Agra",
+   "osm_id": 567267943,
+   "osm_type": "node",
+   "place_id": 246502900,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Ahmedabad, Gujarat": [
   {
    "address": {
@@ -10607,6 +11529,7 @@
    "type": "neighbourhood"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Alka Hotel, Court Road, Azamgarh, Uttar Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Alwaye, Kerala": [
   {
    "address": {
@@ -10777,6 +11700,36 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Avanti Emporium, Uttrapan, Kolkata, West Bengal": [],
+ "/search?countrycodes=in&limit=1&q=Azamgarh, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "country": "India",
+    "country_code": "in",
+    "state": "Uttar Pradesh",
+    "state_district": "Azamgarh"
+   },
+   "addresstype": "state_district",
+   "boundingbox": [
+    "25.6358579",
+    "26.4117595",
+    "82.6648620",
+    "83.4682939"
+   ],
+   "category": "boundary",
+   "display_name": "Azamgarh, Uttar Pradesh, India",
+   "importance": 0.534772644268164,
+   "lat": "26.0236390",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.0293105",
+   "name": "Azamgarh",
+   "osm_id": 1959868,
+   "osm_type": "relation",
+   "place_id": 244105930,
+   "place_rank": 10,
+   "type": "administrative"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=B-8, Baba Khadak Singh Marg, New Delhi, Delhi": [],
  "/search?countrycodes=in&limit=1&q=Baba Kharak Singh Marg Rajiv Chowk, West Bengal": [],
  "/search?countrycodes=in&limit=1&q=Baba Kharak Singh Marg near Rajiv Chowk, Opp. PVR Rivoli, West Bengal": [],
@@ -10816,6 +11769,7 @@
    "type": "station"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Baliga Orchid, Vidya Samudra Marga, Udupi, Karnataka": [],
  "/search?countrycodes=in&limit=1&q=Bangalore, Karnataka": [
   {
    "address": {
@@ -11479,6 +12433,41 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Cinema Bazar, Motiganj, Balasore-756003, Odisha": [],
+ "/search?countrycodes=in&limit=1&q=Cinema Road, Golghar, Gorakhpur, Uttar Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=Civil Lines, Prayagraj, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "city": "Prayagraj",
+    "country": "India",
+    "country_code": "in",
+    "county": "Allahabad",
+    "postcode": "211001",
+    "state": "Uttar Pradesh",
+    "state_district": "Prayagraj",
+    "suburb": "Civil Lines"
+   },
+   "addresstype": "suburb",
+   "boundingbox": [
+    "25.4323026",
+    "25.4723026",
+    "81.8129887",
+    "81.8529887"
+   ],
+   "category": "place",
+   "display_name": "Civil Lines, Prayagraj, Allahabad, Prayagraj, Uttar Pradesh, 211001, India",
+   "importance": 0.14673377203021282,
+   "lat": "25.4523026",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "81.8329887",
+   "name": "Civil Lines",
+   "osm_id": 2042861533,
+   "osm_type": "node",
+   "place_id": 242726940,
+   "place_rank": 19,
+   "type": "suburb"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Co-optex Exhibition Ground, 350 Pantheon Road, Egmore, Chennai, Tamil Nadu": [],
  "/search?countrycodes=in&limit=1&q=Co-optex Showroom, NO, 62, Munshi Estate, M.G. Road, Mulund (West), Maharashtra": [],
  "/search?countrycodes=in&limit=1&q=Cochin, Kerala": [
@@ -11549,6 +12538,7 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Cooptex Showroom, E.D.C House, Dr.A.B.Road, Panaji, Goa": [],
+ "/search?countrycodes=in&limit=1&q=Court Premises, Ghaziabad, Uttar Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Cuttack, Odisha": [
   {
    "address": {
@@ -11678,6 +12668,71 @@
    "type": "administrative"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Deoria, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "country": "India",
+    "country_code": "in",
+    "state": "Uttar Pradesh",
+    "state_district": "Deoria"
+   },
+   "addresstype": "state_district",
+   "boundingbox": [
+    "26.0894695",
+    "26.7591765",
+    "83.4767505",
+    "84.1859186"
+   ],
+   "category": "boundary",
+   "display_name": "Deoria, Uttar Pradesh, India",
+   "importance": 0.5841485118094984,
+   "lat": "26.4239911",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.7638578",
+   "name": "Deoria",
+   "osm_id": 1959870,
+   "osm_type": "relation",
+   "place_id": 240720389,
+   "place_rank": 10,
+   "type": "administrative"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Dhanvantri Road, Mysore, Karnataka": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-KA",
+    "city": "Mysuru",
+    "country": "India",
+    "country_code": "in",
+    "county": "Mysuru taluk",
+    "postcode": "570001",
+    "road": "Dhanvantri Road",
+    "state": "Karnataka",
+    "state_district": "Mysuru District",
+    "suburb": "Mandi Mohalla"
+   },
+   "addresstype": "tertiary",
+   "boundingbox": [
+    "12.3120306",
+    "12.3134149",
+    "76.6449817",
+    "76.6519851"
+   ],
+   "category": "highway",
+   "display_name": "Dhanvantri Road, Mandi Mohalla, Mysuru, Mysuru taluk, Mysuru District, Karnataka, 570001, India",
+   "importance": 0.05339649576562139,
+   "lat": "12.3124631",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "76.6484575",
+   "name": "Dhanvantri Road",
+   "osm_id": 321934113,
+   "osm_type": "way",
+   "place_id": 251973292,
+   "place_rank": 26,
+   "type": "tertiary"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Dharamshala, HP, Himachal Pradesh": [
   {
    "address": {
@@ -11774,7 +12829,9 @@
    "type": "administrative"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Diamond Dairy Complex, Udaiganj, Lucknow, Uttar Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Edachery Complex, T B Junction, Near Civil Station, Angamali, Kerala": [],
+ "/search?countrycodes=in&limit=1&q=Emporium, Sanjay Place, Agra, Uttar Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Ernakulam, Kerala": [
   {
    "address": {
@@ -11811,6 +12868,7 @@
  "/search?countrycodes=in&limit=1&q=Exclusive, Boyana Bhawan, PJN Marg, Unit-III, Kharavela Nagar, Bhubaneswar-751001, Odisha": [],
  "/search?countrycodes=in&limit=1&q=G-1, Ekta Mall, Near Statue of Unity Kevadia, Gujarat": [],
  "/search?countrycodes=in&limit=1&q=Gandhi Chhak, Nabarangpur-764059, Odisha": [],
+ "/search?countrycodes=in&limit=1&q=Gandhi Vatika, Roorkee, Uttarakhand, Uttarakhand": [],
  "/search?countrycodes=in&limit=1&q=Gandhinagar, Gujarat": [
   {
    "address": {
@@ -11841,6 +12899,72 @@
    "place_id": 248551997,
    "place_rank": 16,
    "type": "city"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Ghantaghar, Prayagraj, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "city": "Prayagraj",
+    "country": "India",
+    "country_code": "in",
+    "county": "Allahabad",
+    "historic": "Ghanta Ghar",
+    "postcode": "211001",
+    "road": "Kamla Nehru Road",
+    "state": "Uttar Pradesh",
+    "state_district": "Prayagraj",
+    "suburb": "Chowk"
+   },
+   "addresstype": "historic",
+   "boundingbox": [
+    "25.4388435",
+    "25.4389435",
+    "81.8339998",
+    "81.8340998"
+   ],
+   "category": "historic",
+   "display_name": "Ghanta Ghar, Kamla Nehru Road, Chowk, Prayagraj, Allahabad, Prayagraj, Uttar Pradesh, 211001, India",
+   "importance": 6.710536354615118e-05,
+   "lat": "25.4388935",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "81.8340498",
+   "name": "Ghanta Ghar",
+   "osm_id": 2062539592,
+   "osm_type": "node",
+   "place_id": 243188913,
+   "place_rank": 30,
+   "type": "monument"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Ghaziabad, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "country": "India",
+    "country_code": "in",
+    "state": "Uttar Pradesh",
+    "state_district": "Ghaziabad"
+   },
+   "addresstype": "state_district",
+   "boundingbox": [
+    "28.6221757",
+    "28.9277798",
+    "77.1992428",
+    "77.7095278"
+   ],
+   "category": "boundary",
+   "display_name": "Ghaziabad, Uttar Pradesh, India",
+   "importance": 0.5074225266361705,
+   "lat": "28.7749966",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.4586967",
+   "name": "Ghaziabad",
+   "osm_id": 1958054,
+   "osm_type": "relation",
+   "place_id": 244807339,
+   "place_rank": 10,
+   "type": "administrative"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Ghumarwin, HP, Himachal Pradesh": [
@@ -11905,8 +13029,39 @@
    "type": "administrative"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Godaulia, Varanasi, Uttar Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Golden Jubilee Municipal shopping complex, Thiruvalla, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Gopabandhu Marg, Rayagada-765001, Odisha": [],
+ "/search?countrycodes=in&limit=1&q=Gorakhpur, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "country": "India",
+    "country_code": "in",
+    "state": "Uttar Pradesh",
+    "state_district": "Gorakhpur"
+   },
+   "addresstype": "state_district",
+   "boundingbox": [
+    "26.2187521",
+    "27.1170764",
+    "83.0677616",
+    "83.6710430"
+   ],
+   "category": "boundary",
+   "display_name": "Gorakhpur, Uttar Pradesh, India",
+   "importance": 0.5843933038387383,
+   "lat": "26.6677977",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.3642334",
+   "name": "Gorakhpur",
+   "osm_id": 1959872,
+   "osm_type": "relation",
+   "place_id": 243213901,
+   "place_rank": 10,
+   "type": "administrative"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Guruvayoor, Kerala": [
   {
    "address": {
@@ -11973,6 +13128,9 @@
    "type": "city"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Handloom Haveli, Chunniganj, Kanpur, Uttar Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=Handloom Haveli, Jaipur, Rajasthan": [],
+ "/search?countrycodes=in&limit=1&q=Handloom Haveli, Maniktala, Kolkata, West Bengal": [],
  "/search?countrycodes=in&limit=1&q=Hatithan, HP, Himachal Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Hatithan, Himachal Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Hatithan, Kullu, Himachal Pradesh, Himachal Pradesh": [],
@@ -12051,6 +13209,39 @@
  ],
  "/search?countrycodes=in&limit=1&q=Hospital road, Congress house junction, Ernakulam, Cochin, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Hotel Sarovar Complex, Secretariat Road, Hydrabad, Telangana": [],
+ "/search?countrycodes=in&limit=1&q=Hubli, Karnataka": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-KA",
+    "city": "Hubballi",
+    "country": "India",
+    "country_code": "in",
+    "county": "Hubballi Urban Taluku",
+    "postcode": "580020",
+    "state": "Karnataka",
+    "state_district": "Dharwad"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "15.1918378",
+    "15.5118378",
+    "74.9779848",
+    "75.2979848"
+   ],
+   "category": "place",
+   "display_name": "Hubballi, Hubballi Urban Taluku, Dharwad, Karnataka, 580020, India",
+   "importance": 0.41728026324015166,
+   "lat": "15.3518378",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "75.1379848",
+   "name": "Hubballi",
+   "osm_id": 670289984,
+   "osm_type": "node",
+   "place_id": 252688964,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Hyderabad, Telangana": [
   {
    "address": {
@@ -12116,6 +13307,7 @@
    "type": "city"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Indra Bazar, Jaipur, Rajasthan": [],
  "/search?countrycodes=in&limit=1&q=Infront of Head Post Office, Near Tahasil Office Main Road, Jeypore- 764001, Odisha": [],
  "/search?countrycodes=in&limit=1&q=Jabalpur, Madhya Pradesh": [
   {
@@ -12146,6 +13338,39 @@
    "osm_id": 245711973,
    "osm_type": "node",
    "place_id": 247053254,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Jaipur, Rajasthan": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-RJ",
+    "city": "Jaipur",
+    "country": "India",
+    "country_code": "in",
+    "county": "Jaipur Tehsil",
+    "postcode": "302001",
+    "state": "Rajasthan",
+    "state_district": "Jaipur"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "26.7554576",
+    "27.0754576",
+    "75.6589817",
+    "75.9789817"
+   ],
+   "category": "place",
+   "display_name": "Jaipur, Jaipur Municipal Corporation, Jaipur Tehsil, Jaipur, Rajasthan, 302001, India",
+   "importance": 0.6109736038762036,
+   "lat": "26.9154576",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "75.8189817",
+   "name": "Jaipur",
+   "osm_id": 315734346,
+   "osm_type": "node",
+   "place_id": 246456501,
    "place_rank": 16,
    "type": "city"
   }
@@ -12249,6 +13474,44 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Jashoda Bhawan, 167 Rasabihari Avenue, Kolkata-700019, West Bengal": [],
+ "/search?countrycodes=in&limit=1&q=Jayanagar Shopping Complex, 4th Block, Jayanagar, Bangalore, Karnataka": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-KA",
+    "city": "Bengaluru",
+    "city_district": "Bengaluru South City Corporation",
+    "country": "India",
+    "country_code": "in",
+    "county": "Bangalore South",
+    "postcode": "560011",
+    "quarter": "Jayanagar 4th Block",
+    "road": "9th Main Road",
+    "shop": "Jayanagar 4th Block Shopping Complex",
+    "state": "Karnataka",
+    "state_district": "Bengaluru Urban",
+    "suburb": "Tilak Nagara"
+   },
+   "addresstype": "shop",
+   "boundingbox": [
+    "12.9295942",
+    "12.9300460",
+    "77.5840522",
+    "77.5844986"
+   ],
+   "category": "shop",
+   "display_name": "Jayanagar 4th Block Shopping Complex, 9th Main Road, Jayanagar 4th Block, Tilak Nagara, Bengaluru South City Corporation, Bengaluru, Bangalore South, Bengaluru Urban, Karnataka, 560011, India",
+   "importance": 7.094453345536e-05,
+   "lat": "12.9298201",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.5842754",
+   "name": "Jayanagar 4th Block Shopping Complex",
+   "osm_id": 27554059,
+   "osm_type": "way",
+   "place_id": 250468720,
+   "place_rank": 30,
+   "type": "supermarket"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Jeypore, Odisha": [
   {
    "address": {
@@ -12323,6 +13586,7 @@
    "type": "residential"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=K.G. Road, Mahaveer Complex, Bangalore, Karnataka": [],
  "/search?countrycodes=in&limit=1&q=KSHDC regional office premises, Nemom, Trivandrum, Kerala": [],
  "/search?countrycodes=in&limit=1&q=KSRTC shopping complex, Kasaragod, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Kacheri Bazar, Main Road, Nayagarh-752069, Odisha": [],
@@ -12356,6 +13620,39 @@
    "osm_id": 290180981,
    "osm_type": "node",
    "place_id": 252968493,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Kanpur, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "city": "Kanpur",
+    "country": "India",
+    "country_code": "in",
+    "county": "Kanpur",
+    "postcode": "208012",
+    "state": "Uttar Pradesh",
+    "state_district": "Kanpur Nagar"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "26.3009135",
+    "26.6209135",
+    "80.1617588",
+    "80.4817588"
+   ],
+   "category": "place",
+   "display_name": "Kanpur, Kanpur Nagar, Uttar Pradesh, 208012, India",
+   "importance": 0.5996099133042215,
+   "lat": "26.4609135",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.3217588",
+   "name": "Kanpur",
+   "osm_id": 1180652177,
+   "osm_type": "node",
+   "place_id": 243961002,
    "place_rank": 16,
    "type": "city"
   }
@@ -12908,6 +14205,76 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Kunnekkat building, Bye pass road junction, Kondotty, Kerala": [],
+ "/search?countrycodes=in&limit=1&q=Lekhraj Market, Indira Nagar, Lucknow, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "city": "Lucknow",
+    "country": "India",
+    "country_code": "in",
+    "county": "Lucknow",
+    "postcode": "226006",
+    "railway": "Lekhraj Market",
+    "residential": "Block-A",
+    "road": "Faizabad Road",
+    "state": "Uttar Pradesh",
+    "state_district": "Lucknow",
+    "suburb": "Mahanagar Colony"
+   },
+   "addresstype": "railway",
+   "boundingbox": [
+    "26.8708974",
+    "26.8709974",
+    "80.9738450",
+    "80.9739450"
+   ],
+   "category": "railway",
+   "display_name": "Lekhraj Market, Faizabad Road, Block-A, Mahanagar Colony, Lucknow, Uttar Pradesh, 226006, India",
+   "importance": 6.902189669637625e-05,
+   "lat": "26.8709474",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.9738950",
+   "name": "Lekhraj Market",
+   "osm_id": 9655728230,
+   "osm_type": "node",
+   "place_id": 243254348,
+   "place_rank": 30,
+   "type": "stop"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Lucknow, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "city": "Lucknow",
+    "country": "India",
+    "country_code": "in",
+    "county": "Lucknow",
+    "postcode": "226027",
+    "state": "Uttar Pradesh",
+    "state_district": "Lucknow"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "26.6781000",
+    "26.9981000",
+    "80.7746001",
+    "81.0946001"
+   ],
+   "category": "place",
+   "display_name": "Lucknow, Uttar Pradesh, 226027, India",
+   "importance": 0.628527987163832,
+   "lat": "26.8381000",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.9346001",
+   "name": "Lucknow",
+   "osm_id": 245753718,
+   "osm_type": "node",
+   "place_id": 244376715,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=MG Road, Kerala": [
   {
    "address": {
@@ -12941,6 +14308,79 @@
    "place_id": 255051670,
    "place_rank": 26,
    "type": "primary"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=MSHC Complex, 10, Umred Rd, Nirmal Nagar, Nagpur, Maharashtra 440024, Maharashtra": [],
+ "/search?countrycodes=in&limit=1&q=Maharashtra Sadan Kasturba Gandhi Marg Baroda New Delhi, Delhi": [],
+ "/search?countrycodes=in&limit=1&q=Maharashtra Sadan Kasturba Gandhi Marg near Baroda House New Delhi, Delhi": [],
+ "/search?countrycodes=in&limit=1&q=Maharashtra Sadan, Delhi": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-DL",
+    "city": "New Delhi",
+    "country": "India",
+    "country_code": "in",
+    "office": "नया महाराष्ट्र सदन",
+    "postcode": "020626",
+    "road": "Kasturba Gandhi Marg",
+    "state": "Delhi",
+    "state_district": "New Delhi",
+    "suburb": "Central Vista"
+   },
+   "addresstype": "office",
+   "boundingbox": [
+    "28.6181770",
+    "28.6182770",
+    "77.2288671",
+    "77.2289671"
+   ],
+   "category": "office",
+   "display_name": "नया महाराष्ट्र सदन, Kasturba Gandhi Marg, Central Vista, New Delhi, Delhi, 020626, India",
+   "importance": 7.748149843590475e-05,
+   "lat": "28.6182270",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.2289171",
+   "name": "नया महाराष्ट्र सदन",
+   "osm_id": 5273106401,
+   "osm_type": "node",
+   "place_id": 244370667,
+   "place_rank": 30,
+   "type": "government"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Maharashtra Sadan, Kasturba Gandhi Marg, New Delhi, Delhi": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-DL",
+    "city": "New Delhi",
+    "country": "India",
+    "country_code": "in",
+    "office": "नया महाराष्ट्र सदन",
+    "postcode": "020626",
+    "road": "Kasturba Gandhi Marg",
+    "state": "Delhi",
+    "state_district": "New Delhi",
+    "suburb": "Central Vista"
+   },
+   "addresstype": "office",
+   "boundingbox": [
+    "28.6181770",
+    "28.6182770",
+    "77.2288671",
+    "77.2289671"
+   ],
+   "category": "office",
+   "display_name": "नया महाराष्ट्र सदन, Kasturba Gandhi Marg, Central Vista, New Delhi, Delhi, 020626, India",
+   "importance": 7.748149843590475e-05,
+   "lat": "28.6182270",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.2289171",
+   "name": "नया महाराष्ट्र सदन",
+   "osm_id": 5273106401,
+   "osm_type": "node",
+   "place_id": 244370667,
+   "place_rank": 30,
+   "type": "government"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Main Market, Near Axis Bank, Angul-759122, Odisha": [],
@@ -13413,8 +14853,42 @@
  "/search?countrycodes=in&limit=1&q=Municipal shopping complex cum bus stand, Chalakkudy, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Municipal shopping complex, Attingal, Trivandrum, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Municipal shopping complex, Nedumangad, Trivandrum, Kerala": [],
+ "/search?countrycodes=in&limit=1&q=Mysore, Karnataka": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-KA",
+    "city": "Mysuru",
+    "country": "India",
+    "country_code": "in",
+    "county": "Mysuru taluk",
+    "postcode": "570001",
+    "state": "Karnataka",
+    "state_district": "Mysuru District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "12.1451828",
+    "12.4651828",
+    "76.4953609",
+    "76.8153609"
+   ],
+   "category": "place",
+   "display_name": "Mysuru, Mysuru taluk, Mysuru District, Karnataka, 570001, India",
+   "importance": 0.5627508010057295,
+   "lat": "12.3051828",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "76.6553609",
+   "name": "Mysuru",
+   "osm_id": 2068274800,
+   "osm_type": "node",
+   "place_id": 252221867,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=NAC Market, Main Road, Bolangir-767001, Odisha": [],
  "/search?countrycodes=in&limit=1&q=NHDC Civic Centre, DS-II, Ultadanga, Khankurgachi, VIP Road, Maniktala, Kolkata-700054, West Bengal": [],
+ "/search?countrycodes=in&limit=1&q=NTPC Shopping Complex, Shakti Nagar, Sonbhadra, Uttar Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Nabarangpur, Odisha": [
   {
    "address": {
@@ -13450,7 +14924,110 @@
    "type": "blood_bank"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Nadesar, Varanasi, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "city": "Varanasi",
+    "commercial": "Nadesar Palace Grounds",
+    "country": "India",
+    "country_code": "in",
+    "county": "Sadar",
+    "state": "Uttar Pradesh",
+    "state_district": "Varanasi",
+    "suburb": "Cantonment"
+   },
+   "addresstype": "commercial",
+   "boundingbox": [
+    "25.3347612",
+    "25.3391778",
+    "82.9852120",
+    "82.9908813"
+   ],
+   "category": "landuse",
+   "display_name": "Nadesar Palace Grounds, Cantonment, Varanasi, Sadar, Varanasi, Uttar Pradesh, India",
+   "importance": 0.08006819790951397,
+   "lat": "25.3371260",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "82.9881140",
+   "name": "Nadesar Palace Grounds",
+   "osm_id": 26693601,
+   "osm_type": "way",
+   "place_id": 243259284,
+   "place_rank": 24,
+   "type": "commercial"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Nagar Palika Shopping Center, Opp: Shalimar Cinema, Bharuch, Gujarat": [],
+ "/search?countrycodes=in&limit=1&q=Nagpur Airport, Maharashtra": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-MH",
+    "aeroway": "Dr. Babasaheb Ambedkar International Airport",
+    "city": "Nagpur City",
+    "country": "India",
+    "country_code": "in",
+    "county": "Nagpur Urban Taluka",
+    "neighbourhood": "Jetwan",
+    "postcode": "440015",
+    "road": "Khamla Road",
+    "state": "Maharashtra",
+    "state_district": "Nagpur",
+    "suburb": "Dhantoli"
+   },
+   "addresstype": "aeroway",
+   "boundingbox": [
+    "21.0661385",
+    "21.1128610",
+    "79.0290731",
+    "79.0587142"
+   ],
+   "category": "aeroway",
+   "display_name": "Dr. Babasaheb Ambedkar International Airport, Khamla Road, Jetwan, Dhantoli, Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, 440015, India",
+   "importance": 0.47972791794857694,
+   "lat": "21.0895028",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "79.0460288",
+   "name": "Dr. Babasaheb Ambedkar International Airport",
+   "osm_id": 128552031,
+   "osm_type": "way",
+   "place_id": 247049970,
+   "place_rank": 30,
+   "type": "aerodrome"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Nagpur, Maharashtra": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-MH",
+    "city": "Nagpur City",
+    "country": "India",
+    "country_code": "in",
+    "county": "Nagpur Urban Taluka",
+    "state": "Maharashtra",
+    "state_district": "Nagpur"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "21.0529736",
+    "21.2310022",
+    "78.9952182",
+    "79.1788461"
+   ],
+   "category": "boundary",
+   "display_name": "Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, India",
+   "importance": 0.5809168582380668,
+   "lat": "21.1498134",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "79.0820556",
+   "name": "Nagpur City",
+   "osm_id": 12969115,
+   "osm_type": "relation",
+   "place_id": 247549027,
+   "place_rank": 16,
+   "type": "administrative"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Naina Devi, HP, Himachal Pradesh": [
   {
    "address": {
@@ -13513,8 +15090,75 @@
    "type": "town"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Nana Chowk, Mumbai, Maharashtra": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-MH",
+    "city_district": "Mumbai Zone 1",
+    "country": "India",
+    "country_code": "in",
+    "highway": "Nana Chowk",
+    "postcode": "400036",
+    "road": "Frere Flyover",
+    "state": "Maharashtra",
+    "state_district": "Mumbai City District",
+    "suburb": "Gamdevi"
+   },
+   "addresstype": "highway",
+   "boundingbox": [
+    "18.9619181",
+    "18.9620181",
+    "72.8140252",
+    "72.8141252"
+   ],
+   "category": "highway",
+   "display_name": "Nana Chowk, Frere Flyover, Gamdevi, D Ward, Mumbai Zone 1, Mumbai City District, Maharashtra, 400036, India",
+   "importance": 7.599526970316652e-05,
+   "lat": "18.9619681",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "72.8140752",
+   "name": "Nana Chowk",
+   "osm_id": 9034231131,
+   "osm_type": "node",
+   "place_id": 246813716,
+   "place_rank": 30,
+   "type": "bus_stop"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=National Centre for Heritage Textile, Basement, Janpath, Near Indian Oil Building, New Delhi110001, Delhi": [],
  "/search?countrycodes=in&limit=1&q=Natraj Market, Sambalpur-768001, Odisha": [],
+ "/search?countrycodes=in&limit=1&q=Navi Mumbai, Maharashtra": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-MH",
+    "city": "Navi Mumbai",
+    "country": "India",
+    "country_code": "in",
+    "county": "Thane Subdistrict",
+    "state": "Maharashtra",
+    "state_district": "Thane"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "18.9984479",
+    "19.1894691",
+    "72.9778898",
+    "73.0497037"
+   ],
+   "category": "boundary",
+   "display_name": "Navi Mumbai, Thane Subdistrict, Thane, Maharashtra, India",
+   "importance": 0.5143367741739235,
+   "lat": "19.0308262",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "73.0198537",
+   "name": "Navi Mumbai",
+   "osm_id": 13180880,
+   "osm_type": "relation",
+   "place_id": 249318960,
+   "place_rank": 16,
+   "type": "administrative"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Nayagarh, Odisha": [
   {
    "address": {
@@ -13584,6 +15228,7 @@
    "type": "administrative"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Nekar Bhavan, Opp. K.H. Patil College, Vidyanagar, Hubli-31, Karnataka": [],
  "/search?countrycodes=in&limit=1&q=Nemom, Kerala": [
   {
    "address": {
@@ -13834,6 +15479,7 @@
  ],
  "/search?countrycodes=in&limit=1&q=Ottapplam, Kerala": [],
  "/search?countrycodes=in&limit=1&q=PVR Rivoli, West Bengal": [],
+ "/search?countrycodes=in&limit=1&q=Palace Premises, Mysore, Karnataka": [],
  "/search?countrycodes=in&limit=1&q=Palakkad, Kerala": [
   {
    "address": {
@@ -14237,6 +15883,39 @@
    "type": "town"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Prayagraj, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "city": "Prayagraj",
+    "country": "India",
+    "country_code": "in",
+    "county": "Allahabad",
+    "postcode": "211001",
+    "state": "Uttar Pradesh",
+    "state_district": "Prayagraj"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "25.2781302",
+    "25.5981302",
+    "81.6738005",
+    "81.9938005"
+   ],
+   "category": "place",
+   "display_name": "Prayagraj, Allahabad, Prayagraj, Uttar Pradesh, 211001, India",
+   "importance": 0.5865477637732518,
+   "lat": "25.4381302",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "81.8338005",
+   "name": "Prayagraj",
+   "osm_id": 245733956,
+   "osm_type": "node",
+   "place_id": 244207878,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Puri, Odisha": [
   {
    "address": {
@@ -14270,6 +15949,7 @@
    "type": "city"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=R.V. Road, Opp. Lal Bagh, West Gate, V.V. Puram, Bangalore, Karnataka": [],
  "/search?countrycodes=in&limit=1&q=Rajkot, Gujarat": [
   {
    "address": {
@@ -14333,6 +16013,7 @@
    "type": "administrative"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Red Cross Building, Ashoka Road, Tumkur, Karnataka": [],
  "/search?countrycodes=in&limit=1&q=Reency plaza, Near Kerala Gramin Bank, Kothamangalam, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Rewa, Madhya Pradesh": [
   {
@@ -14365,6 +16046,39 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Room No- 23, Shop cum Gallery building, Malappuram, Kerala": [],
+ "/search?countrycodes=in&limit=1&q=Roorkee, Uttarakhand": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UK",
+    "city": "Roorkee",
+    "country": "India",
+    "country_code": "in",
+    "county": "Roorkee",
+    "postcode": "247667",
+    "state": "Uttarakhand",
+    "state_district": "Haridwar"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "29.7093496",
+    "30.0293496",
+    "77.7302124",
+    "78.0502124"
+   ],
+   "category": "place",
+   "display_name": "Roorkee, Haridwar, Uttarakhand, 247667, India",
+   "importance": 0.6109270659213974,
+   "lat": "29.8693496",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.8902124",
+   "name": "Roorkee",
+   "osm_id": 4373395280,
+   "osm_type": "node",
+   "place_id": 244839774,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Rourkela, Odisha": [
   {
    "address": {
@@ -14465,6 +16179,43 @@
    "type": "administrative"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Sanjay Place, Agra, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "amenity": "Sanjay Place",
+    "city": "Agra",
+    "country": "India",
+    "country_code": "in",
+    "county": "Agra",
+    "postcode": "282003",
+    "road": "NDMIT Agra",
+    "state": "Uttar Pradesh",
+    "state_district": "Agra",
+    "suburb": "Civil Lines"
+   },
+   "addresstype": "amenity",
+   "boundingbox": [
+    "27.2009783",
+    "27.2010783",
+    "78.0052771",
+    "78.0053771"
+   ],
+   "category": "amenity",
+   "display_name": "Sanjay Place, NDMIT Agra, Civil Lines, Agra, Uttar Pradesh, 282003, India",
+   "importance": 6.776607919427813e-05,
+   "lat": "27.2010283",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "78.0053271",
+   "name": "Sanjay Place",
+   "osm_id": 2653409112,
+   "osm_type": "node",
+   "place_id": 247101611,
+   "place_rank": 30,
+   "type": "marketplace"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Sarvodaya Nagar, Kanpur, Uttar Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Sarwari, Himachal Pradesh": [
   {
    "address": {
@@ -14670,6 +16421,36 @@
    "type": "city"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Sonbhadra, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "country": "India",
+    "country_code": "in",
+    "state": "Uttar Pradesh",
+    "state_district": "Sonbhadra"
+   },
+   "addresstype": "state_district",
+   "boundingbox": [
+    "23.8706272",
+    "24.9602940",
+    "82.5233169",
+    "83.5481500"
+   ],
+   "category": "boundary",
+   "display_name": "Sonbhadra, Uttar Pradesh, India",
+   "importance": 0.5844630766876819,
+   "lat": "24.4148159",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.0637517",
+   "name": "Sonbhadra",
+   "osm_id": 1959915,
+   "osm_type": "relation",
+   "place_id": 243080629,
+   "place_rank": 10,
+   "type": "administrative"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=South Nalluvazhi, North Parur, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Stadium Square, Baripada-757001, Odisha": [],
  "/search?countrycodes=in&limit=1&q=Sundargarh, Odisha": [
@@ -14861,6 +16642,7 @@
    "type": "administrative"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Tilak Road, Nagar Palika, Deoria, Uttar Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Tripunithura, Kerala": [
   {
    "address": {
@@ -14928,6 +16710,70 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Tulasi Bazar Showroom, New Bus Stand, Kendrapara-754211, Odisha": [],
+ "/search?countrycodes=in&limit=1&q=Tumkur, Karnataka": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-KA",
+    "city": "Tumakuru",
+    "country": "India",
+    "country_code": "in",
+    "county": "Tumkur taluk",
+    "postcode": "572101",
+    "state": "Karnataka",
+    "state_district": "Tumakuru"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "13.1800771",
+    "13.5000771",
+    "76.9406208",
+    "77.2606208"
+   ],
+   "category": "place",
+   "display_name": "Tumakuru, Tumkur taluk, Tumakuru, Karnataka, 572101, India",
+   "importance": 0.5056752449605008,
+   "lat": "13.3400771",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.1006208",
+   "name": "Tumakuru",
+   "osm_id": 571400151,
+   "osm_type": "node",
+   "place_id": 253357626,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=UP Bhawan, Navi Mumbai, Maharashtra": [],
+ "/search?countrycodes=in&limit=1&q=Udupi, Karnataka": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-KA",
+    "country": "India",
+    "country_code": "in",
+    "state": "Karnataka",
+    "state_district": "Udupi"
+   },
+   "addresstype": "state_district",
+   "boundingbox": [
+    "13.0714169",
+    "13.9821515",
+    "74.5826797",
+    "75.2057992"
+   ],
+   "category": "boundary",
+   "display_name": "Udupi, Karnataka, India",
+   "importance": 0.49435896309965616,
+   "lat": "13.5269784",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "74.8731879",
+   "name": "Udupi",
+   "osm_id": 2020529,
+   "osm_type": "relation",
+   "place_id": 252456777,
+   "place_rank": 10,
+   "type": "administrative"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Una, HP, Himachal Pradesh": [
   {
    "address": {
@@ -14992,6 +16838,39 @@
    "type": "town"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Varanasi, Uttar Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-UP",
+    "city": "Varanasi",
+    "country": "India",
+    "country_code": "in",
+    "county": "Sadar",
+    "postcode": "221001",
+    "state": "Uttar Pradesh",
+    "state_district": "Varanasi"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "25.1756491",
+    "25.4956491",
+    "82.8476292",
+    "83.1676292"
+   ],
+   "category": "place",
+   "display_name": "Varanasi, Sadar, Varanasi, Uttar Pradesh, 221001, India",
+   "importance": 0.6205184179981118,
+   "lat": "25.3356491",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.0076292",
+   "name": "Varanasi",
+   "osm_id": 287687798,
+   "osm_type": "node",
+   "place_id": 243067602,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Vatakara, Kerala": [
   {
    "address": {
@@ -15029,6 +16908,12 @@
  "/search?countrycodes=in&limit=1&q=Vijayanthi complex, East nada, Guruvayoor, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Western Market Building, Unit-II, Ashok Nagar, Bhubaneswar-751001, Odisha": [],
  "/search?countrycodes=in&limit=1&q=Zaayo Zuyo, Goa": [],
+ "/search?countrycodes=in&limit=1&q=अल्का होटल कोर्ट रोड, Uttar Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=अल्का होटल कोर्ट रोड, आज़मगढ़, Uttar Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=आज़मगढ़, Uttar Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=गाँधी वाटिका, Uttar Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=गाँधी वाटिका, रुढ़की, Uttar Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=रुढ़की, Uttar Pradesh": [],
  "maplink:https://goo.gl/maps/AiJw1kbrooDavtDZ7": [
   23.3170704,
   85.3227656

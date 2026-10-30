@@ -2,11 +2,17 @@ import datetime
 import json
 import traceback
 
-from . import bhuttico, biswa_bangla, boyanika, cooptex, garvi_gurjari, hanveev, jharcraft, mrignayani, tantuja
+from . import (
+    bhuttico, biswa_bangla, boyanika, cooptex, garvi_gurjari, hanveev, jharcraft, mahahandloom, mrignayani,
+    priyadarshini, tantuja, upica,
+)
 from .common import DATA, SITE, STORES_DIR, session, unique_ids
 from .geocode import Geocoder, locate
 
-SOURCES = [cooptex, hanveev, jharcraft, garvi_gurjari, boyanika, tantuja, biswa_bangla, mrignayani, bhuttico]
+SOURCES = [
+    cooptex, hanveev, jharcraft, garvi_gurjari, boyanika, tantuja, biswa_bangla, mrignayani, bhuttico,
+    priyadarshini, upica, mahahandloom,
+]
 UNVERIFIED_AFTER_DAYS = 14
 KEEP_FROM_PREVIOUS = ("lat", "lng", "geo_source", "district")
 

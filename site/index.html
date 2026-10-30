@@ -275,7 +275,7 @@ function item(s, i, prev) {
     <p class="org">${esc(s.o)}</p>
     <p class="name">${esc(s.n)}</p>
     ${first ? "" : dist}
-    <p class="addr">${esc(s.a)}${here && !stateSel.value && s.d && !s.a.includes(s.d) ? `, ${esc(s.d)}` : ""}</p>
+    <p class="addr">${s.a ? esc(s.a) : "Address not listed. Use Directions to find it on Google Maps."}${here && !stateSel.value && s.d && !s.a.includes(s.d) ? `, ${esc(s.d)}` : ""}</p>
     ${s.h ? `<p class="hours">${esc(s.h)}</p>` : ""}
     ${s.u ? `<p class="hours">Not listed on the organisation's website recently. Call to check it's open.</p>` : ""}
     <div class="actions">

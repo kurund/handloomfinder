@@ -26,6 +26,13 @@ CITY_STATE = {
     "jaipur": "Rajasthan",
     "ahmedabad": "Gujarat",
     "pune": "Maharashtra",
+    "mysore": "Karnataka",
+    "mysuru": "Karnataka",
+    "hubli": "Karnataka",
+    "madurai": "Tamil Nadu",
+    "cuttack": "Odisha",
+    "kukatpally": "Telangana",
+    "mehadipatnam": "Telangana",
 }
 
 STATES = [
@@ -46,6 +53,8 @@ def session():
 def get(s, url, **kwargs):
     r = s.get(url, timeout=30, **kwargs)
     r.raise_for_status()
+    if "charset" not in r.headers.get("content-type", ""):
+        r.encoding = "utf-8"
     time.sleep(1)
     return r
 
@@ -98,14 +107,13 @@ def slug(text):
 
 
 def guess_state(text, default):
+    """The place mentioned last wins, since addresses end with city and state ("Maharashtra Sadan, New Delhi")."""
     lowered = (text or "").lower()
-    for state in STATES:
-        if re.search(rf"(?<![a-z]){state.lower()}(?![a-z])", lowered):
-            return state
-    for city, state in CITY_STATE.items():
-        if re.search(rf"(?<![a-z]){city}(?![a-z])", lowered):
-            return state
-    return default
+    found = []
+    for place, state in [(s.lower(), s) for s in STATES] + list(CITY_STATE.items()):
+        for m in re.finditer(rf"(?<![a-z]){place}(?![a-z])", lowered):
+            found.append((m.end(), state))
+    return max(found)[1] if found else default
 
 
 def record(org, source_id, name, address, state, source_url, source_type, **extra):

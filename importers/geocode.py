@@ -65,7 +65,8 @@ PLACE_TYPES = {"city", "town", "village", "hamlet", "suburb", "neighbourhood", "
                "county", "state_district", "district", "city_district", "postcode"}
 GENERIC = re.compile(
     r"\b(opp|opposite|near|nr|road|rd|street|st|main|highway|junction|jn|building|bldg|complex|bank|co-op|"
-    r"municipal|shop|market|office|premises|regional|floor|emporium|megastore|showroom|agency|ccic|op|cdb)\b\.?",
+    r"municipal|shop|market|office|premises|regional|floor|emporium|megastore|showroom|agency|ccic|op|cdb|"
+    r"handloom|house|mega|silk|celebrations|collectorate)\b\.?",
     re.I,
 )
 
@@ -88,11 +89,14 @@ def km(a, b):
     return 12742 * math.asin(math.sqrt(h))
 
 
-def first_hit(geo, rec, params):
+def first_hit(geo, rec, params, places_only=False):
     hits = geo.search(**params)
-    if hits and hits[0].get("address", {}).get("state", "").lower() == rec["state"].lower():
-        return hits[0]
-    return None
+    if not hits or hits[0].get("address", {}).get("state", "").lower() != rec["state"].lower():
+        return None
+    kind = hits[0].get("addresstype")
+    if kind in ("state", "country", "region") or (places_only and kind not in PLACE_TYPES):
+        return None
+    return hits[0]
 
 
 def in_state(geo, rec):
@@ -109,9 +113,9 @@ def locate(geo, rec):
         rec["lat"], rec["lng"] = coords
         rec["geo_source"] = "maplink"
     else:
-        town = next((h for t in towns(rec) if (h := first_hit(geo, rec, {"q": f"{t}, {rec['state']}"}))), None)
+        town = next((h for t in towns(rec) if (h := first_hit(geo, rec, {"q": f"{t}, {rec['state']}"}, places_only=True))), None)
         anchor = (float(town["lat"]), float(town["lon"])) if town else None
-        candidates = [("address", {"q": f"{rec['address']}, {rec['state']}"}, 15)]
+        candidates = [("address", {"q": f"{rec['address']}, {rec['state']}"}, 15)] if rec["address"] else []
         if rec["pincode"]:
             candidates.append(("pincode", {"postalcode": rec["pincode"], "country": "India"}, 25))
         best = None
