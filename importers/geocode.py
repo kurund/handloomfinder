@@ -57,10 +57,12 @@ class Geocoder:
 
 
 def district_of(address):
-    d = address.get("state_district") or address.get("county") or address.get("city")
+    d = address.get("state_district") or address.get("county") or address.get("city") or address.get("town")
     return re.sub(r"\s+(District|Taluk|Tahsil)$", "", d) if d else None
 
 
+PLACE_TYPES = {"city", "town", "village", "hamlet", "suburb", "neighbourhood", "quarter", "municipality",
+               "county", "state_district", "district", "city_district", "postcode"}
 GENERIC = re.compile(
     r"\b(opp|opposite|near|nr|road|rd|street|st|main|highway|junction|jn|building|bldg|complex|bank|co-op|"
     r"municipal|shop|market|office|premises|regional|floor|emporium|megastore|showroom|agency|ccic|op|cdb)\b\.?",
@@ -93,10 +95,17 @@ def first_hit(geo, rec, params):
     return None
 
 
+def in_state(geo, rec):
+    state = geo.reverse(rec["lat"], rec["lng"]).get("address", {}).get("state")
+    return not state or state.lower() == rec["state"].lower()
+
+
 def locate(geo, rec):
+    if rec["lat"] and rec["geo_source"] != "manual" and not in_state(geo, rec):
+        rec["lat"] = rec["lng"] = rec["geo_source"] = None
     if rec["lat"]:
         rec["geo_source"] = rec["geo_source"] or "official"
-    elif rec.get("map_url") and (coords := geo.map_link(rec["map_url"])):
+    elif rec.get("map_url") and (coords := geo.map_link(rec["map_url"])) and in_state(geo, {**rec, "lat": coords[0], "lng": coords[1]}):
         rec["lat"], rec["lng"] = coords
         rec["geo_source"] = "maplink"
     else:
@@ -115,6 +124,8 @@ def locate(geo, rec):
             best = ("town", town)
         if best:
             precision, hit = best
+            if precision == "address" and hit.get("addresstype") in PLACE_TYPES:
+                precision = "town"
             rec["lat"], rec["lng"] = float(hit["lat"]), float(hit["lon"])
             rec["geo_source"] = f"geocoded-{precision}"
             rec["district"] = rec["district"] or district_of(hit["address"])

@@ -3,7 +3,16 @@
   "cooptex-1693"
  ],
  "patch": {
-  "cooptex-2111": {"state": "Tamil Nadu", "district": "Tirupathur"}
+  "cooptex-2111": {
+   "state": "Tamil Nadu",
+   "district": "Tirupathur"
+  },
+  "boyanika-puri-singhadwar-sd-lion-s-gate-in-front": {
+   "name": "Puri (Lion's Gate)"
+  },
+  "bhuttico-hatithan": {
+   "address": "Hatithan, Kullu, Himachal Pradesh"
+  }
  },
  "district_aliases": {
   "Ntr": "NTR",

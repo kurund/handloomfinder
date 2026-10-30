@@ -2,11 +2,11 @@ import datetime
 import json
 import traceback
 
-from . import cooptex, garvi_gurjari, hanveev, jharcraft
+from . import bhuttico, biswa_bangla, boyanika, cooptex, garvi_gurjari, hanveev, jharcraft, mrignayani, tantuja
 from .common import DATA, SITE, STORES_DIR, session, unique_ids
 from .geocode import Geocoder, locate
 
-SOURCES = [cooptex, hanveev, jharcraft, garvi_gurjari]
+SOURCES = [cooptex, hanveev, jharcraft, garvi_gurjari, boyanika, tantuja, biswa_bangla, mrignayani, bhuttico]
 UNVERIFIED_AFTER_DAYS = 14
 KEEP_FROM_PREVIOUS = ("lat", "lng", "geo_source", "district")
 
@@ -55,7 +55,7 @@ def set_status(r, today):
 def site_record(r, org_names):
     out = {
         "id": r["id"], "o": org_names[r["org"]], "n": r["name"], "a": r["address"],
-        "s": r["state"], "d": r["district"] or "", "lat": r["lat"], "lng": r["lng"], "p": r["phones"],
+        "s": r["state"], "d": r["district"] or "Other", "lat": r["lat"], "lng": r["lng"], "p": r["phones"],
     }
     if r["hours"]:
         out["h"] = r["hours"]

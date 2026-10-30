@@ -1,0 +1,157 @@
+[
+ {
+  "id": "biswa-bangla-new-delhi",
+  "org": "biswa-bangla",
+  "name": "New Delhi",
+  "address": "Baba Kharak Singh Marg near Rajiv Chowk, Opp. PVR Rivoli",
+  "district": "New Delhi",
+  "state": "Delhi",
+  "pincode": null,
+  "lat": 28.631379,
+  "lng": 77.2155753,
+  "geo_source": "maplink",
+  "phones": [
+   "+918336996174"
+  ],
+  "hours": null,
+  "map_url": "https://maps.app.goo.gl/QZ6SXbdk7LhEca2Y9",
+  "source_url": "https://www.artisans.org.in/locations-contact-nos/",
+  "source_type": "html",
+  "status": "open",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "id": "biswa-bangla-darjeeling",
+  "org": "biswa-bangla",
+  "name": "Darjeeling",
+  "address": "17, Nehru Rd, chowrasta, Chauk Bazaar, Darjeeling, West Bengal 734101",
+  "district": "Darjeeling",
+  "state": "West Bengal",
+  "pincode": "734101",
+  "lat": 27.0436605,
+  "lng": 88.267143,
+  "geo_source": "maplink",
+  "phones": [
+   "+918336996173"
+  ],
+  "hours": null,
+  "map_url": "https://maps.app.goo.gl/NREoiWDNhj9skGab6",
+  "source_url": "https://www.artisans.org.in/locations-contact-nos/",
+  "source_type": "html",
+  "status": "open",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "id": "biswa-bangla-dhakuria-dakshinapan",
+  "org": "biswa-bangla",
+  "name": "Dhakuria (Dakshinapan)",
+  "address": "Shop No. 5 & 6, Ground Floor, 2, Gariahat Road (South), Dakshinapan, Kolkata-700068",
+  "district": "Kolkata",
+  "state": "West Bengal",
+  "pincode": "700068",
+  "lat": 22.5089909,
+  "lng": 88.3668241,
+  "geo_source": "maplink",
+  "phones": [
+   "+918336996169"
+  ],
+  "hours": null,
+  "map_url": "https://maps.app.goo.gl/Sdp545DfQJqbPo3o7",
+  "source_url": "https://www.artisans.org.in/locations-contact-nos/",
+  "source_type": "html",
+  "status": "open",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "id": "biswa-bangla-park-street-beside-oxford-bookstore",
+  "org": "biswa-bangla",
+  "name": "Park Street (Beside Oxford Bookstore)",
+  "address": "17, Mother Teresa Sarani, Park Street area, Kolkata, West Bengal 700016",
+  "district": "Kolkata",
+  "state": "West Bengal",
+  "pincode": "700016",
+  "lat": 22.554024,
+  "lng": 88.3518038,
+  "geo_source": "maplink",
+  "phones": [
+   "+918336996171"
+  ],
+  "hours": null,
+  "map_url": "https://maps.app.goo.gl/kkmVWwYoUx3gL3MH9",
+  "source_url": "https://www.artisans.org.in/locations-contact-nos/",
+  "source_type": "html",
+  "status": "open",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "id": "biswa-bangla-city-centre-salt-lake",
+  "org": "biswa-bangla",
+  "name": "City Centre, Salt Lake",
+  "address": "DC Block, Sector 1, Bidhannagar, Kolkata, West Bengal 700064",
+  "district": "North 24 Parganas",
+  "state": "West Bengal",
+  "pincode": "700064",
+  "lat": 22.5885531,
+  "lng": 88.4079695,
+  "geo_source": "maplink",
+  "phones": [
+   "+918336992649"
+  ],
+  "hours": null,
+  "map_url": "https://maps.app.goo.gl/Ao96AZuANixMtrvQ7",
+  "source_url": "https://www.artisans.org.in/locations-contact-nos/",
+  "source_type": "html",
+  "status": "open",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "id": "biswa-bangla-domestic-airport-kolkata",
+  "org": "biswa-bangla",
+  "name": "Domestic Airport, Kolkata",
+  "address": "Netaji Subhash Chandra Bose Domestic Airport, Terminal 2, Security Hold Area, Dumdum, Kolkata-700052",
+  "district": "North 24 Parganas",
+  "state": "West Bengal",
+  "pincode": "700052",
+  "lat": 22.6417999,
+  "lng": 88.4295645,
+  "geo_source": "maplink",
+  "phones": [
+   "+913325118400",
+   "+918336996167"
+  ],
+  "hours": null,
+  "map_url": "https://maps.app.goo.gl/ZMMkQpJNxUhiHs3EA",
+  "source_url": "https://www.artisans.org.in/locations-contact-nos/",
+  "source_type": "html",
+  "status": "open",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "id": "biswa-bangla-mishti-hub-new-town-beside-eco-park",
+  "org": "biswa-bangla",
+  "name": "Mishti Hub, New Town (beside Eco Park)",
+  "address": "Misti Hub, Gate 2, Eco Park, Biswa Bangla Sarani, Action Area I, Newtown, New Town, West Bengal 700156",
+  "district": "North 24 Parganas",
+  "state": "West Bengal",
+  "pincode": "700156",
+  "lat": 22.6073331,
+  "lng": 88.4683638,
+  "geo_source": "maplink",
+  "phones": [
+   "+917890001746"
+  ],
+  "hours": null,
+  "map_url": "https://maps.app.goo.gl/4WLsXgSZSN4vLWze8",
+  "source_url": "https://www.artisans.org.in/locations-contact-nos/",
+  "source_type": "html",
+  "status": "open",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ }
+]
