@@ -15,6 +15,45 @@
   },
   "mahahandloom-maharashtra-sadan": {
    "address": "Maharashtra Sadan, Kasturba Gandhi Marg, New Delhi"
+  },
+  "apco-jagadamba-hlh": {
+   "address": "Jagadamba Junction, Visakhapatnam"
+  },
+  "apco-gopalapatanam": {
+   "address": "Gopalapatnam, Visakhapatnam"
+  },
+  "apco-ukkaunagaram": {
+   "address": "Ukkunagaram, Visakhapatnam"
+  },
+  "apco-vmrda": {
+   "address": "VMRDA, Visakhapatnam"
+  },
+  "apco-bapu-museum": {
+   "address": "Bapu Museum, Vijayawada"
+  },
+  "apco-phool-bhag": {
+   "address": "Phool Baugh, Vizianagaram"
+  },
+  "apco-yerrabalem": {
+   "address": "Yerrabalem, Mangalagiri"
+  },
+  "apco-bangalore-nr-colony": {
+   "address": "NR Colony, Bengaluru"
+  },
+  "apco-jaya-nagar-bangalore": {
+   "address": "Jayanagar, Bengaluru"
+  },
+  "apco-kolkata-maniktala": {
+   "address": "Maniktala, Kolkata"
+  },
+  "apco-pondybazar": {
+   "address": "Pondy Bazaar, T. Nagar, Chennai"
+  },
+  "apco-mehadipatnam": {
+   "address": "Mehdipatnam, Hyderabad"
+  },
+  "apco-eluru-netha-bazaar": {
+   "address": "Netha Bazaar, Eluru"
   }
  },
  "district_aliases": {
@@ -22,6 +61,9 @@
   "Spsr Nellore": "Nellore",
   "Visakhapatanam": "Visakhapatnam",
   "Ahmadabad": "Ahmedabad",
-  "Central": "Central Delhi"
+  "Central": "Central Delhi",
+  "Sri Potti Sri Ramulu Nellore": "Nellore",
+  "Mumbai City": "Mumbai",
+  "Mumbai Suburban": "Mumbai"
  }
 }

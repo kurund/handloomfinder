@@ -8,6 +8,7 @@ Find government and cooperative handloom stores across India. A static site (`si
 - `importers/` - one module per organisation, plus `build.py`, which runs them all, geocodes and writes the data.
 - `data/stores/<org>.json` - the dataset, one file per organisation, with `first_seen`/`last_seen` and `status` per store.
 - `data/overrides.json` - manual corrections applied on every run: `exclude` ids, `patch` fields by id (setting `lat`/`lng` marks the location as manual), `district_aliases`.
+- `data/manual/` - store lists saved by hand from sites that refuse automated requests (currently APCO). Re-save the file to refresh it.
 - `data/geocache.json` - cached OpenStreetMap geocoder responses, so each address is only looked up once.
 - `data/sources.md` - research on which organisations publish store lists and in what format.
 

@@ -9,7 +9,7 @@ Easy = can be imported automatically; Imported = has an importer in `importers/`
 | Co-optex | Tamil Nadu (+14 states) | https://admin.cooptex.com/api/Store/DistrictWiseShops | JSON API | 141 | Name, address, district, coordinates, phones, email | Imported (`cooptex`) |
 | Hanveev | Kerala | https://hanveevs.com/about/shops | HTML cards | 39 | Name, address, phone, hours | Imported (`hanveev`) |
 | Hantex | Kerala | hantex.kerala.gov.in/index.php/store/{kollam,ernakulam,palakkad,kozhikode}-region | HTML per region | ~60-100 | Name, address, phone, hours (from search snippets) | Probably easy, couldn't check |
-| APCO | Andhra Pradesh | https://apcohandlooms.com/wp-json/wp/v2/store?per_page=100 | WP JSON, names only | 54 | Name + photo (address may be in photo) | Not imported: the API returns 403 to our identified importer. Needs permission from APCO or a manual list |
+| APCO | Andhra Pradesh | https://apcohandlooms.com/wp-json/wp/v2/store?per_page=100 | WP JSON, names only | 54 | Name + photo (address may be in photo) | Imported (`apco`) from a hand-saved copy in `data/manual/apco.json`; the API refuses automated requests. Names only, so locations are town-level |
 | KHDC / Priyadarshini | Karnataka | https://priyadarshinihandlooms.in/pages/priyadarshini-showrooms | HTML table | 8 | Address only | Imported (`priyadarshini`) from the Shopify page; gov.in list couldn't be checked |
 | TSCO | Telangana | https://tgsco.co.in/pages/details-of-the-showrooms | HTML | 1 listed (~46 reported in 2018) | Name, phone | Not available |
 | PONTEX | Puducherry | none | - | unknown | - | Not available |

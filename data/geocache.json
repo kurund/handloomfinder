@@ -3445,6 +3445,37 @@
   "place_rank": 14,
   "type": "administrative"
  },
+ "/reverse?lat=13.21612&lon=79.09728&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Chittoor",
+   "country": "India",
+   "country_code": "in",
+   "county": "Chittoor Mandal",
+   "postcode": "517001",
+   "state": "Andhra Pradesh",
+   "state_district": "Chittoor District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "13.0561224",
+   "13.3761224",
+   "78.9372819",
+   "79.2572819"
+  ],
+  "category": "place",
+  "display_name": "Chittoor, Chittoor Mandal, Chittoor District, Andhra Pradesh, 517001, India",
+  "importance": 0.4776681596147317,
+  "lat": "13.2161224",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "79.0972819",
+  "name": "Chittoor",
+  "osm_id": 245619134,
+  "osm_type": "node",
+  "place_id": 251608833,
+  "place_rank": 16,
+  "type": "city"
+ },
  "/reverse?lat=13.34008&lon=77.10062&zoom=10": {
   "address": {
    "ISO3166-2-lvl4": "IN-KA",
@@ -3536,6 +3567,157 @@
   "place_rank": 16,
   "type": "city"
  },
+ "/reverse?lat=13.63164&lon=79.42317&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Tirupati",
+   "country": "India",
+   "country_code": "in",
+   "county": "Tirupati Urban Mandal",
+   "postcode": "517500",
+   "state": "Andhra Pradesh",
+   "state_district": "Tirupati District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "13.4716368",
+   "13.7916368",
+   "79.2631711",
+   "79.5831711"
+  ],
+  "category": "place",
+  "display_name": "Tirupati, Tirupati Urban Mandal, Tirupati District, Andhra Pradesh, 517500, India",
+  "importance": 0.49271680979075044,
+  "lat": "13.6316368",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "79.4231711",
+  "name": "Tirupati",
+  "osm_id": 335868152,
+  "osm_type": "node",
+  "place_id": 251711402,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=13.68682&lon=79.35241&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Tirupati",
+   "country": "India",
+   "country_code": "in",
+   "county": "Tirupati Urban Mandal",
+   "postcode": "517500",
+   "state": "Andhra Pradesh",
+   "state_district": "Tirupati District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "13.4716368",
+   "13.7916368",
+   "79.2631711",
+   "79.5831711"
+  ],
+  "category": "place",
+  "display_name": "Tirupati, Tirupati Urban Mandal, Tirupati District, Andhra Pradesh, 517500, India",
+  "importance": 0.49271680979075044,
+  "lat": "13.6316368",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "79.4231711",
+  "name": "Tirupati",
+  "osm_id": 335868152,
+  "osm_type": "node",
+  "place_id": 251711402,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=14.05552&lon=78.75102&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "country": "India",
+   "country_code": "in",
+   "county": "Rayachoti Mandal",
+   "state": "Andhra Pradesh",
+   "state_district": "Annamayya"
+  },
+  "addresstype": "county",
+  "boundingbox": [
+   "14.0070725",
+   "14.1190340",
+   "78.6062979",
+   "78.8864279"
+  ],
+  "category": "boundary",
+  "display_name": "Rayachoti Mandal, Annamayya, Andhra Pradesh, India",
+  "importance": 0.09078915819201436,
+  "lat": "14.0629873",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "78.7153227",
+  "name": "Rayachoti Mandal",
+  "osm_id": 10219710,
+  "osm_type": "relation",
+  "place_id": 252095727,
+  "place_rank": 12,
+  "type": "administrative"
+ },
+ "/reverse?lat=14.19359&lon=79.15858&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "country": "India",
+   "country_code": "in",
+   "county": "Rajampeta Mandal",
+   "state": "Andhra Pradesh",
+   "state_district": "YSR  Kadapa District"
+  },
+  "addresstype": "county",
+  "boundingbox": [
+   "14.1133737",
+   "14.2825582",
+   "78.9812922",
+   "79.2521202"
+  ],
+  "category": "boundary",
+  "display_name": "Rajampeta Mandal, YSR  Kadapa District, Andhra Pradesh, India",
+  "importance": 0.240039806973373,
+  "lat": "14.1987099",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "79.1110344",
+  "name": "Rajampeta Mandal",
+  "osm_id": 10219666,
+  "osm_type": "relation",
+  "place_id": 251729593,
+  "place_rank": 12,
+  "type": "administrative"
+ },
+ "/reverse?lat=14.44937&lon=79.98738&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Nellore",
+   "country": "India",
+   "country_code": "in",
+   "county": "Nellore Mandal",
+   "postcode": "524001",
+   "state": "Andhra Pradesh",
+   "state_district": "Sri Potti Sri Ramulu Nellore District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "14.2893717",
+   "14.6093717",
+   "79.8273763",
+   "80.1473763"
+  ],
+  "category": "place",
+  "display_name": "Nellore, Nellore Mandal, Sri Potti Sri Ramulu Nellore District, Andhra Pradesh, 524001, India",
+  "importance": 0.49077780366110735,
+  "lat": "14.4493717",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "79.9873763",
+  "name": "Nellore",
+  "osm_id": 1598973198,
+  "osm_type": "node",
+  "place_id": 251617849,
+  "place_rank": 16,
+  "type": "city"
+ },
  "/reverse?lat=14.45686&lon=79.98289&zoom=10": {
   "address": {
    "ISO3166-2-lvl4": "IN-AP",
@@ -3564,6 +3746,68 @@
   "osm_id": 1598973198,
   "osm_type": "node",
   "place_id": 252932500,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=14.47529&lon=78.82169&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Kadapa",
+   "country": "India",
+   "country_code": "in",
+   "county": "Kadapa Mandal",
+   "postcode": "516001",
+   "state": "Andhra Pradesh",
+   "state_district": "YSR  Kadapa District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "14.3152936",
+   "14.6352936",
+   "78.6616861",
+   "78.9816861"
+  ],
+  "category": "place",
+  "display_name": "Kadapa, Kadapa Mandal, YSR  Kadapa District, Andhra Pradesh, 516001, India",
+  "importance": 0.46663859559773935,
+  "lat": "14.4752936",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "78.8216861",
+  "name": "Kadapa",
+  "osm_id": 2476343447,
+  "osm_type": "node",
+  "place_id": 252772643,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=14.67832&lon=77.6065&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Anantapur",
+   "country": "India",
+   "country_code": "in",
+   "county": "Anantapur Mandal",
+   "postcode": "515001",
+   "state": "Andhra Pradesh",
+   "state_district": "Anantapuramu District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "14.5183221",
+   "14.8383221",
+   "77.4465039",
+   "77.7665039"
+  ],
+  "category": "place",
+  "display_name": "Anantapur, Anantapur Mandal, Anantapuramu District, Andhra Pradesh, 515001, India",
+  "importance": 0.4786403716328095,
+  "lat": "14.6783221",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "77.6065039",
+  "name": "Anantapur",
+  "osm_id": 603465222,
+  "osm_type": "node",
+  "place_id": 250111590,
   "place_rank": 16,
   "type": "city"
  },
@@ -3627,6 +3871,35 @@
   "place_rank": 12,
   "type": "administrative"
  },
+ "/reverse?lat=15.47363&lon=78.48066&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "country": "India",
+   "country_code": "in",
+   "county": "Nandyal Mandal",
+   "state": "Andhra Pradesh",
+   "state_district": "Nandyal District"
+  },
+  "addresstype": "county",
+  "boundingbox": [
+   "15.3731293",
+   "15.5742206",
+   "78.3720231",
+   "78.5476005"
+  ],
+  "category": "boundary",
+  "display_name": "Nandyal Mandal, Nandyal District, Andhra Pradesh, India",
+  "importance": 0.240047514305333,
+  "lat": "15.4748109",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "78.4784996",
+  "name": "Nandyal Mandal",
+  "osm_id": 10179228,
+  "osm_type": "relation",
+  "place_id": 251562636,
+  "place_rank": 12,
+  "type": "administrative"
+ },
  "/reverse?lat=15.49899&lon=73.82821&zoom=10": {
   "address": {
    "ISO3166-2-lvl4": "IN-GA",
@@ -3658,6 +3931,98 @@
   "place_rank": 16,
   "type": "administrative"
  },
+ "/reverse?lat=15.50587&lon=80.04995&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Ongole",
+   "country": "India",
+   "country_code": "in",
+   "county": "Ongole Mandal",
+   "postcode": "523002",
+   "state": "Andhra Pradesh",
+   "state_district": "Prakasam District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "15.3458714",
+   "15.6658714",
+   "79.8899454",
+   "80.2099454"
+  ],
+  "category": "place",
+  "display_name": "Ongole, Ongole Mandal, Prakasam District, Andhra Pradesh, 523002, India",
+  "importance": 0.42626276740710034,
+  "lat": "15.5058714",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "80.0499454",
+  "name": "Ongole",
+  "osm_id": 3999505428,
+  "osm_type": "node",
+  "place_id": 251519125,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=15.7681&lon=77.4819&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "country": "India",
+   "country_code": "in",
+   "county": "Yemmiganur Mandal",
+   "postcode": "518360",
+   "state": "Andhra Pradesh",
+   "state_district": "Kurnool District"
+  },
+  "addresstype": "county",
+  "boundingbox": [
+   "15.6509532",
+   "15.8399339",
+   "77.3480844",
+   "77.6258078"
+  ],
+  "category": "boundary",
+  "display_name": "Yemmiganur Mandal, Kurnool District, Andhra Pradesh, 518360, India",
+  "importance": 0.24004000076295107,
+  "lat": "15.7454966",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "77.5110453",
+  "name": "Yemmiganur Mandal",
+  "osm_id": 10181060,
+  "osm_type": "relation",
+  "place_id": 251980788,
+  "place_rank": 12,
+  "type": "administrative"
+ },
+ "/reverse?lat=15.83093&lon=78.04254&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Kurnool",
+   "country": "India",
+   "country_code": "in",
+   "county": "Kurnool Mandal",
+   "postcode": "518001",
+   "state": "Andhra Pradesh",
+   "state_district": "Kurnool District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "15.6709251",
+   "15.9909251",
+   "77.8825373",
+   "78.2025373"
+  ],
+  "category": "place",
+  "display_name": "Kurnool, Kurnool Mandal, Kurnool District, Andhra Pradesh, 518001, India",
+  "importance": 0.5102980478439053,
+  "lat": "15.8309251",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "78.0425373",
+  "name": "Kurnool",
+  "osm_id": 603465549,
+  "osm_type": "node",
+  "place_id": 252517624,
+  "place_rank": 16,
+  "type": "city"
+ },
  "/reverse?lat=16.18139&lon=81.13081&zoom=10": {
   "address": {
    "ISO3166-2-lvl4": "IN-AP",
@@ -3686,6 +4051,68 @@
   "osm_id": 3478288118,
   "osm_type": "node",
   "place_id": 247880757,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=16.18174&lon=81.13482&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Machilipatnam",
+   "country": "India",
+   "country_code": "in",
+   "county": "Machilipatnam Mandal",
+   "postcode": "521001",
+   "state": "Andhra Pradesh",
+   "state_district": "Krishna District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "16.0217369",
+   "16.3417369",
+   "80.9748181",
+   "81.2948181"
+  ],
+  "category": "place",
+  "display_name": "Machilipatnam, Machilipatnam Mandal, Krishna District, Andhra Pradesh, 521001, India",
+  "importance": 0.48321429049130216,
+  "lat": "16.1817369",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "81.1348181",
+  "name": "Machilipatnam",
+  "osm_id": 3478288118,
+  "osm_type": "node",
+  "place_id": 246744452,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=16.29152&lon=80.45416&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Guntur",
+   "country": "India",
+   "country_code": "in",
+   "county": "Guntur Mandal",
+   "postcode": "522001",
+   "state": "Andhra Pradesh",
+   "state_district": "Guntur District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "16.1315189",
+   "16.4515189",
+   "80.2941588",
+   "80.6141588"
+  ],
+  "category": "place",
+  "display_name": "Guntur, Guntur Mandal, Guntur District, Andhra Pradesh, 522001, India",
+  "importance": 0.5110243828395411,
+  "lat": "16.2915189",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "80.4541588",
+  "name": "Guntur",
+  "osm_id": 571469929,
+  "osm_type": "node",
+  "place_id": 250500676,
   "place_rank": 16,
   "type": "city"
  },
@@ -3720,6 +4147,66 @@
   "place_rank": 16,
   "type": "city"
  },
+ "/reverse?lat=16.43304&lon=80.99369&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "country": "India",
+   "country_code": "in",
+   "county": "Gudivada Mandal",
+   "state": "Andhra Pradesh",
+   "state_district": "Krishna District"
+  },
+  "addresstype": "county",
+  "boundingbox": [
+   "16.3764843",
+   "16.4965834",
+   "80.9448302",
+   "81.0937155"
+  ],
+  "category": "boundary",
+  "display_name": "Gudivada Mandal, Krishna District, Andhra Pradesh, India",
+  "importance": 0.22898814784265079,
+  "lat": "16.4365442",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "81.0098328",
+  "name": "Gudivada Mandal",
+  "osm_id": 10154525,
+  "osm_type": "relation",
+  "place_id": 249387745,
+  "place_rank": 12,
+  "type": "administrative"
+ },
+ "/reverse?lat=16.51153&lon=80.61605&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Vijayawada",
+   "country": "India",
+   "country_code": "in",
+   "county": "Vijayawada Urban Mandal",
+   "postcode": "520001",
+   "state": "Andhra Pradesh",
+   "state_district": "NTR District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "16.3515306",
+   "16.6715306",
+   "80.4560469",
+   "80.7760469"
+  ],
+  "category": "place",
+  "display_name": "Vijayawada, Vijayawada Urban Mandal, NTR District, Andhra Pradesh, 520001, India",
+  "importance": 0.5285884133840678,
+  "lat": "16.5115306",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "80.6160469",
+  "name": "Vijayawada",
+  "osm_id": 1880441437,
+  "osm_type": "node",
+  "place_id": 249530603,
+  "place_rank": 16,
+  "type": "city"
+ },
  "/reverse?lat=16.51383&lon=80.62858&zoom=10": {
   "address": {
    "ISO3166-2-lvl4": "IN-AP",
@@ -3750,6 +4237,216 @@
   "place_id": 247955890,
   "place_rank": 16,
   "type": "city"
+ },
+ "/reverse?lat=16.51799&lon=81.72533&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "country": "India",
+   "country_code": "in",
+   "county": "Palakollu Mandal",
+   "state": "Andhra Pradesh",
+   "state_district": "West Godavari District"
+  },
+  "addresstype": "county",
+  "boundingbox": [
+   "16.4709768",
+   "16.5874083",
+   "81.6356277",
+   "81.7505141"
+  ],
+  "category": "boundary",
+  "display_name": "Palakollu Mandal, West Godavari District, Andhra Pradesh, India",
+  "importance": 0.07194870560319186,
+  "lat": "16.5291705",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "81.6883608",
+  "name": "Palakollu Mandal",
+  "osm_id": 10143914,
+  "osm_type": "relation",
+  "place_id": 249744596,
+  "place_rank": 12,
+  "type": "administrative"
+ },
+ "/reverse?lat=16.54277&lon=81.52734&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "country": "India",
+   "country_code": "in",
+   "county": "Bhimavaram Mandal",
+   "state": "Andhra Pradesh",
+   "state_district": "West Godavari District"
+  },
+  "addresstype": "county",
+  "boundingbox": [
+   "16.3920167",
+   "16.5718093",
+   "81.4274776",
+   "81.6017246"
+  ],
+  "category": "boundary",
+  "display_name": "Bhimavaram Mandal, West Godavari District, Andhra Pradesh, India",
+  "importance": 0.1773516541617975,
+  "lat": "16.4818104",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "81.5329358",
+  "name": "Bhimavaram Mandal",
+  "osm_id": 10143910,
+  "osm_type": "relation",
+  "place_id": 249403080,
+  "place_rank": 12,
+  "type": "administrative"
+ },
+ "/reverse?lat=16.57772&lon=82.00326&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "country": "India",
+   "country_code": "in",
+   "county": "Amalapuram Mandal",
+   "state": "Andhra Pradesh",
+   "state_district": "Dr. B.R. Ambedkar Konaseema District"
+  },
+  "addresstype": "county",
+  "boundingbox": [
+   "16.5323548",
+   "16.6246577",
+   "81.9499182",
+   "82.0651567"
+  ],
+  "category": "boundary",
+  "display_name": "Amalapuram Mandal, Dr. B.R. Ambedkar Konaseema District, Andhra Pradesh, India",
+  "importance": 0.10540294855860563,
+  "lat": "16.5787812",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "82.0015097",
+  "name": "Amalapuram Mandal",
+  "osm_id": 10141257,
+  "osm_type": "relation",
+  "place_id": 246812196,
+  "place_rank": 12,
+  "type": "administrative"
+ },
+ "/reverse?lat=16.71043&lon=81.11538&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Eluru",
+   "country": "India",
+   "country_code": "in",
+   "county": "Eluru Mandal",
+   "postcode": "534001",
+   "state": "Andhra Pradesh",
+   "state_district": "Eluru District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "16.5504257",
+   "16.8704257",
+   "80.9553816",
+   "81.2753816"
+  ],
+  "category": "place",
+  "display_name": "Eluru, Eluru Mandal, Eluru District, Andhra Pradesh, 534001, India",
+  "importance": 0.4446870948506422,
+  "lat": "16.7104257",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "81.1153816",
+  "name": "Eluru",
+  "osm_id": 571470318,
+  "osm_type": "node",
+  "place_id": 250577669,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=16.94374&lon=82.23506&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Kakinada",
+   "country": "India",
+   "country_code": "in",
+   "county": "Kakinada Urban Mandal",
+   "postcode": "533001",
+   "state": "Andhra Pradesh",
+   "state_district": "Kakinada District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "16.7837385",
+   "17.1037385",
+   "82.0750607",
+   "82.3950607"
+  ],
+  "category": "place",
+  "display_name": "Kakinada, Kakinada Urban Mandal, Kakinada District, Andhra Pradesh, 533001, India",
+  "importance": 0.45039779319602985,
+  "lat": "16.9437385",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "82.2350607",
+  "name": "Kakinada",
+  "osm_id": 3665399128,
+  "osm_type": "node",
+  "place_id": 250052839,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=17.00505&lon=81.78047&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Rajamahendravaram",
+   "country": "India",
+   "country_code": "in",
+   "county": "Rajamahendravaram Urban Mandal",
+   "postcode": "533100",
+   "state": "Andhra Pradesh",
+   "state_district": "East Godavari District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "16.8450454",
+   "17.1650454",
+   "81.6204732",
+   "81.9404732"
+  ],
+  "category": "place",
+  "display_name": "Rajamahendravaram, Rajamahendravaram Urban Mandal, East Godavari District, Andhra Pradesh, 533100, India",
+  "importance": 0.48280394745620453,
+  "lat": "17.0050454",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "81.7804732",
+  "name": "Rajamahendravaram",
+  "osm_id": 2408119848,
+  "osm_type": "node",
+  "place_id": 250105311,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=17.25816&lon=81.85085&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "country": "India",
+   "country_code": "in",
+   "county": "Gokavaram Mandal",
+   "postcode": "533286",
+   "state": "Andhra Pradesh",
+   "state_district": "East Godavari District"
+  },
+  "addresstype": "county",
+  "boundingbox": [
+   "17.1886727",
+   "17.3185107",
+   "81.7729032",
+   "82.0393002"
+  ],
+  "category": "boundary",
+  "display_name": "Gokavaram Mandal, East Godavari District, Andhra Pradesh, 533286, India",
+  "importance": 0.38037835405938786,
+  "lat": "17.2533675",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "81.8850966",
+  "name": "Gokavaram Mandal",
+  "osm_id": 10138864,
+  "osm_type": "relation",
+  "place_id": 249452183,
+  "place_rank": 12,
+  "type": "administrative"
  },
  "/reverse?lat=17.36059&lon=78.47406&zoom=10": {
   "address": {
@@ -3901,6 +4598,67 @@
   "place_rank": 16,
   "type": "administrative"
  },
+ "/reverse?lat=17.49308&lon=78.40544&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-TS",
+   "city": "Hyderabad",
+   "country": "India",
+   "country_code": "in",
+   "county": "Bahadurpura mandal",
+   "state": "Telangana",
+   "state_district": "Hyderabad"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "17.2916377",
+   "17.5608321",
+   "78.2387067",
+   "78.6223912"
+  ],
+  "category": "boundary",
+  "display_name": "Hyderabad, Bahadurpura mandal, Hyderabad, Telangana, India",
+  "importance": 0.6445777068319916,
+  "lat": "17.3605890",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "78.4740613",
+  "name": "Hyderabad",
+  "osm_id": 7868535,
+  "osm_type": "relation",
+  "place_id": 250086182,
+  "place_rank": 16,
+  "type": "administrative"
+ },
+ "/reverse?lat=17.69355&lon=83.29213&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Visakhapatnam",
+   "country": "India",
+   "country_code": "in",
+   "county": "Visakhapatnam Urban Mandal",
+   "postcode": "530001",
+   "state": "Andhra Pradesh",
+   "state_district": "Visakhapatnam District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "17.5335526",
+   "17.8535526",
+   "83.1321297",
+   "83.4521297"
+  ],
+  "category": "place",
+  "display_name": "Visakhapatnam, Visakhapatnam Urban Mandal, Visakhapatnam District, Andhra Pradesh, 530001, India",
+  "importance": 0.5591309286790601,
+  "lat": "17.6935526",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "83.2921297",
+  "name": "Visakhapatnam",
+  "osm_id": 245641840,
+  "osm_type": "node",
+  "place_id": 250641650,
+  "place_rank": 16,
+  "type": "city"
+ },
  "/reverse?lat=17.70947&lon=83.30031&zoom=10": {
   "address": {
    "ISO3166-2-lvl4": "IN-AP",
@@ -3929,6 +4687,37 @@
   "osm_id": 245641840,
   "osm_type": "node",
   "place_id": 249651049,
+  "place_rank": 16,
+  "type": "city"
+ },
+ "/reverse?lat=18.29493&lon=83.89388&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "city": "Srikakulam",
+   "country": "India",
+   "country_code": "in",
+   "county": "Srikakulam Mandal",
+   "postcode": "532001",
+   "state": "Andhra Pradesh",
+   "state_district": "Srikakulam District"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "18.1349307",
+   "18.4549307",
+   "83.7338844",
+   "84.0538844"
+  ],
+  "category": "place",
+  "display_name": "Srikakulam, Srikakulam Mandal, Srikakulam District, Andhra Pradesh, 532001, India",
+  "importance": 0.47141288733854275,
+  "lat": "18.2949307",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "83.8938844",
+  "name": "Srikakulam",
+  "osm_id": 245644077,
+  "osm_type": "node",
+  "place_id": 250116586,
   "place_rank": 16,
   "type": "city"
  },
@@ -4080,6 +4869,35 @@
   "osm_id": 10117116,
   "osm_type": "relation",
   "place_id": 250327483,
+  "place_rank": 12,
+  "type": "administrative"
+ },
+ "/reverse?lat=18.78319&lon=83.42788&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-AP",
+   "country": "India",
+   "country_code": "in",
+   "county": "Parvathipuram Mandal",
+   "state": "Andhra Pradesh",
+   "state_district": "Parvathipuram Manyam District"
+  },
+  "addresstype": "county",
+  "boundingbox": [
+   "18.6879397",
+   "18.8440046",
+   "83.2223904",
+   "83.4750330"
+  ],
+  "category": "boundary",
+  "display_name": "Parvathipuram Mandal, Parvathipuram Manyam District, Andhra Pradesh, India",
+  "importance": 0.24004259327077132,
+  "lat": "18.7658937",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "83.3723354",
+  "name": "Parvathipuram Mandal",
+  "osm_id": 10132241,
+  "osm_type": "relation",
+  "place_id": 250591374,
   "place_rank": 12,
   "type": "administrative"
  },
@@ -4730,6 +5548,37 @@
   "place_id": 251401178,
   "place_rank": 12,
   "type": "administrative"
+ },
+ "/reverse?lat=20.4686&lon=85.8792&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-OD",
+   "city": "Cuttack",
+   "country": "India",
+   "country_code": "in",
+   "county": "Cuttack (M.Corp.) P.S",
+   "postcode": "753001",
+   "state": "Odisha",
+   "state_district": "Cuttack"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "20.3086000",
+   "20.6286000",
+   "85.7192000",
+   "86.0392000"
+  ],
+  "category": "place",
+  "display_name": "Cuttack, Cuttack (M.Corp.) P.S, Cuttack, Odisha, 753001, India",
+  "importance": 0.5246462001514143,
+  "lat": "20.4686000",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "85.8792000",
+  "name": "Cuttack",
+  "osm_id": 245688972,
+  "osm_type": "node",
+  "place_id": 248775720,
+  "place_rank": 16,
+  "type": "city"
  },
  "/reverse?lat=20.46921&lon=85.993&zoom=10": {
   "address": {
@@ -9794,6 +10643,36 @@
   "place_rank": 16,
   "type": "administrative"
  },
+ "/reverse?lat=9.92612&lon=78.1141&zoom=10": {
+  "address": {
+   "ISO3166-2-lvl4": "IN-TN",
+   "city": "Madurai",
+   "country": "India",
+   "country_code": "in",
+   "county": "Madurai South",
+   "state": "Tamil Nadu",
+   "state_district": "Madurai"
+  },
+  "addresstype": "city",
+  "boundingbox": [
+   "9.8245041",
+   "9.9933722",
+   "78.0155927",
+   "78.2030091"
+  ],
+  "category": "boundary",
+  "display_name": "Madurai, Madurai South, Madurai, Tamil Nadu, India",
+  "importance": 0.5855094255620709,
+  "lat": "9.9261153",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "lon": "78.1140983",
+  "name": "Madurai",
+  "osm_id": 11268397,
+  "osm_type": "relation",
+  "place_id": 253519548,
+  "place_rank": 16,
+  "type": "administrative"
+ },
  "/reverse?lat=9.93&lon=78.13025&zoom=10": {
   "address": {
    "ISO3166-2-lvl4": "IN-TN",
@@ -11566,6 +12445,40 @@
    "type": "station"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Amalapuram, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Amalapuram Mandal",
+    "postcode": "533201",
+    "state": "Andhra Pradesh",
+    "state_district": "Dr. B.R. Ambedkar Konaseema District",
+    "town": "Amalapuram"
+   },
+   "addresstype": "town",
+   "boundingbox": [
+    "16.5377179",
+    "16.6177179",
+    "81.9632621",
+    "82.0432621"
+   ],
+   "category": "place",
+   "display_name": "Amalapuram, Amalapuram Mandal, Dr. B.R. Ambedkar Konaseema District, Andhra Pradesh, 533201, India",
+   "importance": 0.36315663276805743,
+   "lat": "16.5777179",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "82.0032621",
+   "name": "Amalapuram",
+   "osm_id": 2857106989,
+   "osm_type": "node",
+   "place_id": 250035271,
+   "place_rank": 18,
+   "type": "town"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Amaravathi Eluru Vijayawada, Andhra Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Ambika building, Vatakara, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Anand, Gujarat": [
   {
@@ -11595,6 +12508,39 @@
    "place_id": 247432209,
    "place_rank": 10,
    "type": "administrative"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Anantapur, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Anantapur",
+    "country": "India",
+    "country_code": "in",
+    "county": "Anantapur Mandal",
+    "postcode": "515001",
+    "state": "Andhra Pradesh",
+    "state_district": "Anantapuramu District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "14.5183221",
+    "14.8383221",
+    "77.4465039",
+    "77.7665039"
+   ],
+   "category": "place",
+   "display_name": "Anantapur, Anantapur Mandal, Anantapuramu District, Andhra Pradesh, 515001, India",
+   "importance": 0.4786403716328095,
+   "lat": "14.6783221",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.6065039",
+   "name": "Anantapur",
+   "osm_id": 603465222,
+   "osm_type": "node",
+   "place_id": 251462360,
+   "place_rank": 16,
+   "type": "city"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Angamali, Kerala": [
@@ -11770,6 +12716,44 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Baliga Orchid, Vidya Samudra Marga, Udupi, Karnataka": [],
+ "/search?countrycodes=in&limit=1&q=Bangalore Colony, Karnataka": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-KA",
+    "amenity": "Karnataka Bank",
+    "city": "Bengaluru",
+    "city_district": "Bengaluru East City Corporation",
+    "country": "India",
+    "country_code": "in",
+    "county": "Bangalore East",
+    "neighbourhood": "Nanjappa Garden",
+    "postcode": "560043",
+    "road": "Outer Ring Road",
+    "state": "Karnataka",
+    "state_district": "Bengaluru Urban",
+    "suburb": "Babusab Palya"
+   },
+   "addresstype": "amenity",
+   "boundingbox": [
+    "13.0218007",
+    "13.0219007",
+    "77.6501401",
+    "77.6502401"
+   ],
+   "category": "amenity",
+   "display_name": "Karnataka Bank, Outer Ring Road, Nanjappa Garden, Babusab Palya, Bengaluru East City Corporation, Bengaluru, Bangalore East, Bengaluru Urban, Karnataka, 560043, India",
+   "importance": 7.094453345536e-05,
+   "lat": "13.0218507",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.6501901",
+   "name": "Karnataka Bank",
+   "osm_id": 595308644,
+   "osm_type": "node",
+   "place_id": 252458234,
+   "place_rank": 30,
+   "type": "bank"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Bangalore, Karnataka": [
   {
    "address": {
@@ -11866,6 +12850,80 @@
    "type": "administrative"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Bapu Museum, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Vijayawada",
+    "country": "India",
+    "country_code": "in",
+    "county": "Vijayawada Urban Mandal",
+    "postcode": "520001",
+    "residential": "Vijayawada Urban",
+    "road": "Museum Road",
+    "state": "Andhra Pradesh",
+    "state_district": "NTR District",
+    "suburb": "Krishna Lanka",
+    "tourism": "Bapu Museum"
+   },
+   "addresstype": "tourism",
+   "boundingbox": [
+    "16.5079508",
+    "16.5080508",
+    "80.6275090",
+    "80.6276090"
+   ],
+   "category": "tourism",
+   "display_name": "Bapu Museum, Museum Road, Vijayawada Urban, Krishna Lanka, Vijayawada, Vijayawada Urban Mandal, NTR District, Andhra Pradesh, 520001, India",
+   "importance": 0.13618373728802152,
+   "lat": "16.5080008",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.6275590",
+   "name": "Bapu Museum",
+   "osm_id": 6249490985,
+   "osm_type": "node",
+   "place_id": 249623532,
+   "place_rank": 30,
+   "type": "museum"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Bapu Museum, Vijayawada, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Vijayawada",
+    "country": "India",
+    "country_code": "in",
+    "county": "Vijayawada Urban Mandal",
+    "postcode": "520001",
+    "residential": "Vijayawada Urban",
+    "road": "Museum Road",
+    "state": "Andhra Pradesh",
+    "state_district": "NTR District",
+    "suburb": "Krishna Lanka",
+    "tourism": "Bapu Museum"
+   },
+   "addresstype": "tourism",
+   "boundingbox": [
+    "16.5079508",
+    "16.5080508",
+    "80.6275090",
+    "80.6276090"
+   ],
+   "category": "tourism",
+   "display_name": "Bapu Museum, Museum Road, Vijayawada Urban, Krishna Lanka, Vijayawada, Vijayawada Urban Mandal, NTR District, Andhra Pradesh, 520001, India",
+   "importance": 0.13618373728802152,
+   "lat": "16.5080008",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.6275590",
+   "name": "Bapu Museum",
+   "osm_id": 6249490985,
+   "osm_type": "node",
+   "place_id": 249904059,
+   "place_rank": 30,
+   "type": "museum"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Baripada, Odisha": [
   {
    "address": {
@@ -11930,6 +12988,38 @@
    "place_id": 247710328,
    "place_rank": 16,
    "type": "city"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Bengaluru, Karnataka": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-KA",
+    "city": "Bengaluru",
+    "country": "India",
+    "country_code": "in",
+    "county": "Bangalore North",
+    "state": "Karnataka",
+    "state_district": "Bengaluru Urban"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "12.8334905",
+    "13.1426196",
+    "77.4598797",
+    "77.7840639"
+   ],
+   "category": "boundary",
+   "display_name": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India",
+   "importance": 0.6364646632219508,
+   "lat": "12.9767936",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.5900820",
+   "name": "Bengaluru",
+   "osm_id": 7902476,
+   "osm_type": "relation",
+   "place_id": 249224760,
+   "place_rank": 14,
+   "type": "administrative"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Berhampur, Odisha": [
@@ -12058,6 +13148,39 @@
    "place_id": 248779100,
    "place_rank": 16,
    "type": "city"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Bhimavaram, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Bhimavaram Mandal",
+    "postcode": "534200",
+    "state": "Andhra Pradesh",
+    "state_district": "West Godavari District",
+    "town": "Bhimavaram"
+   },
+   "addresstype": "town",
+   "boundingbox": [
+    "16.5027689",
+    "16.5827689",
+    "81.4873440",
+    "81.5673440"
+   ],
+   "category": "place",
+   "display_name": "Bhimavaram, Bhimavaram Mandal, West Godavari District, Andhra Pradesh, 534200, India",
+   "importance": 0.16004659571221483,
+   "lat": "16.5427689",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "81.5273440",
+   "name": "Bhimavaram",
+   "osm_id": 245636751,
+   "osm_type": "node",
+   "place_id": 418457385,
+   "place_rank": 18,
+   "type": "town"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Bhopal, Madhya Pradesh": [
@@ -12263,6 +13386,41 @@
  "/search?countrycodes=in&limit=1&q=C.I.T. Complex, 2 Garihat Road (South), Kolkata, West Bengal": [],
  "/search?countrycodes=in&limit=1&q=CENTRAL POINT BUILDING 28/2 SHAKESPEARE SARANI GROUND FLOOR KOLKATA WEST (THEATER ROAD), BENGAL 700017, West Bengal": [],
  "/search?countrycodes=in&limit=1&q=CIT Complex, Dakshinapan, Jodhapur Park, Dhakuria, Kolkata-70068, West Bengal": [],
+ "/search?countrycodes=in&limit=1&q=CIT Kolkata, West Bengal": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-WB",
+    "city": "Kolkata",
+    "country": "India",
+    "country_code": "in",
+    "municipality": "Greater Kolkata",
+    "postcode": "700054",
+    "road": "CIT Road",
+    "state": "West Bengal",
+    "state_district": "Kolkata",
+    "suburb": "Maniktala"
+   },
+   "addresstype": "primary",
+   "boundingbox": [
+    "22.5802872",
+    "22.5838979",
+    "88.3906547",
+    "88.3916176"
+   ],
+   "category": "highway",
+   "display_name": "CIT Road, Maniktala, Kolkata, Greater Kolkata, Kolkata, West Bengal, 700054, India",
+   "importance": 0.05340673762111845,
+   "lat": "22.5820935",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "88.3911324",
+   "name": "CIT Road",
+   "osm_id": 1196027694,
+   "osm_type": "way",
+   "place_id": 250522206,
+   "place_rank": 26,
+   "type": "primary"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Center Point, Panchavati Society, Gulbai Tekra, Ahmedabad, Gujarat 380009, Gujarat": [],
  "/search?countrycodes=in&limit=1&q=Chalakkudi, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Chalakkudy, Kerala": [
@@ -12430,6 +13588,39 @@
    "place_id": 262512414,
    "place_rank": 19,
    "type": "village"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Chittoor, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Chittoor",
+    "country": "India",
+    "country_code": "in",
+    "county": "Chittoor Mandal",
+    "postcode": "517001",
+    "state": "Andhra Pradesh",
+    "state_district": "Chittoor District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "13.0561224",
+    "13.3761224",
+    "78.9372819",
+    "79.2572819"
+   ],
+   "category": "place",
+   "display_name": "Chittoor, Chittoor Mandal, Chittoor District, Andhra Pradesh, 517001, India",
+   "importance": 0.4776681596147317,
+   "lat": "13.2161224",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "79.0972819",
+   "name": "Chittoor",
+   "osm_id": 245619134,
+   "osm_type": "node",
+   "place_id": 251608833,
+   "place_rank": 16,
+   "type": "city"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Cinema Bazar, Motiganj, Balasore-756003, Odisha": [],
@@ -12831,6 +14022,41 @@
  ],
  "/search?countrycodes=in&limit=1&q=Diamond Dairy Complex, Udaiganj, Lucknow, Uttar Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Edachery Complex, T B Junction, Near Civil Station, Angamali, Kerala": [],
+ "/search?countrycodes=in&limit=1&q=Eluru Netha Bazaar, Andhra Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=Eluru Netha, Andhra Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=Eluru, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Eluru",
+    "country": "India",
+    "country_code": "in",
+    "county": "Eluru Mandal",
+    "postcode": "534001",
+    "state": "Andhra Pradesh",
+    "state_district": "Eluru District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "16.5504257",
+    "16.8704257",
+    "80.9553816",
+    "81.2753816"
+   ],
+   "category": "place",
+   "display_name": "Eluru, Eluru Mandal, Eluru District, Andhra Pradesh, 534001, India",
+   "importance": 0.4446870948506422,
+   "lat": "16.7104257",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "81.1153816",
+   "name": "Eluru",
+   "osm_id": 571470318,
+   "osm_type": "node",
+   "place_id": 249945902,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Emporium, Sanjay Place, Agra, Uttar Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Ernakulam, Kerala": [
   {
@@ -12866,6 +14092,7 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Exclusive, Boyana Bhawan, PJN Marg, Unit-III, Kharavela Nagar, Bhubaneswar-751001, Odisha": [],
+ "/search?countrycodes=in&limit=1&q=Fort Gate, Andhra Pradesh": [],
  "/search?countrycodes=in&limit=1&q=G-1, Ekta Mall, Near Statue of Unity Kevadia, Gujarat": [],
  "/search?countrycodes=in&limit=1&q=Gandhi Chhak, Nabarangpur-764059, Odisha": [],
  "/search?countrycodes=in&limit=1&q=Gandhi Vatika, Roorkee, Uttarakhand, Uttarakhand": [],
@@ -13030,8 +14257,75 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Godaulia, Varanasi, Uttar Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=Gokavaram, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Gokavaram Mandal",
+    "postcode": "533286",
+    "state": "Andhra Pradesh",
+    "state_district": "East Godavari District",
+    "village": "Gokavaram"
+   },
+   "addresstype": "village",
+   "boundingbox": [
+    "17.2381608",
+    "17.2781608",
+    "81.8308458",
+    "81.8708458"
+   ],
+   "category": "place",
+   "display_name": "Gokavaram, Gokavaram Mandal, East Godavari District, Andhra Pradesh, 533286, India",
+   "importance": 0.19619210675062,
+   "lat": "17.2581608",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "81.8508458",
+   "name": "Gokavaram",
+   "osm_id": 3317027330,
+   "osm_type": "node",
+   "place_id": 418388652,
+   "place_rank": 19,
+   "type": "village"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Golden Jubilee Municipal shopping complex, Thiruvalla, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Gopabandhu Marg, Rayagada-765001, Odisha": [],
+ "/search?countrycodes=in&limit=1&q=Gopalapatanam, Andhra Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=Gopalapatnam, Visakhapatnam, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Visakhapatnam Rural Mandal",
+    "postcode": "530027",
+    "state": "Andhra Pradesh",
+    "state_district": "Visakhapatnam District",
+    "town": "Gopalapatnam"
+   },
+   "addresstype": "town",
+   "boundingbox": [
+    "17.7083718",
+    "17.7883718",
+    "83.1800109",
+    "83.2600109"
+   ],
+   "category": "place",
+   "display_name": "Gopalapatnam, Visakhapatnam Rural Mandal, Visakhapatnam District, Andhra Pradesh, 530027, India",
+   "importance": 0.3263790596244939,
+   "lat": "17.7483718",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.2200109",
+   "name": "Gopalapatnam",
+   "osm_id": 3110447581,
+   "osm_type": "node",
+   "place_id": 251511378,
+   "place_rank": 18,
+   "type": "town"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Gorakhpur, Uttar Pradesh": [
   {
    "address": {
@@ -13060,6 +14354,72 @@
    "place_id": 243213901,
    "place_rank": 10,
    "type": "administrative"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Gudivada, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Gudivada Mandal",
+    "postcode": "521300",
+    "state": "Andhra Pradesh",
+    "state_district": "Krishna District",
+    "town": "Gudivada"
+   },
+   "addresstype": "town",
+   "boundingbox": [
+    "16.3930413",
+    "16.4730413",
+    "80.9536856",
+    "81.0336856"
+   ],
+   "category": "place",
+   "display_name": "Gudivada, Gudivada Mandal, Krishna District, Andhra Pradesh, 521300, India",
+   "importance": 0.43060522884509167,
+   "lat": "16.4330413",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.9936856",
+   "name": "Gudivada",
+   "osm_id": 245636099,
+   "osm_type": "node",
+   "place_id": 418389970,
+   "place_rank": 18,
+   "type": "town"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Guntur, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Guntur",
+    "country": "India",
+    "country_code": "in",
+    "county": "Guntur Mandal",
+    "postcode": "522001",
+    "state": "Andhra Pradesh",
+    "state_district": "Guntur District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "16.1315189",
+    "16.4515189",
+    "80.2941588",
+    "80.6141588"
+   ],
+   "category": "place",
+   "display_name": "Guntur, Guntur Mandal, Guntur District, Andhra Pradesh, 522001, India",
+   "importance": 0.5110243828395411,
+   "lat": "16.2915189",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.4541588",
+   "name": "Guntur",
+   "osm_id": 571469929,
+   "osm_type": "node",
+   "place_id": 249615155,
+   "place_rank": 16,
+   "type": "city"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Guruvayoor, Kerala": [
@@ -13309,6 +14669,39 @@
  ],
  "/search?countrycodes=in&limit=1&q=Indra Bazar, Jaipur, Rajasthan": [],
  "/search?countrycodes=in&limit=1&q=Infront of Head Post Office, Near Tahasil Office Main Road, Jeypore- 764001, Odisha": [],
+ "/search?countrycodes=in&limit=1&q=JP Rajahmundry, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Rajamahendravaram",
+    "country": "India",
+    "country_code": "in",
+    "county": "Rajamahendravaram Urban Mandal",
+    "postcode": "533100",
+    "state": "Andhra Pradesh",
+    "state_district": "East Godavari District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "16.8450454",
+    "17.1650454",
+    "81.6204732",
+    "81.9404732"
+   ],
+   "category": "place",
+   "display_name": "Rajamahendravaram, Rajamahendravaram Urban Mandal, East Godavari District, Andhra Pradesh, 533100, India",
+   "importance": 0.48280394745620453,
+   "lat": "17.0050454",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "81.7804732",
+   "name": "Rajamahendravaram",
+   "osm_id": 2408119848,
+   "osm_type": "node",
+   "place_id": 248030510,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Jabalpur, Madhya Pradesh": [
   {
    "address": {
@@ -13340,6 +14733,80 @@
    "place_id": 247053254,
    "place_rank": 16,
    "type": "city"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Jagadamba Junction, Visakhapatnam, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Visakhapatnam Urban Mandal",
+    "neighbourhood": "Jagadamba Junction",
+    "postcode": "530001",
+    "quarter": "Old Bus Stand Area",
+    "state": "Andhra Pradesh",
+    "state_district": "Visakhapatnam District",
+    "suburb": "Dwaraka Nagar",
+    "town": "Maharani Peta"
+   },
+   "addresstype": "neighbourhood",
+   "boundingbox": [
+    "17.7023784",
+    "17.7223784",
+    "83.2930038",
+    "83.3130038"
+   ],
+   "category": "place",
+   "display_name": "Jagadamba Junction, Old Bus Stand Area, Dwaraka Nagar, Maharani Peta, Visakhapatnam Urban Mandal, Visakhapatnam District, Andhra Pradesh, 530001, India",
+   "importance": 0.08006189135576407,
+   "lat": "17.7123784",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.3030038",
+   "name": "Jagadamba Junction",
+   "osm_id": 12397509910,
+   "osm_type": "node",
+   "place_id": 250046821,
+   "place_rank": 24,
+   "type": "neighbourhood"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Jagadamba, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Visakhapatnam Urban Mandal",
+    "highway": "Jagadamba",
+    "neighbourhood": "Jagadamba Junction",
+    "postcode": "530001",
+    "quarter": "Old Bus Stand Area",
+    "road": "Town Kotha Road",
+    "state": "Andhra Pradesh",
+    "state_district": "Visakhapatnam District",
+    "suburb": "Dwaraka Nagar",
+    "town": "Maharani Peta"
+   },
+   "addresstype": "highway",
+   "boundingbox": [
+    "17.7121201",
+    "17.7122201",
+    "83.3024086",
+    "83.3025086"
+   ],
+   "category": "highway",
+   "display_name": "Jagadamba, Town Kotha Road, Jagadamba Junction, Old Bus Stand Area, Dwaraka Nagar, Maharani Peta, Visakhapatnam Urban Mandal, Visakhapatnam District, Andhra Pradesh, 530001, India",
+   "importance": 6.189135576405001e-05,
+   "lat": "17.7121701",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.3024586",
+   "name": "Jagadamba",
+   "osm_id": 1474041919,
+   "osm_type": "node",
+   "place_id": 250743906,
+   "place_rank": 30,
+   "type": "bus_stop"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Jaipur, Rajasthan": [
@@ -13474,6 +14941,44 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Jashoda Bhawan, 167 Rasabihari Avenue, Kolkata-700019, West Bengal": [],
+ "/search?countrycodes=in&limit=1&q=Jaya Nagar Bangalore, Karnataka": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-KA",
+    "city": "Bengaluru",
+    "city_district": "Bengaluru West City Corporation",
+    "country": "India",
+    "country_code": "in",
+    "county": "Bangalore North",
+    "neighbourhood": "Mount Joy",
+    "postcode": "560019",
+    "quarter": "Hanumantha Nagar",
+    "road": "Mount Joy Road",
+    "state": "Karnataka",
+    "state_district": "Bengaluru Urban",
+    "suburb": "Hanumanthanagar"
+   },
+   "addresstype": "secondary",
+   "boundingbox": [
+    "12.9384590",
+    "12.9398674",
+    "77.5632458",
+    "77.5643157"
+   ],
+   "category": "highway",
+   "display_name": "Mount Joy Road, Mount Joy, Hanumantha Nagar, Hanumanthanagar, Bengaluru West City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560019, India",
+   "importance": 0.0534042778667887,
+   "lat": "12.9391221",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.5638395",
+   "name": "Mount Joy Road",
+   "osm_id": 1244012472,
+   "osm_type": "way",
+   "place_id": 252504763,
+   "place_rank": 26,
+   "type": "secondary"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Jayanagar Shopping Complex, 4th Block, Jayanagar, Bangalore, Karnataka": [
   {
    "address": {
@@ -13510,6 +15015,41 @@
    "place_id": 250468720,
    "place_rank": 30,
    "type": "supermarket"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Jayanagar, Bengaluru, Karnataka": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-KA",
+    "city": "Bengaluru",
+    "city_district": "Bengaluru South City Corporation",
+    "country": "India",
+    "country_code": "in",
+    "county": "Bangalore South",
+    "postcode": "560011",
+    "state": "Karnataka",
+    "state_district": "Bengaluru Urban",
+    "suburb": "Jayanagar"
+   },
+   "addresstype": "suburb",
+   "boundingbox": [
+    "12.9092731",
+    "12.9492731",
+    "77.5624229",
+    "77.6024229"
+   ],
+   "category": "place",
+   "display_name": "Jayanagar, Tilak Nagara, Bengaluru South City Corporation, Bengaluru, Bangalore South, Bengaluru Urban, Karnataka, 560011, India",
+   "importance": 0.14673761120012202,
+   "lat": "12.9292731",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.5824229",
+   "name": "Jayanagar",
+   "osm_id": 429853334,
+   "osm_type": "node",
+   "place_id": 252592335,
+   "place_rank": 19,
+   "type": "suburb"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Jeypore, Odisha": [
@@ -13590,7 +15130,73 @@
  "/search?countrycodes=in&limit=1&q=KSHDC regional office premises, Nemom, Trivandrum, Kerala": [],
  "/search?countrycodes=in&limit=1&q=KSRTC shopping complex, Kasaragod, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Kacheri Bazar, Main Road, Nayagarh-752069, Odisha": [],
+ "/search?countrycodes=in&limit=1&q=Kadapa, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Kadapa",
+    "country": "India",
+    "country_code": "in",
+    "county": "Kadapa Mandal",
+    "postcode": "516001",
+    "state": "Andhra Pradesh",
+    "state_district": "YSR  Kadapa District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "14.3152936",
+    "14.6352936",
+    "78.6616861",
+    "78.9816861"
+   ],
+   "category": "place",
+   "display_name": "Kadapa, Kadapa Mandal, YSR  Kadapa District, Andhra Pradesh, 516001, India",
+   "importance": 0.46663859559773935,
+   "lat": "14.4752936",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "78.8216861",
+   "name": "Kadapa",
+   "osm_id": 2476343447,
+   "osm_type": "node",
+   "place_id": 251741781,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Kaibalya Bazar, In front of Dhadhibaman Matha, Rathgada, Dhenkanal-759001, Odisha": [],
+ "/search?countrycodes=in&limit=1&q=Kakinada, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Kakinada",
+    "country": "India",
+    "country_code": "in",
+    "county": "Kakinada Urban Mandal",
+    "postcode": "533001",
+    "state": "Andhra Pradesh",
+    "state_district": "Kakinada District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "16.7837385",
+    "17.1037385",
+    "82.0750607",
+    "82.3950607"
+   ],
+   "category": "place",
+   "display_name": "Kakinada, Kakinada Urban Mandal, Kakinada District, Andhra Pradesh, 533001, India",
+   "importance": 0.45039779319602985,
+   "lat": "16.9437385",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "82.2350607",
+   "name": "Kakinada",
+   "osm_id": 3665399128,
+   "osm_type": "node",
+   "place_id": 249669392,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Kannur, Kerala": [
   {
    "address": {
@@ -13915,6 +15521,42 @@
    "type": "town"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Kolkata Maniktala, West Bengal": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-WB",
+    "city": "Kolkata",
+    "country": "India",
+    "country_code": "in",
+    "house_number": "DVC Towers",
+    "municipality": "Greater Kolkata",
+    "nature_reserve": "DVC Headquarters, Kolkata",
+    "postcode": "700054",
+    "state": "West Bengal",
+    "state_district": "Kolkata",
+    "suburb": "Maniktala"
+   },
+   "addresstype": "nature_reserve",
+   "boundingbox": [
+    "22.5869022",
+    "22.5881086",
+    "88.3908140",
+    "88.3923531"
+   ],
+   "category": "leisure",
+   "display_name": "DVC Headquarters, Kolkata, DVC Towers, Maniktala, Kolkata, Greater Kolkata, Kolkata, West Bengal, 700054, India",
+   "importance": 0.4431969160164717,
+   "lat": "22.5875055",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "88.3915835",
+   "name": "DVC Headquarters, Kolkata",
+   "osm_id": 1067436598,
+   "osm_type": "way",
+   "place_id": 250627167,
+   "place_rank": 24,
+   "type": "nature_reserve"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Kolkata, West Bengal": [
   {
    "address": {
@@ -14171,6 +15813,41 @@
    "type": "city"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Kukatpally, Telangana": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-TS",
+    "city": "Hyderabad",
+    "city_district": "Greater Hyderabad Municipal Corporation West Zone",
+    "country": "India",
+    "country_code": "in",
+    "county": "Kukatpally mandal",
+    "postcode": "500072",
+    "state": "Telangana",
+    "state_district": "Medchal–Malkajgiri",
+    "suburb": "Kukatpally"
+   },
+   "addresstype": "suburb",
+   "boundingbox": [
+    "17.4730841",
+    "17.5130841",
+    "78.3854408",
+    "78.4254408"
+   ],
+   "category": "place",
+   "display_name": "Kukatpally, Ward 122 Vivekananda Nagar Colony, Greater Hyderabad Municipal Corporation West Zone, Hyderabad, Kukatpally mandal, Medchal–Malkajgiri, Telangana, 500072, India",
+   "importance": 0.37978567549726355,
+   "lat": "17.4930841",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "78.4054408",
+   "name": "Kukatpally",
+   "osm_id": 1184187429,
+   "osm_type": "node",
+   "place_id": 249278107,
+   "place_rank": 19,
+   "type": "suburb"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Kullu, Himachal Pradesh": [
   {
    "address": {
@@ -14205,6 +15882,74 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Kunnekkat building, Bye pass road junction, Kondotty, Kerala": [],
+ "/search?countrycodes=in&limit=1&q=Kurnool, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Kurnool",
+    "country": "India",
+    "country_code": "in",
+    "county": "Kurnool Mandal",
+    "postcode": "518001",
+    "state": "Andhra Pradesh",
+    "state_district": "Kurnool District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "15.6709251",
+    "15.9909251",
+    "77.8825373",
+    "78.2025373"
+   ],
+   "category": "place",
+   "display_name": "Kurnool, Kurnool Mandal, Kurnool District, Andhra Pradesh, 518001, India",
+   "importance": 0.5102980478439053,
+   "lat": "15.8309251",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "78.0425373",
+   "name": "Kurnool",
+   "osm_id": 603465549,
+   "osm_type": "node",
+   "place_id": 251986513,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Lalacheruvu Rajahmundry, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Rajamahendravaram",
+    "country": "India",
+    "country_code": "in",
+    "county": "Rajamahendravaram Urban Mandal",
+    "neighbourhood": "Narayanapuram",
+    "postcode": "533100",
+    "road": "Rajahmundry - Lalacheruvu Road",
+    "state": "Andhra Pradesh",
+    "state_district": "East Godavari District"
+   },
+   "addresstype": "primary",
+   "boundingbox": [
+    "17.0138891",
+    "17.0261662",
+    "81.7842399",
+    "81.8064060"
+   ],
+   "category": "highway",
+   "display_name": "Rajahmundry - Lalacheruvu Road, Narayanapuram, Rajamahendravaram, Rajamahendravaram Urban Mandal, East Godavari District, Andhra Pradesh, 533100, India",
+   "importance": 0.053386438544289275,
+   "lat": "17.0206885",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "81.7950722",
+   "name": "Rajahmundry - Lalacheruvu Road",
+   "osm_id": 279715098,
+   "osm_type": "way",
+   "place_id": 250637419,
+   "place_rank": 26,
+   "type": "primary"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Lekhraj Market, Indira Nagar, Lucknow, Uttar Pradesh": [
   {
    "address": {
@@ -14311,6 +16056,71 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=MSHC Complex, 10, Umred Rd, Nirmal Nagar, Nagpur, Maharashtra 440024, Maharashtra": [],
+ "/search?countrycodes=in&limit=1&q=Machilipatnam, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Machilipatnam",
+    "country": "India",
+    "country_code": "in",
+    "county": "Machilipatnam Mandal",
+    "postcode": "521001",
+    "state": "Andhra Pradesh",
+    "state_district": "Krishna District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "16.0217369",
+    "16.3417369",
+    "80.9748181",
+    "81.2948181"
+   ],
+   "category": "place",
+   "display_name": "Machilipatnam, Machilipatnam Mandal, Krishna District, Andhra Pradesh, 521001, India",
+   "importance": 0.48321429049130216,
+   "lat": "16.1817369",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "81.1348181",
+   "name": "Machilipatnam",
+   "osm_id": 3478288118,
+   "osm_type": "node",
+   "place_id": 250171490,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Madurai, Tamil Nadu": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-TN",
+    "city": "Madurai",
+    "country": "India",
+    "country_code": "in",
+    "county": "Madurai South",
+    "state": "Tamil Nadu",
+    "state_district": "Madurai"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "9.8245041",
+    "9.9933722",
+    "78.0155927",
+    "78.2030091"
+   ],
+   "category": "boundary",
+   "display_name": "Madurai, Madurai South, Madurai, Tamil Nadu, India",
+   "importance": 0.5855094255620709,
+   "lat": "9.9261153",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "78.1140983",
+   "name": "Madurai",
+   "osm_id": 11268397,
+   "osm_type": "relation",
+   "place_id": 251281136,
+   "place_rank": 16,
+   "type": "administrative"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Maharashtra Sadan Kasturba Gandhi Marg Baroda New Delhi, Delhi": [],
  "/search?countrycodes=in&limit=1&q=Maharashtra Sadan Kasturba Gandhi Marg near Baroda House New Delhi, Delhi": [],
  "/search?countrycodes=in&limit=1&q=Maharashtra Sadan, Delhi": [
@@ -14677,6 +16487,40 @@
    "type": "town"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Maniktala, Kolkata, West Bengal": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-WB",
+    "city": "Kolkata",
+    "country": "India",
+    "country_code": "in",
+    "municipality": "Greater Kolkata",
+    "postcode": "700067",
+    "state": "West Bengal",
+    "state_district": "Kolkata",
+    "suburb": "Maniktala"
+   },
+   "addresstype": "suburb",
+   "boundingbox": [
+    "22.5680896",
+    "22.6080896",
+    "88.3652834",
+    "88.4052834"
+   ],
+   "category": "place",
+   "display_name": "Maniktala, Kolkata, Greater Kolkata, Kolkata, West Bengal, 700067, India",
+   "importance": 0.3897107592752421,
+   "lat": "22.5880896",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "88.3852834",
+   "name": "Maniktala",
+   "osm_id": 1307115411,
+   "osm_type": "node",
+   "place_id": 251447549,
+   "place_rank": 19,
+   "type": "suburb"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Market Building Paradeep Port, Dist-Jagatsinghpur-754142, Odisha": [],
  "/search?countrycodes=in&limit=1&q=Market Building Shop No.30, VIP Market Complex, Rourkela, Dist- Sundergarh-769001, Odisha": [],
  "/search?countrycodes=in&limit=1&q=Mayurbhanj, Odisha": [
@@ -14710,6 +16554,42 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Mayuri Tower, Girija Chhak, Berhampur-760001, Odisha": [],
+ "/search?countrycodes=in&limit=1&q=Mehadipatnam, Telangana": [],
+ "/search?countrycodes=in&limit=1&q=Mehdipatnam, Hyderabad, Telangana": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-TS",
+    "city": "Hyderabad",
+    "city_district": "Greater Hyderabad Municipal Corporation Central Zone",
+    "country": "India",
+    "country_code": "in",
+    "county": "Asif Nagar mandal",
+    "postcode": "500028",
+    "state": "Telangana",
+    "state_district": "Hyderabad",
+    "suburb": "Mehdipatnam"
+   },
+   "addresstype": "suburb",
+   "boundingbox": [
+    "17.3742627",
+    "17.4142627",
+    "78.4142514",
+    "78.4542514"
+   ],
+   "category": "place",
+   "display_name": "Mehdipatnam, Ward 70 Mehdipatnam, Greater Hyderabad Municipal Corporation Central Zone, Hyderabad, Asif Nagar mandal, Hyderabad, Telangana, 500028, India",
+   "importance": 0.1467350293736171,
+   "lat": "17.3942627",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "78.4342514",
+   "name": "Mehdipatnam",
+   "osm_id": 2461496899,
+   "osm_type": "node",
+   "place_id": 249397757,
+   "place_rank": 19,
+   "type": "suburb"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Mora complex, G H road, Kozhikkode, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Mulund (West), Maharashtra": [
   {
@@ -14888,6 +16768,42 @@
  ],
  "/search?countrycodes=in&limit=1&q=NAC Market, Main Road, Bolangir-767001, Odisha": [],
  "/search?countrycodes=in&limit=1&q=NHDC Civic Centre, DS-II, Ultadanga, Khankurgachi, VIP Road, Maniktala, Kolkata-700054, West Bengal": [],
+ "/search?countrycodes=in&limit=1&q=NR Colony, Bengaluru, Karnataka": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-KA",
+    "city": "Bengaluru",
+    "city_district": "Bengaluru West City Corporation",
+    "country": "India",
+    "country_code": "in",
+    "county": "Bangalore North",
+    "neighbourhood": "NR Colony",
+    "postcode": "560004",
+    "state": "Karnataka",
+    "state_district": "Bengaluru Urban",
+    "suburb": "N.R Colony"
+   },
+   "addresstype": "neighbourhood",
+   "boundingbox": [
+    "12.9288164",
+    "12.9488164",
+    "77.5583260",
+    "77.5783260"
+   ],
+   "category": "place",
+   "display_name": "NR Colony, N.R Colony, Bengaluru West City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560004, India",
+   "importance": 0.08007094453345538,
+   "lat": "12.9388164",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.5683260",
+   "name": "NR Colony",
+   "osm_id": 11652753116,
+   "osm_type": "node",
+   "place_id": 252794344,
+   "place_rank": 24,
+   "type": "neighbourhood"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=NTPC Shopping Complex, Shakti Nagar, Sonbhadra, Uttar Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Nabarangpur, Odisha": [
   {
@@ -15125,6 +17041,74 @@
    "type": "bus_stop"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Nandi Nandyal, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "amenity": "Surya Nandi Temple , Nandipalli",
+    "country": "India",
+    "country_code": "in",
+    "county": "Mahanandi Mandal",
+    "residential": "Nandyal Urban",
+    "road": "Nandyala - Mahanandi Road",
+    "state": "Andhra Pradesh",
+    "state_district": "Nandyal District",
+    "village": "Srinagaram"
+   },
+   "addresstype": "amenity",
+   "boundingbox": [
+    "15.4597372",
+    "15.4598372",
+    "78.5513357",
+    "78.5514357"
+   ],
+   "category": "amenity",
+   "display_name": "Surya Nandi Temple , Nandipalli, Nandyala - Mahanandi Road, Nandyal Urban, Srinagaram, Mahanandi Mandal, Nandyal District, Andhra Pradesh, India",
+   "importance": 4.7514305332982645e-05,
+   "lat": "15.4597872",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "78.5513857",
+   "name": "Surya Nandi Temple , Nandipalli",
+   "osm_id": 12514113810,
+   "osm_type": "node",
+   "place_id": 251612449,
+   "place_rank": 30,
+   "type": "place_of_worship"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Nandyal, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Nandyal Mandal",
+    "postcode": "518500",
+    "state": "Andhra Pradesh",
+    "state_district": "Nandyal District",
+    "town": "Nandyal"
+   },
+   "addresstype": "town",
+   "boundingbox": [
+    "15.4336293",
+    "15.5136293",
+    "78.4406592",
+    "78.5206592"
+   ],
+   "category": "place",
+   "display_name": "Nandyal, Nandyal Mandal, Nandyal District, Andhra Pradesh, 518500, India",
+   "importance": 0.4547719804167702,
+   "lat": "15.4736293",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "78.4806592",
+   "name": "Nandyal",
+   "osm_id": 245632119,
+   "osm_type": "node",
+   "place_id": 418743058,
+   "place_rank": 18,
+   "type": "town"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=National Centre for Heritage Textile, Basement, Janpath, Near Indian Oil Building, New Delhi110001, Delhi": [],
  "/search?countrycodes=in&limit=1&q=Natraj Market, Sambalpur-768001, Odisha": [],
  "/search?countrycodes=in&limit=1&q=Navi Mumbai, Maharashtra": [
@@ -15229,6 +17213,39 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Nekar Bhavan, Opp. K.H. Patil College, Vidyanagar, Hubli-31, Karnataka": [],
+ "/search?countrycodes=in&limit=1&q=Nellore, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Nellore",
+    "country": "India",
+    "country_code": "in",
+    "county": "Nellore Mandal",
+    "postcode": "524001",
+    "state": "Andhra Pradesh",
+    "state_district": "Sri Potti Sri Ramulu Nellore District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "14.2893717",
+    "14.6093717",
+    "79.8273763",
+    "80.1473763"
+   ],
+   "category": "place",
+   "display_name": "Nellore, Nellore Mandal, Sri Potti Sri Ramulu Nellore District, Andhra Pradesh, 524001, India",
+   "importance": 0.49077780366110735,
+   "lat": "14.4493717",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "79.9873763",
+   "name": "Nellore",
+   "osm_id": 1598973198,
+   "osm_type": "node",
+   "place_id": 252932500,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Nemom, Kerala": [
   {
    "address": {
@@ -15261,6 +17278,39 @@
    "place_id": 252524145,
    "place_rank": 19,
    "type": "suburb"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Netha Bazaar, Eluru, Andhra Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=Netha, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Ramachandrapuram Mandal",
+    "state": "Andhra Pradesh",
+    "state_district": "Tirupati District",
+    "village": "Netha Kuppam"
+   },
+   "addresstype": "village",
+   "boundingbox": [
+    "13.4802689",
+    "13.5202689",
+    "79.3111856",
+    "79.3511856"
+   ],
+   "category": "place",
+   "display_name": "Netha Kuppam, Ramachandrapuram Mandal, Tirupati District, Andhra Pradesh, India",
+   "importance": 0.14670416800183103,
+   "lat": "13.5002689",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "79.3311856",
+   "name": "Netha Kuppam",
+   "osm_id": 5597171175,
+   "osm_type": "node",
+   "place_id": 251883464,
+   "place_rank": 19,
+   "type": "village"
   }
  ],
  "/search?countrycodes=in&limit=1&q=New Delhi, Delhi": [
@@ -15329,6 +17379,7 @@
    "type": "artwork"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=New Yemmiganur, Andhra Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Neyyatinkara, Kerala": [
   {
    "address": {
@@ -15440,6 +17491,39 @@
  "/search?countrycodes=in&limit=1&q=Nr. Aurbindo Society, Behind Sandesh Press, Vastrapur, Ahmedabad, Gujarat": [],
  "/search?countrycodes=in&limit=1&q=Nr. C. J. Hospital, Surendranagar, Gujarat": [],
  "/search?countrycodes=in&limit=1&q=Nuabazar, Bhadrak-756100, Odisha": [],
+ "/search?countrycodes=in&limit=1&q=Ongole, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Ongole",
+    "country": "India",
+    "country_code": "in",
+    "county": "Ongole Mandal",
+    "postcode": "523002",
+    "state": "Andhra Pradesh",
+    "state_district": "Prakasam District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "15.3458714",
+    "15.6658714",
+    "79.8899454",
+    "80.2099454"
+   ],
+   "category": "place",
+   "display_name": "Ongole, Ongole Mandal, Prakasam District, Andhra Pradesh, 523002, India",
+   "importance": 0.42626276740710034,
+   "lat": "15.5058714",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.0499454",
+   "name": "Ongole",
+   "osm_id": 3999505428,
+   "osm_type": "node",
+   "place_id": 248728974,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Opp Ottappalam Co-Op bank, Main road, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Opp-Indrabai Girls School, nagar palika Shopping Center, Bhuj, Gujarat": [],
  "/search?countrycodes=in&limit=1&q=Opp. Muncipal bus stand, Market road, Alwaye, Kerala": [],
@@ -15508,6 +17592,39 @@
    "place_id": 253132971,
    "place_rank": 10,
    "type": "administrative"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Palakollu, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Palakollu Mandal",
+    "postcode": "534260",
+    "state": "Andhra Pradesh",
+    "state_district": "West Godavari District",
+    "town": "Palakollu"
+   },
+   "addresstype": "town",
+   "boundingbox": [
+    "16.4779946",
+    "16.5579946",
+    "81.6853264",
+    "81.7653264"
+   ],
+   "category": "place",
+   "display_name": "Palakollu, Palakollu Mandal, West Godavari District, Andhra Pradesh, 534260, India",
+   "importance": 0.38584692642506985,
+   "lat": "16.5179946",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "81.7253264",
+   "name": "Palakollu",
+   "osm_id": 3992289353,
+   "osm_type": "node",
+   "place_id": 250103126,
+   "place_rank": 18,
+   "type": "town"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Palampur, Himachal Pradesh": [
@@ -15644,6 +17761,39 @@
    "place_id": 250395805,
    "place_rank": 30,
    "type": "station"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Parvathipuram, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Parvathipuram Mandal",
+    "postcode": "532500",
+    "state": "Andhra Pradesh",
+    "state_district": "Parvathipuram Manyam District",
+    "town": "Parvathipuram"
+   },
+   "addresstype": "town",
+   "boundingbox": [
+    "18.7431860",
+    "18.8231860",
+    "83.3878759",
+    "83.4678759"
+   ],
+   "category": "place",
+   "display_name": "Parvathipuram, Parvathipuram Mandal, Parvathipuram Manyam District, Andhra Pradesh, 532500, India",
+   "importance": 0.3090170114439377,
+   "lat": "18.7831860",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.4278759",
+   "name": "Parvathipuram",
+   "osm_id": 3315305241,
+   "osm_type": "node",
+   "place_id": 250084650,
+   "place_rank": 18,
+   "type": "town"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Patankar Bazar, Laskar, Gwalior, Madhya Pradesh": [],
@@ -15850,6 +18000,8 @@
    "type": "town"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Phool Baugh, Vizianagaram, Andhra Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=Phool Bhag, Andhra Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Phulbani, Odisha": [
   {
    "address": {
@@ -15881,6 +18033,43 @@
    "place_id": 250969747,
    "place_rank": 18,
    "type": "town"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Pondy Bazaar, T. Nagar, Chennai, Tamil Nadu": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-TN",
+    "city": "Chennai",
+    "country": "India",
+    "country_code": "in",
+    "county": "Guindy",
+    "highway": "T. Nagar",
+    "neighbourhood": "Ward 136",
+    "postcode": "600017",
+    "road": "Sir Thyagaraya Road",
+    "state": "Tamil Nadu",
+    "state_district": "Chennai District",
+    "suburb": "Zone 10 Kodambakkam"
+   },
+   "addresstype": "highway",
+   "boundingbox": [
+    "13.0407679",
+    "13.0408076",
+    "80.2376529",
+    "80.2377934"
+   ],
+   "category": "highway",
+   "display_name": "T. Nagar, Sir Thyagaraya Road, Ward 136, Zone 10 Kodambakkam, Chennai, Chennai Metropolitan Area, Guindy, Chennai District, Tamil Nadu, 600017, India",
+   "importance": 7.28046082245673e-05,
+   "lat": "13.0407878",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.2377232",
+   "name": "T. Nagar",
+   "osm_id": 1501132747,
+   "osm_type": "way",
+   "place_id": 251524802,
+   "place_rank": 30,
+   "type": "bus_stop"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Prayagraj, Uttar Pradesh": [
@@ -15950,6 +18139,72 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=R.V. Road, Opp. Lal Bagh, West Gate, V.V. Puram, Bangalore, Karnataka": [],
+ "/search?countrycodes=in&limit=1&q=Rajahmundry, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Rajamahendravaram",
+    "country": "India",
+    "country_code": "in",
+    "county": "Rajamahendravaram Urban Mandal",
+    "postcode": "533100",
+    "state": "Andhra Pradesh",
+    "state_district": "East Godavari District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "16.8450454",
+    "17.1650454",
+    "81.6204732",
+    "81.9404732"
+   ],
+   "category": "place",
+   "display_name": "Rajamahendravaram, Rajamahendravaram Urban Mandal, East Godavari District, Andhra Pradesh, 533100, India",
+   "importance": 0.48280394745620453,
+   "lat": "17.0050454",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "81.7804732",
+   "name": "Rajamahendravaram",
+   "osm_id": 2408119848,
+   "osm_type": "node",
+   "place_id": 250315759,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Rajampeta, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Rajampeta Mandal",
+    "postcode": "516100",
+    "state": "Andhra Pradesh",
+    "state_district": "YSR  Kadapa District",
+    "town": "Rajampeta"
+   },
+   "addresstype": "town",
+   "boundingbox": [
+    "14.1535867",
+    "14.2335867",
+    "79.1185757",
+    "79.1985757"
+   ],
+   "category": "place",
+   "display_name": "Rajampeta, Rajampeta Mandal, YSR  Kadapa District, Andhra Pradesh, 516100, India",
+   "importance": 0.2507397701059262,
+   "lat": "14.1935867",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "79.1585757",
+   "name": "Rajampeta",
+   "osm_id": 3320527151,
+   "osm_type": "node",
+   "place_id": 251749329,
+   "place_rank": 18,
+   "type": "town"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Rajkot, Gujarat": [
   {
    "address": {
@@ -15981,6 +18236,39 @@
    "place_id": 248318415,
    "place_rank": 16,
    "type": "city"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Rayachoty, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Rayachoti Mandal",
+    "postcode": "516269",
+    "state": "Andhra Pradesh",
+    "state_district": "Annamayya",
+    "town": "Rayachoty"
+   },
+   "addresstype": "town",
+   "boundingbox": [
+    "14.0155217",
+    "14.0955217",
+    "78.7110163",
+    "78.7910163"
+   ],
+   "category": "place",
+   "display_name": "Rayachoty, Rayachoti Mandal, Annamayya, Andhra Pradesh, 516269, India",
+   "importance": 0.33113623856093605,
+   "lat": "14.0555217",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "78.7510163",
+   "name": "Rayachoty",
+   "osm_id": 2476310458,
+   "osm_type": "node",
+   "place_id": 251468579,
+   "place_rank": 18,
+   "type": "town"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Rayagada, Odisha": [
@@ -16452,6 +18740,76 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=South Nalluvazhi, North Parur, Kerala": [],
+ "/search?countrycodes=in&limit=1&q=Srikakulam, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Srikakulam",
+    "country": "India",
+    "country_code": "in",
+    "county": "Srikakulam Mandal",
+    "postcode": "532001",
+    "state": "Andhra Pradesh",
+    "state_district": "Srikakulam District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "18.1349307",
+    "18.4549307",
+    "83.7338844",
+    "84.0538844"
+   ],
+   "category": "place",
+   "display_name": "Srikakulam, Srikakulam Mandal, Srikakulam District, Andhra Pradesh, 532001, India",
+   "importance": 0.47141288733854275,
+   "lat": "18.2949307",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.8938844",
+   "name": "Srikakulam",
+   "osm_id": 245644077,
+   "osm_type": "node",
+   "place_id": 250116586,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Srinivasam Tirupati, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Tirupati",
+    "country": "India",
+    "country_code": "in",
+    "county": "Tirupati Urban Mandal",
+    "postcode": "517500",
+    "quarter": "Tataiah Gunta",
+    "residential": "Tirupathi Urban",
+    "road": "Srinivasa Flyover",
+    "state": "Andhra Pradesh",
+    "state_district": "Tirupati District",
+    "tourism": "Srinivasam Complex"
+   },
+   "addresstype": "tourism",
+   "boundingbox": [
+    "13.6309639",
+    "13.6323285",
+    "79.4281214",
+    "79.4294263"
+   ],
+   "category": "tourism",
+   "display_name": "Srinivasam Complex, Srinivasa Flyover, Tirupathi Urban, Tataiah Gunta, Tirupati, Tirupati Urban Mandal, Tirupati District, Andhra Pradesh, 517500, India",
+   "importance": 5.350499732962566e-05,
+   "lat": "13.6317707",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "79.4287581",
+   "name": "Srinivasam Complex",
+   "osm_id": 223242287,
+   "osm_type": "way",
+   "place_id": 252126910,
+   "place_rank": 30,
+   "type": "guest_house"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Stadium Square, Baripada-757001, Odisha": [],
  "/search?countrycodes=in&limit=1&q=Sundargarh, Odisha": [
   {
@@ -16643,6 +19001,72 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Tilak Road, Nagar Palika, Deoria, Uttar Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=Tirumala, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Tirupati Urban Mandal",
+    "postcode": "517504",
+    "state": "Andhra Pradesh",
+    "state_district": "Tirupati District",
+    "town": "Tirumala"
+   },
+   "addresstype": "town",
+   "boundingbox": [
+    "13.6468214",
+    "13.7268214",
+    "79.3124064",
+    "79.3924064"
+   ],
+   "category": "place",
+   "display_name": "Tirumala, Tirupati Urban Mandal, Tirupati District, Andhra Pradesh, 517504, India",
+   "importance": 0.43995261775923533,
+   "lat": "13.6868214",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "79.3524064",
+   "name": "Tirumala",
+   "osm_id": 335877330,
+   "osm_type": "node",
+   "place_id": 253003504,
+   "place_rank": 18,
+   "type": "town"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Tirupati, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Tirupati",
+    "country": "India",
+    "country_code": "in",
+    "county": "Tirupati Urban Mandal",
+    "postcode": "517500",
+    "state": "Andhra Pradesh",
+    "state_district": "Tirupati District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "13.4716368",
+    "13.7916368",
+    "79.2631711",
+    "79.5831711"
+   ],
+   "category": "place",
+   "display_name": "Tirupati, Tirupati Urban Mandal, Tirupati District, Andhra Pradesh, 517500, India",
+   "importance": 0.49271680979075044,
+   "lat": "13.6316368",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "79.4231711",
+   "name": "Tirupati",
+   "osm_id": 335868152,
+   "osm_type": "node",
+   "place_id": 252123267,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Tripunithura, Kerala": [
   {
    "address": {
@@ -16743,6 +19167,39 @@
    "type": "city"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Tungabhadra, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "canal": "Tungabhadra canal",
+    "country": "India",
+    "country_code": "in",
+    "county": "Karlapalem Mandal",
+    "state": "Andhra Pradesh",
+    "state_district": "Bapatla District",
+    "village": "Buddam"
+   },
+   "addresstype": "canal",
+   "boundingbox": [
+    "15.8889270",
+    "16.1207772",
+    "80.4788027",
+    "80.6363452"
+   ],
+   "category": "waterway",
+   "display_name": "Tungabhadra canal, Buddam, Karlapalem Mandal, Bapatla District, Andhra Pradesh, India",
+   "importance": 0.14670897306782632,
+   "lat": "15.9939021",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.5406921",
+   "name": "Tungabhadra canal",
+   "osm_id": 17357449,
+   "osm_type": "relation",
+   "place_id": 249475926,
+   "place_rank": 19,
+   "type": "canal"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=UP Bhawan, Navi Mumbai, Maharashtra": [],
  "/search?countrycodes=in&limit=1&q=Udupi, Karnataka": [
   {
@@ -16772,6 +19229,41 @@
    "place_id": 252456777,
    "place_rank": 10,
    "type": "administrative"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Ukkaunagaram, Andhra Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=Ukkunagaram, Visakhapatnam, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Old Gajuwaka",
+    "country": "India",
+    "country_code": "in",
+    "county": "Gajuwaka Mandal",
+    "postcode": "530032",
+    "state": "Andhra Pradesh",
+    "state_district": "Visakhapatnam District",
+    "suburb": "Ukkunagaram Township"
+   },
+   "addresstype": "suburb",
+   "boundingbox": [
+    "17.6351095",
+    "17.6751095",
+    "83.1286506",
+    "83.1686506"
+   ],
+   "category": "place",
+   "display_name": "Ukkunagaram Township, Old Gajuwaka, Gajuwaka Mandal, Visakhapatnam District, Andhra Pradesh, 530032, India",
+   "importance": 0.1467285580224307,
+   "lat": "17.6551095",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.1486506",
+   "name": "Ukkunagaram Township",
+   "osm_id": 1056561182,
+   "osm_type": "node",
+   "place_id": 250432712,
+   "place_rank": 19,
+   "type": "suburb"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Una, HP, Himachal Pradesh": [
@@ -16805,6 +19297,82 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Upper ground Floor, Block-A, Netaji Subash Chandra Bose Arcade, Old Jail Commercial Complex, Cuttak-753002, Odisha": [],
+ "/search?countrycodes=in&limit=1&q=VMRDA, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Visakhapatnam",
+    "country": "India",
+    "country_code": "in",
+    "county": "Visakhapatnam Urban Mandal",
+    "neighbourhood": "Kirlampudi Layout",
+    "postcode": "530001",
+    "quarter": "Chinna Waltair",
+    "road": "Beach Road",
+    "state": "Andhra Pradesh",
+    "state_district": "Visakhapatnam District",
+    "suburb": "Pedda Waltair",
+    "tourism": "VMRDA Sea Harrier Museum"
+   },
+   "addresstype": "tourism",
+   "boundingbox": [
+    "17.7170428",
+    "17.7174322",
+    "83.3280588",
+    "83.3286428"
+   ],
+   "category": "tourism",
+   "display_name": "VMRDA Sea Harrier Museum, Beach Road, Kirlampudi Layout, Chinna Waltair, Pedda Waltair, Visakhapatnam, Visakhapatnam Urban Mandal, Visakhapatnam District, Andhra Pradesh, 530001, India",
+   "importance": 6.189135576405001e-05,
+   "lat": "17.7172359",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.3283501",
+   "name": "VMRDA Sea Harrier Museum",
+   "osm_id": 1410452188,
+   "osm_type": "way",
+   "place_id": 250332006,
+   "place_rank": 30,
+   "type": "museum"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=VMRDA, Visakhapatnam, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Visakhapatnam",
+    "country": "India",
+    "country_code": "in",
+    "county": "Visakhapatnam Urban Mandal",
+    "neighbourhood": "Kirlampudi Layout",
+    "postcode": "530001",
+    "quarter": "Chinna Waltair",
+    "road": "Beach Road",
+    "state": "Andhra Pradesh",
+    "state_district": "Visakhapatnam District",
+    "suburb": "Pedda Waltair",
+    "tourism": "VMRDA Sea Harrier Museum"
+   },
+   "addresstype": "tourism",
+   "boundingbox": [
+    "17.7170428",
+    "17.7174322",
+    "83.3280588",
+    "83.3286428"
+   ],
+   "category": "tourism",
+   "display_name": "VMRDA Sea Harrier Museum, Beach Road, Kirlampudi Layout, Chinna Waltair, Pedda Waltair, Visakhapatnam, Visakhapatnam Urban Mandal, Visakhapatnam District, Andhra Pradesh, 530001, India",
+   "importance": 6.189135576405001e-05,
+   "lat": "17.7172359",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.3283501",
+   "name": "VMRDA Sea Harrier Museum",
+   "osm_id": 1410452188,
+   "osm_type": "way",
+   "place_id": 250332006,
+   "place_rank": 30,
+   "type": "museum"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Vaikom, Kerala": [
   {
    "address": {
@@ -16836,6 +19404,43 @@
    "place_id": 253728625,
    "place_rank": 18,
    "type": "town"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Vakula Bhavan A/C, Andhra Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=Vakula, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Penamaluru Mandal",
+    "craft": "Sri Vakula Foods",
+    "postcode": "521139",
+    "residential": "Kankipadu Urban",
+    "road": "Vijayawada - Machilipatnam Road",
+    "state": "Andhra Pradesh",
+    "state_district": "Krishna District",
+    "village": "Gosala"
+   },
+   "addresstype": "craft",
+   "boundingbox": [
+    "16.4755094",
+    "16.4756094",
+    "80.7053416",
+    "80.7054416"
+   ],
+   "category": "craft",
+   "display_name": "Sri Vakula Foods, Vijayawada - Machilipatnam Road, Kankipadu Urban, Gosala, Penamaluru Mandal, Krishna District, Andhra Pradesh, 521139, India",
+   "importance": 5.933394369416369e-05,
+   "lat": "16.4755594",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.7053916",
+   "name": "Sri Vakula Foods",
+   "osm_id": 12993629913,
+   "osm_type": "node",
+   "place_id": 249634068,
+   "place_rank": 30,
+   "type": "caterer"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Varanasi, Uttar Pradesh": [
@@ -16906,7 +19511,244 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Vijayanthi complex, East nada, Guruvayoor, Kerala": [],
+ "/search?countrycodes=in&limit=1&q=Vijayawada, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Vijayawada",
+    "country": "India",
+    "country_code": "in",
+    "county": "Vijayawada Urban Mandal",
+    "postcode": "520001",
+    "state": "Andhra Pradesh",
+    "state_district": "NTR District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "16.3515306",
+    "16.6715306",
+    "80.4560469",
+    "80.7760469"
+   ],
+   "category": "place",
+   "display_name": "Vijayawada, Vijayawada Urban Mandal, NTR District, Andhra Pradesh, 520001, India",
+   "importance": 0.5285884133840678,
+   "lat": "16.5115306",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.6160469",
+   "name": "Vijayawada",
+   "osm_id": 1880441437,
+   "osm_type": "node",
+   "place_id": 250341483,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Visakhapatnam, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Visakhapatnam",
+    "country": "India",
+    "country_code": "in",
+    "county": "Visakhapatnam Urban Mandal",
+    "postcode": "530001",
+    "state": "Andhra Pradesh",
+    "state_district": "Visakhapatnam District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "17.5335526",
+    "17.8535526",
+    "83.1321297",
+    "83.4521297"
+   ],
+   "category": "place",
+   "display_name": "Visakhapatnam, Visakhapatnam Urban Mandal, Visakhapatnam District, Andhra Pradesh, 530001, India",
+   "importance": 0.5591309286790601,
+   "lat": "17.6935526",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.2921297",
+   "name": "Visakhapatnam",
+   "osm_id": 245641840,
+   "osm_type": "node",
+   "place_id": 249651049,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Vizianagaram, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Vizianagaram",
+    "country": "India",
+    "country_code": "in",
+    "county": "Vizianagaram Mandal",
+    "postcode": "535001",
+    "state": "Andhra Pradesh",
+    "state_district": "Vizianagaram District"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "17.9541255",
+    "18.2741255",
+    "83.2514389",
+    "83.5714389"
+   ],
+   "category": "place",
+   "display_name": "Vizianagaram, Vizianagaram Mandal, Vizianagaram District, Andhra Pradesh, 535001, India",
+   "importance": 0.48020077584502036,
+   "lat": "18.1141255",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.4114389",
+   "name": "Vizianagaram",
+   "osm_id": 245643279,
+   "osm_type": "node",
+   "place_id": 250263208,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Vuda Visakhapatnam, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "city": "Visakhapatnam",
+    "country": "India",
+    "country_code": "in",
+    "county": "Visakhapatnam Urban Mandal",
+    "neighbourhood": "VUDA Colony",
+    "office": "Andhra Pradesh Pollution Control Board",
+    "postcode": "530001",
+    "road": "Vuda Layout Road",
+    "state": "Andhra Pradesh",
+    "state_district": "Visakhapatnam District",
+    "suburb": "Madhavadhara"
+   },
+   "addresstype": "office",
+   "boundingbox": [
+    "17.7499315",
+    "17.7502168",
+    "83.2478815",
+    "83.2481097"
+   ],
+   "category": "office",
+   "display_name": "Andhra Pradesh Pollution Control Board, Vuda Layout Road, VUDA Colony, Madhavadhara, Visakhapatnam, Visakhapatnam Urban Mandal, Visakhapatnam District, Andhra Pradesh, 530001, India",
+   "importance": 6.189135576405001e-05,
+   "lat": "17.7500742",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "83.2479956",
+   "name": "Andhra Pradesh Pollution Control Board",
+   "osm_id": 1354885826,
+   "osm_type": "way",
+   "place_id": 250680024,
+   "place_rank": 30,
+   "type": "government"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Western Market Building, Unit-II, Ashok Nagar, Bhubaneswar-751001, Odisha": [],
+ "/search?countrycodes=in&limit=1&q=Yemmiganur, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Yemmiganur Mandal",
+    "postcode": "518360",
+    "state": "Andhra Pradesh",
+    "state_district": "Kurnool District",
+    "town": "Emmiganuru"
+   },
+   "addresstype": "town",
+   "boundingbox": [
+    "15.7280956",
+    "15.8080956",
+    "77.4419037",
+    "77.5219037"
+   ],
+   "category": "place",
+   "display_name": "Emmiganuru, Yemmiganur Mandal, Kurnool District, Andhra Pradesh, 518360, India",
+   "importance": 0.2782362227145218,
+   "lat": "15.7680956",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.4819037",
+   "name": "Emmiganuru",
+   "osm_id": 245632931,
+   "osm_type": "node",
+   "place_id": 252145784,
+   "place_rank": 18,
+   "type": "town"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Yerrabalem, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Mangalagiri Mandal",
+    "municipality": "Andhra Pradesh Capital Region Development Authority",
+    "postcode": "522503",
+    "state": "Andhra Pradesh",
+    "state_district": "Guntur District",
+    "village": "Yerrabalem"
+   },
+   "addresstype": "village",
+   "boundingbox": [
+    "16.4416737",
+    "16.4816737",
+    "80.5480564",
+    "80.5880564"
+   ],
+   "category": "place",
+   "display_name": "Yerrabalem, Andhra Pradesh Capital Region Development Authority, Mangalagiri Mandal, Guntur District, Andhra Pradesh, 522503, India",
+   "importance": 0.14672600061036084,
+   "lat": "16.4616737",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.5680564",
+   "name": "Yerrabalem",
+   "osm_id": 5382677900,
+   "osm_type": "node",
+   "place_id": 250133808,
+   "place_rank": 19,
+   "type": "village"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Yerrabalem, Mangalagiri, Andhra Pradesh": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-AP",
+    "country": "India",
+    "country_code": "in",
+    "county": "Mangalagiri Mandal",
+    "municipality": "Andhra Pradesh Capital Region Development Authority",
+    "postcode": "522503",
+    "state": "Andhra Pradesh",
+    "state_district": "Guntur District",
+    "village": "Yerrabalem"
+   },
+   "addresstype": "village",
+   "boundingbox": [
+    "16.4416737",
+    "16.4816737",
+    "80.5480564",
+    "80.5880564"
+   ],
+   "category": "place",
+   "display_name": "Yerrabalem, Andhra Pradesh Capital Region Development Authority, Mangalagiri Mandal, Guntur District, Andhra Pradesh, 522503, India",
+   "importance": 0.14672600061036084,
+   "lat": "16.4616737",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.5680564",
+   "name": "Yerrabalem",
+   "osm_id": 5382677900,
+   "osm_type": "node",
+   "place_id": 250133808,
+   "place_rank": 19,
+   "type": "village"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Zaayo Zuyo, Goa": [],
  "/search?countrycodes=in&limit=1&q=अल्का होटल कोर्ट रोड, Uttar Pradesh": [],
  "/search?countrycodes=in&limit=1&q=अल्का होटल कोर्ट रोड, आज़मगढ़, Uttar Pradesh": [],

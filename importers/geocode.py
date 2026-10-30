@@ -58,7 +58,7 @@ class Geocoder:
 
 def district_of(address):
     d = address.get("state_district") or address.get("county") or address.get("city") or address.get("town")
-    return re.sub(r"\s+(District|Taluk|Tahsil)$", "", d) if d else None
+    return re.sub(r"\s+(District|Taluk|Tahsil)$", "", re.sub(r"\s+", " ", d).strip()) if d else None
 
 
 PLACE_TYPES = {"city", "town", "village", "hamlet", "suburb", "neighbourhood", "quarter", "municipality",
@@ -66,7 +66,7 @@ PLACE_TYPES = {"city", "town", "village", "hamlet", "suburb", "neighbourhood", "
 GENERIC = re.compile(
     r"\b(opp|opposite|near|nr|road|rd|street|st|main|highway|junction|jn|building|bldg|complex|bank|co-op|"
     r"municipal|shop|market|office|premises|regional|floor|emporium|megastore|showroom|agency|ccic|op|cdb|"
-    r"handloom|house|mega|silk|celebrations|collectorate)\b\.?",
+    r"handloom|house|mega|silk|celebrations|collectorate|bazaar|bazar)\b\.?",
     re.I,
 )
 
@@ -74,6 +74,9 @@ GENERIC = re.compile(
 def towns(rec):
     name = re.sub(r"\s*[-(].*$", "", rec["name"].split(",")[-1])
     parts = [name] + list(reversed(re.split(r",|\.\s", rec["address"])))
+    if not rec["address"]:
+        words = GENERIC.sub(" ", name).split()
+        parts += [w for w in [words[-1], words[0]] if len(w) > 4] if words else []
     out = []
     for part in parts:
         part = re.sub(r"\S*\d\S*", " ", part)

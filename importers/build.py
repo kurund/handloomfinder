@@ -1,9 +1,10 @@
 import datetime
 import json
+import re
 import traceback
 
 from . import (
-    bhuttico, biswa_bangla, boyanika, cooptex, garvi_gurjari, hanveev, jharcraft, mahahandloom, mrignayani,
+    apco, bhuttico, biswa_bangla, boyanika, cooptex, garvi_gurjari, hanveev, jharcraft, mahahandloom, mrignayani,
     priyadarshini, tantuja, upica,
 )
 from .common import DATA, SITE, STORES_DIR, session, unique_ids
@@ -11,7 +12,7 @@ from .geocode import Geocoder, locate
 
 SOURCES = [
     cooptex, hanveev, jharcraft, garvi_gurjari, boyanika, tantuja, biswa_bangla, mrignayani, bhuttico,
-    priyadarshini, upica, mahahandloom,
+    priyadarshini, upica, mahahandloom, apco,
 ]
 UNVERIFIED_AFTER_DAYS = 14
 KEEP_FROM_PREVIOUS = ("lat", "lng", "geo_source", "district")
@@ -46,7 +47,8 @@ def apply_overrides(records, overrides):
         r.update(patch)
         if "lat" in patch:
             r["geo_source"] = "manual"
-        r["district"] = aliases.get(r["district"], r["district"])
+        district = re.sub(r"\s+", " ", r["district"]).strip() if r["district"] else r["district"]
+        r["district"] = aliases.get(district, district)
         out.append(r)
     return out
 
