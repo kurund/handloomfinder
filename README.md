@@ -8,6 +8,7 @@ Find government and cooperative handloom stores across India. A static site (`si
 - `importers/` - one module per organisation, plus `build.py`, which runs them all, geocodes and writes the data.
 - `data/stores/<org>.json` - the dataset, one file per organisation, with `first_seen`/`last_seen` and `status` per store.
 - `data/overrides.json` - manual corrections applied on every run: `exclude` ids, `patch` fields by id (setting `lat`/`lng` marks the location as manual), `district_aliases`.
+- `data/orgs.json` - hand-written details for each organisation's popup: full name, one-line description, website, whether it sells online, and social links. Only add a social account if the organisation's own website links to it.
 - `data/manual/` - store lists saved by hand from sites that refuse automated requests (currently APCO). Re-save the file to refresh it.
 - `data/geocache.json` - cached OpenStreetMap geocoder responses, so each address is only looked up once.
 - `data/sources.md` - research on which organisations publish store lists and in what format.
@@ -33,4 +34,4 @@ cd site && python3 -m http.server 8766
 
 ## Adding an organisation
 
-Add `importers/<org>.py` with `ORG`, `NAME`, `HOME_STATE` and a `fetch(session)` that returns `record(...)` dicts, then add it to `SOURCES` in `importers/build.py`.
+Add `importers/<org>.py` with `ORG`, `NAME`, `HOME_STATE` and a `fetch(session)` that returns `record(...)` dicts, then add it to `SOURCES` in `importers/build.py` and give it an entry in `data/orgs.json`.

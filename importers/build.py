@@ -111,11 +111,17 @@ def main():
         report += [f"  - no location: {r['name']} - {r['address']}" for r in unlocated]
 
     org_names = {src.ORG: src.NAME for src in SOURCES}
+    orgs = load(DATA / "orgs.json", {})
+    report += [f"- no entry in data/orgs.json: {name}" for org, name in org_names.items() if org not in orgs]
     listed = [r for r in everything if r["status"] != "closed"]
     listed.sort(key=lambda r: (r["state"], r["district"] or "", r["name"]))
     SITE.mkdir(exist_ok=True)
     (SITE / "stores.json").write_text(json.dumps(
-        {"updated": today, "stores": [site_record(r, org_names) for r in listed]},
+        {
+            "updated": today,
+            "orgs": {org_names[k]: v for k, v in orgs.items() if k in org_names},
+            "stores": [site_record(r, org_names) for r in listed],
+        },
         separators=(",", ":"), ensure_ascii=False,
     ))
     report += ["", f"{len(listed)} stores published to site/stores.json"]

@@ -128,7 +128,12 @@ ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
   outline-offset: -7px;
   box-shadow: 0 1px 0 rgba(43, 38, 34, .12);
 }
-.org { grid-column: 1 / -1; margin: 0 0 2px; font-size: 13px; font-weight: 600; color: var(--accent); }
+.org {
+  grid-column: 1 / -1; justify-self: start; margin: -6px 0 -4px -6px; padding: 6px;
+  border: 0; background: none; font: inherit; font-size: 13px; font-weight: 600; color: var(--accent);
+  text-decoration: underline dotted; text-underline-offset: 4px; cursor: pointer;
+}
+.org:hover { text-decoration-style: solid; }
 .name { margin: 0; font-weight: 600; font-size: 20px; line-height: 1.2; }
 .hours { grid-column: 1 / -1; margin: 4px 0 0; font-size: 14px; color: var(--muted); }
 .km { font-family: "Fraunces", Georgia, serif; font-weight: 650; font-size: 22px; line-height: 1.1; color: var(--accent); white-space: nowrap; }
@@ -172,6 +177,48 @@ ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
 }
 footer { color: var(--muted); font-size: 14px; margin-top: 36px; line-height: 1.5; }
 footer p { margin: 0 0 8px; max-width: 60ch; }
+.about {
+  width: min(440px, 100% - 32px); max-height: min(560px, 100% - 32px); overflow: auto;
+  padding: 30px 22px 22px; border: 0; border-radius: 8px;
+  color: var(--ink); background-color: var(--swatch);
+  background-image: linear-gradient(to bottom, var(--madder) 0 3px, transparent 3px 5px, var(--coral) 5px 8px, transparent 8px 10px, var(--indigo) 10px 11px, transparent 11px);
+  box-shadow: 0 12px 40px rgba(27, 14, 72, .35);
+}
+.about::backdrop { background: rgba(27, 14, 72, .45); }
+.about h2 {
+  margin: 0 40px 2px 0;
+  font-family: "Fraunces", Georgia, serif; font-variation-settings: "SOFT" 100, "WONK" 1;
+  font-weight: 600; font-size: 28px; line-height: 1.15;
+}
+.about .full { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.35; }
+.about .desc { margin: 14px 0 0; }
+.about .count { margin: 6px 0 0; color: var(--muted); font-size: 15px; }
+.about .site {
+  display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 18px;
+  min-height: 46px; border-radius: 8px; background: var(--indigo); color: var(--hero-ink);
+  font-weight: 600; text-decoration: none;
+}
+.about .site svg, .socials svg { width: 18px; height: 18px; flex: none; }
+.socials { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 0; padding: 0; list-style: none; }
+.socials a {
+  display: flex; align-items: center; gap: 6px; min-height: 40px; padding: 0 12px;
+  border: 1.5px solid color-mix(in srgb, var(--ink) 25%, transparent); border-radius: 999px;
+  color: var(--ink); font-size: 15px; font-weight: 600; text-decoration: none;
+}
+.socials a:hover { border-color: var(--ink); }
+.about .note { margin: 16px 0 0; color: var(--muted); font-size: 13px; }
+.about .close {
+  position: absolute; top: 18px; right: 12px; width: 44px; height: 44px;
+  display: grid; place-items: center; border: 0; border-radius: 50%; background: none; color: var(--ink); cursor: pointer;
+}
+.about .close svg { width: 22px; height: 22px; }
+@media (max-width: 599px) {
+  .about { width: 100%; max-width: none; max-height: 85%; margin: auto 0 0; border-radius: 12px 12px 0 0; padding-bottom: calc(22px + env(safe-area-inset-bottom)); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .about[open] { animation: rise .22s ease-out; }
+  @keyframes rise { from { transform: translateY(24px); opacity: 0; } }
+}
 :focus-visible { outline: 3px solid var(--turmeric) !important; outline-offset: 2px !important; }
 @media (min-width: 600px) { h1 { font-size: 52px; } }
 </style>
@@ -208,8 +255,10 @@ footer p { margin: 0 0 8px; max-width: 60ch; }
     <p>Store details come from each organisation's own website. <span id="updated"></span> Call ahead to confirm opening hours.</p>
   </footer>
 </main>
+<dialog class="about" id="about" aria-labelledby="about-name"></dialog>
 <script>
 let STORES = [];
+let ORGS = {};
 const ALL = "";
 const PAGE = 12;
 const DEFAULT_STATE = "Tamil Nadu";
@@ -223,7 +272,18 @@ let shown = 0;
 
 const icon = {
   call: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2"/></svg>',
-  go: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11l18-8-8 18-2-8z"/></svg>'
+  go: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11l18-8-8 18-2-8z"/></svg>',
+  close: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+  web: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>',
+  shop: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 8h14l-1 13H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>'
+};
+
+const SOCIALS = {
+  instagram: ["Instagram", '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5" fill="currentColor"/></svg>'],
+  facebook: ["Facebook", '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v7h4v-7h3l1-4h-4V8.5c0-.3.2-.5.5-.5z"/></svg>'],
+  youtube: ["YouTube", '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="currentColor"/></svg>'],
+  x: ["X", '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4l11.5 16H20L8.5 4zM4 20l6.8-6.8M20 4l-6.8 6.8"/></svg>'],
+  pinterest: ["Pinterest", '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M11 21l2-9M10 14a3.5 3.5 0 1 1 3 .5"/></svg>']
 };
 
 function esc(s) {
@@ -272,7 +332,7 @@ function item(s, i, prev) {
   const dist = s.km == null ? "" : `<div class="km"${s.x ? ' title="Approximate: located by town"' : ""}>${s.x ? "~" : ""}${fmt(s.km)}<small> km</small></div>`;
   return `${head}<li class="card${first ? " first" : ""}">
     ${first ? `<p class="nearest-label">Nearest to you</p>${dist}` : ""}
-    <p class="org">${esc(s.o)}</p>
+    ${ORGS[s.o] ? `<button class="org" type="button" data-org="${esc(s.o)}" aria-haspopup="dialog">${esc(s.o)}</button>` : `<p class="org">${esc(s.o)}</p>`}
     <p class="name">${esc(s.n)}</p>
     ${first ? "" : dist}
     <p class="addr">${s.a ? esc(s.a) : "Address not listed. Use Directions to find it on Google Maps."}${here && !stateSel.value && s.d && !s.a.includes(s.d) ? `, ${esc(s.d)}` : ""}</p>
@@ -333,6 +393,36 @@ nearBtn.addEventListener("click", () => {
     () => showError("Location is turned off. Allow it in your browser, or pick a state and district."),
     { enableHighAccuracy: false, timeout: 10000, maximumAge: 600000 }
   );
+});
+
+const about = $("about");
+
+function showOrg(name) {
+  const o = ORGS[name];
+  const mine = STORES.filter(s => s.o === name);
+  const states = new Set(mine.map(s => s.s)).size;
+  const socials = Object.entries(o.socials).filter(([k]) => SOCIALS[k]);
+  about.innerHTML = `
+    <button class="close" type="button" aria-label="Close">${icon.close}</button>
+    <h2 id="about-name">${esc(name)}</h2>
+    <p class="full">${esc(o.full_name)}</p>
+    <p class="desc">${esc(o.about)}</p>
+    <p class="count">${mine.length} ${mine.length === 1 ? "store" : "stores"} listed here${states > 1 ? `, in ${states} states` : ""}</p>
+    <a class="site" href="${esc(o.website)}" target="_blank" rel="noopener">${o.shop ? `${icon.shop}Shop online` : `${icon.web}Visit website`}</a>
+    ${socials.length ? `<ul class="socials">${socials.map(([k, url]) =>
+      `<li><a href="${esc(url)}" target="_blank" rel="noopener">${SOCIALS[k][1]}${SOCIALS[k][0]}</a></li>`).join("")}</ul>
+    <p class="note">Social links are the ones on ${esc(name)}'s own website.</p>` : ""}`;
+  about.querySelector(".close").addEventListener("click", () => about.close());
+  about.showModal();
+}
+
+list.addEventListener("click", e => {
+  const btn = e.target.closest(".org[data-org]");
+  if (btn) showOrg(btn.dataset.org);
+});
+about.addEventListener("click", e => {
+  const r = about.getBoundingClientRect();
+  if (e.target === about && (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom)) about.close();
 });
 
 function showError(msg) { status.className = "status error"; status.textContent = msg; }
@@ -427,6 +517,7 @@ fetch("stores.json")
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(data => {
     STORES = data.stores;
+    ORGS = data.orgs || {};
     $("updated").textContent = `Store list updated ${new Date(data.updated).toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" })}.`;
     options(stateSel, counts("s", STORES), "All states", DEFAULT_STATE);
     fillDistricts();

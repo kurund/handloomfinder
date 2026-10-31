@@ -1,0 +1,129 @@
+{
+ "cooptex": {
+  "full_name": "Tamil Nadu Handloom Weavers' Co-operative Society",
+  "about": "Weavers' cooperative of Tamil Nadu, selling handloom silk and cotton sarees, dhotis and home linen.",
+  "website": "https://cooptex.com/",
+  "shop": true,
+  "socials": {
+   "instagram": "https://www.instagram.com/cooptexindia/",
+   "facebook": "https://www.facebook.com/CoOptex/",
+   "youtube": "https://www.youtube.com/channel/UCongouZt_vTiJvELHXLbwyA",
+   "x": "https://twitter.com/cooptexeshop"
+  }
+ },
+ "hanveev": {
+  "full_name": "Kerala State Handloom Development Corporation Ltd",
+  "about": "Government of Kerala corporation selling Kerala handloom, including kasavu sarees and mundu.",
+  "website": "https://hanveevs.com/",
+  "shop": false,
+  "socials": {
+   "instagram": "https://www.instagram.com/hanveev_kerala",
+   "facebook": "https://www.facebook.com/HanveevKannur",
+   "youtube": "https://www.youtube.com/channel/UC40YQmRE_zqH5XzbY3CtY9A"
+  }
+ },
+ "jharcraft": {
+  "full_name": "Jharkhand Silk Textile & Handicraft Development Corporation Ltd",
+  "about": "Government of Jharkhand corporation selling tussar silk and crafts from Jharkhand.",
+  "website": "https://www.jharcraft.in/",
+  "shop": false,
+  "socials": {}
+ },
+ "garvi-gurjari": {
+  "full_name": "Gujarat State Handloom & Handicraft Development Corporation",
+  "about": "Government of Gujarat emporium for Gujarat handloom and handicrafts, such as Patola and Kutch weaves.",
+  "website": "https://garvigurjari.gujarat.gov.in/",
+  "shop": true,
+  "socials": {
+   "instagram": "https://www.instagram.com/garvi_gurjari",
+   "facebook": "https://www.facebook.com/garvigurjari",
+   "youtube": "https://www.youtube.com/channel/UCmrv05dnM5m5UVuIU89zvMg",
+   "x": "https://twitter.com/gurjarimail2014",
+   "pinterest": "https://www.pinterest.com/garvigurjari"
+  }
+ },
+ "boyanika": {
+  "full_name": "Odisha State Handloom Weavers' Cooperative Society Ltd",
+  "about": "Weavers' cooperative of Odisha, known for Sambalpuri ikat and Odisha silks.",
+  "website": "https://boyanika.com/",
+  "shop": true,
+  "socials": {
+   "instagram": "https://www.instagram.com/boyanika.official",
+   "facebook": "https://www.facebook.com/boyanikaofficial",
+   "youtube": "https://www.youtube.com/channel/UC0PhK8PYc7D7m24OEh-za4Q",
+   "x": "https://x.com/Boyanikaonline"
+  }
+ },
+ "tantuja": {
+  "full_name": "The West Bengal State Handloom Weavers' Co-operative Society Ltd",
+  "about": "Weavers' cooperative of West Bengal, selling tant, Baluchari and other Bengal sarees.",
+  "website": "https://tantuja.in/",
+  "shop": true,
+  "socials": {
+   "instagram": "https://www.instagram.com/tantuja_handloom",
+   "facebook": "https://www.facebook.com/tantujaofficial",
+   "youtube": "https://www.youtube.com/channel/UCOGykcDc-TV6Bqq0463Fxmw",
+   "x": "https://twitter.com/tantuja2"
+  }
+ },
+ "biswa-bangla": {
+  "full_name": "Paschim Banga Marketing Corporation Limited",
+  "about": "Government of West Bengal stores for Bengal handloom, handicrafts and food products.",
+  "website": "https://www.artisans.org.in/",
+  "shop": true,
+  "socials": {
+   "instagram": "https://instagram.com/biswa_bangla",
+   "facebook": "https://facebook.com/www.artisans.org.in"
+  }
+ },
+ "mrignayani": {
+  "full_name": "Madhya Pradesh Government Emporium",
+  "about": "Government of Madhya Pradesh emporium for Chanderi and Maheshwari weaves and crafts.",
+  "website": "https://mrignayani.org/",
+  "shop": true,
+  "socials": {}
+ },
+ "bhuttico": {
+  "full_name": "Bhutti Weavers Handloom and Handicraft Co-operative Society Ltd",
+  "about": "Weavers' cooperative in Kullu Valley, founded in 1944, known for Kullu shawls and Himachali caps.",
+  "website": "https://bhuttico.com/",
+  "shop": true,
+  "socials": {
+   "instagram": "https://www.instagram.com/bhuttico",
+   "facebook": "https://www.facebook.com/bhutticokullu",
+   "youtube": "https://www.youtube.com/@bhuttico",
+   "x": "https://x.com/bhuttico"
+  }
+ },
+ "priyadarshini": {
+  "full_name": "Karnataka Handloom Development Corporation Limited",
+  "about": "Government of Karnataka corporation selling Karnataka handloom, including Ilkal and Molakalmuru sarees.",
+  "website": "https://priyadarshinihandlooms.in/",
+  "shop": true,
+  "socials": {}
+ },
+ "upica": {
+  "full_name": "U.P. Industrial Cooperative Association Ltd",
+  "about": "Industrial cooperative of Uttar Pradesh, registered in 1952, selling handloom made in the state.",
+  "website": "https://upica.co.in/",
+  "shop": false,
+  "socials": {}
+ },
+ "mahahandloom": {
+  "full_name": "The Maharashtra State Handlooms Corporation Ltd",
+  "about": "Government of Maharashtra corporation based in Nagpur, known for Paithani sarees and wild silks.",
+  "website": "https://www.mahahandloom.com/",
+  "shop": true,
+  "socials": {
+   "instagram": "https://www.instagram.com/mahahandloom",
+   "facebook": "https://www.facebook.com/Mahahandloom"
+  }
+ },
+ "apco": {
+  "full_name": "Andhra Pradesh State Handloom Weavers' Co-operative Society",
+  "about": "Weavers' cooperative of Andhra Pradesh, selling Mangalagiri, Venkatagiri and other Andhra handloom.",
+  "website": "https://apcohandlooms.com/",
+  "shop": false,
+  "socials": {}
+ }
+}
