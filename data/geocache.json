@@ -10924,6 +10924,41 @@
    "type": "postcode"
   }
  ],
+ "/search?country=India&countrycodes=in&limit=1&postalcode=560051": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-KA",
+    "city": "Bengaluru",
+    "city_district": "Bengaluru Central City Corporation",
+    "country": "India",
+    "country_code": "in",
+    "county": "Bangalore North",
+    "postcode": "560051",
+    "state": "Karnataka",
+    "state_district": "Bengaluru Urban",
+    "suburb": "Shivajinagar"
+   },
+   "addresstype": "postcode",
+   "boundingbox": [
+    "12.9815484",
+    "12.9941165",
+    "77.5972051",
+    "77.6073076"
+   ],
+   "category": "boundary",
+   "display_name": "560051, Shivajinagar, Bengaluru Central City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India",
+   "importance": 0.12000999999999995,
+   "lat": "12.9877436",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.6031892",
+   "name": "560051",
+   "osm_id": 17817341,
+   "osm_type": "relation",
+   "place_id": 378003581,
+   "place_rank": 21,
+   "type": "postal_code"
+  }
+ ],
  "/search?country=India&countrycodes=in&limit=1&postalcode=670645": [
   {
    "address": {
@@ -12373,6 +12408,45 @@
    "type": "city"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Aishwarya, Karnataka": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-KA",
+    "city": "Bengaluru",
+    "city_district": "Bengaluru South City Corporation",
+    "country": "India",
+    "country_code": "in",
+    "county": "Bangalore South",
+    "house_number": "160",
+    "neighbourhood": "SBI Colony",
+    "postcode": "560034",
+    "road": "Sarjapura Road",
+    "shop": "Aishwarya",
+    "state": "Karnataka",
+    "state_district": "Bengaluru Urban",
+    "suburb": "Kormangala East"
+   },
+   "addresstype": "shop",
+   "boundingbox": [
+    "12.9252683",
+    "12.9253683",
+    "77.6347707",
+    "77.6348707"
+   ],
+   "category": "shop",
+   "display_name": "Aishwarya, 160, Sarjapura Road, SBI Colony, Kormangala East, Bengaluru South City Corporation, Bengaluru, Bangalore South, Bengaluru Urban, Karnataka, 560034, India",
+   "importance": 7.094453345536e-05,
+   "lat": "12.9253183",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.6348207",
+   "name": "Aishwarya",
+   "osm_id": 5983500949,
+   "osm_type": "node",
+   "place_id": 249194044,
+   "place_rank": 30,
+   "type": "department_store"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Akhara Bazar, Kullu, Himachal Pradesh": [
   {
    "address": {
@@ -12480,6 +12554,7 @@
  ],
  "/search?countrycodes=in&limit=1&q=Amaravathi Eluru Vijayawada, Andhra Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Ambika building, Vatakara, Kerala": [],
+ "/search?countrycodes=in&limit=1&q=Ampa Skyone Mall, Tamil Nadu": [],
  "/search?countrycodes=in&limit=1&q=Anand, Gujarat": [
   {
    "address": {
@@ -14021,6 +14096,7 @@
   }
  ],
  "/search?countrycodes=in&limit=1&q=Diamond Dairy Complex, Udaiganj, Lucknow, Uttar Pradesh": [],
+ "/search?countrycodes=in&limit=1&q=Door No 71/1375 & New No 71/1376, M.G.Road, Trivandrum, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Edachery Complex, T B Junction, Near Civil Station, Angamali, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Eluru Netha Bazaar, Andhra Pradesh": [],
  "/search?countrycodes=in&limit=1&q=Eluru Netha, Andhra Pradesh": [],
@@ -14669,6 +14745,39 @@
  ],
  "/search?countrycodes=in&limit=1&q=Indra Bazar, Jaipur, Rajasthan": [],
  "/search?countrycodes=in&limit=1&q=Infront of Head Post Office, Near Tahasil Office Main Road, Jeypore- 764001, Odisha": [],
+ "/search?countrycodes=in&limit=1&q=JAIPUR, Rajasthan": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-RJ",
+    "city": "Jaipur",
+    "country": "India",
+    "country_code": "in",
+    "county": "Jaipur Tehsil",
+    "postcode": "302001",
+    "state": "Rajasthan",
+    "state_district": "Jaipur"
+   },
+   "addresstype": "city",
+   "boundingbox": [
+    "26.7554576",
+    "27.0754576",
+    "75.6589817",
+    "75.9789817"
+   ],
+   "category": "place",
+   "display_name": "Jaipur, Jaipur Municipal Corporation, Jaipur Tehsil, Jaipur, Rajasthan, 302001, India",
+   "importance": 0.6109736038762036,
+   "lat": "26.9154576",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "75.8189817",
+   "name": "Jaipur",
+   "osm_id": 315734346,
+   "osm_type": "node",
+   "place_id": 247539402,
+   "place_rank": 16,
+   "type": "city"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=JP Rajahmundry, Andhra Pradesh": [
   {
    "address": {
@@ -15747,6 +15856,38 @@
    "type": "administrative"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=Kovilpatti, Tamil Nadu": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-TN",
+    "country": "India",
+    "country_code": "in",
+    "county": "Kovilpatti",
+    "state": "Tamil Nadu",
+    "state_district": "Thoothukudi",
+    "town": "Kovilpatti"
+   },
+   "addresstype": "town",
+   "boundingbox": [
+    "9.1571342",
+    "9.1953697",
+    "77.8403538",
+    "77.9019742"
+   ],
+   "category": "place",
+   "display_name": "Kovilpatti, Thoothukudi, Tamil Nadu, India",
+   "importance": 0.3895399885548953,
+   "lat": "9.1755900",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "77.8687000",
+   "name": "Kovilpatti",
+   "osm_id": 93420678,
+   "osm_type": "way",
+   "place_id": 251820028,
+   "place_rank": 18,
+   "type": "town"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Kozhikkode, Kerala": [
   {
    "address": {
@@ -16733,6 +16874,40 @@
  "/search?countrycodes=in&limit=1&q=Municipal shopping complex cum bus stand, Chalakkudy, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Municipal shopping complex, Attingal, Trivandrum, Kerala": [],
  "/search?countrycodes=in&limit=1&q=Municipal shopping complex, Nedumangad, Trivandrum, Kerala": [],
+ "/search?countrycodes=in&limit=1&q=Mylapore, Tamil Nadu": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-TN",
+    "city": "Chennai",
+    "country": "India",
+    "country_code": "in",
+    "county": "Mylapore",
+    "postcode": "600004",
+    "state": "Tamil Nadu",
+    "state_district": "Chennai District",
+    "suburb": "Mylapore"
+   },
+   "addresstype": "suburb",
+   "boundingbox": [
+    "13.0116473",
+    "13.0516473",
+    "80.2500166",
+    "80.2900166"
+   ],
+   "category": "place",
+   "display_name": "Mylapore, Zone 9 Teynampet, Chennai, Chennai Metropolitan Area, Mylapore, Chennai District, Tamil Nadu, 600004, India",
+   "importance": 0.4972941318707617,
+   "lat": "13.0316473",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.2700166",
+   "name": "Mylapore",
+   "osm_id": 247677540,
+   "osm_type": "node",
+   "place_id": 251596040,
+   "place_rank": 19,
+   "type": "suburb"
+  }
+ ],
  "/search?countrycodes=in&limit=1&q=Mysore, Karnataka": [
   {
    "address": {
@@ -17413,6 +17588,44 @@
    "type": "town"
   }
  ],
+ "/search?countrycodes=in&limit=1&q=No 53 South Bazzar, Kovilpatti, Tuticorin, Tamil Nadu": [],
+ "/search?countrycodes=in&limit=1&q=No.1, Nelson Manickam Road, Aminjikarai, Chennai, Tamil Nadu": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-TN",
+    "city": "Chennai",
+    "country": "India",
+    "country_code": "in",
+    "neighbourhood": "Mehta Nagar",
+    "postcode": "600029",
+    "road": "Nelson Manickam Road",
+    "state": "Tamil Nadu",
+    "state_district": "Chennai District",
+    "suburb": "Zone 8 Anna Nagar"
+   },
+   "addresstype": "secondary",
+   "boundingbox": [
+    "13.0671494",
+    "13.0724790",
+    "80.2212346",
+    "80.2276678"
+   ],
+   "category": "highway",
+   "display_name": "Nelson Manickam Road, Mehta Nagar, Ward 106, Zone 8 Anna Nagar, Chennai, Chennai Metropolitan Area, Chennai District, Tamil Nadu, 600029, India",
+   "importance": 0.053406137941557914,
+   "lat": "13.0698290",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "80.2244629",
+   "name": "Nelson Manickam Road",
+   "osm_id": 835030600,
+   "osm_type": "way",
+   "place_id": 249961183,
+   "place_rank": 26,
+   "type": "secondary"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=No.27(14), R.K.Mutt Road, Mylapore Chennai, Tamil Nadu": [],
+ "/search?countrycodes=in&limit=1&q=No.34, 4 Ever Plaza, Dispensary Road, Bangalore, Karnataka-560051, Karnataka": [],
  "/search?countrycodes=in&limit=1&q=North Paravoor, Kerala": [
   {
    "address": {
@@ -19098,6 +19311,43 @@
    "place_id": 254123467,
    "place_rank": 25,
    "type": "political"
+  }
+ ],
+ "/search?countrycodes=in&limit=1&q=Trivandrum New, Kerala": [
+  {
+   "address": {
+    "ISO3166-2-lvl4": "IN-KL",
+    "building": "Staff Quarters, New Block, College of Engineering Trivandrum",
+    "city": "Thiruvananthapuram",
+    "country": "India",
+    "country_code": "in",
+    "county": "Thiruvananthapuram",
+    "postcode": "695001",
+    "residential": "Mens Hostel, College of Engineering Trivandrum",
+    "road": "Agni room",
+    "state": "Kerala",
+    "state_district": "Thiruvananthapuram",
+    "suburb": "Manvila"
+   },
+   "addresstype": "building",
+   "boundingbox": [
+    "8.5411937",
+    "8.5414148",
+    "76.9012537",
+    "76.9014058"
+   ],
+   "category": "building",
+   "display_name": "Staff Quarters, New Block, College of Engineering Trivandrum, Agni room, Mens Hostel, College of Engineering Trivandrum, Manvila, Thiruvananthapuram, Kerala, 695001, India",
+   "importance": 6.407034409089826e-05,
+   "lat": "8.5413042",
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "lon": "76.9013298",
+   "name": "Staff Quarters, New Block, College of Engineering Trivandrum",
+   "osm_id": 965619222,
+   "osm_type": "way",
+   "place_id": 254168690,
+   "place_rank": 30,
+   "type": "yes"
   }
  ],
  "/search?countrycodes=in&limit=1&q=Trivandrum, Kerala": [
